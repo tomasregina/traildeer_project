@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+
+  <!-- ... -->
+</head>
+<body>
+
+    <main class="max-w-6xl grid-rows-3 w-full mx-auto bg-gray-100 ">
+        <!-- TOP HERO SEC -->
+        <!-- <div class="hidden relative h-screen flex justify-center items-center">
+            <img src="./public/img/hero_img.jpg" class="" alt="">
+            <h1 class="absolute text-8xl font-serif  text-white">In Trail We Trust</h1>
+            <div class="absolute bottom-px text-white">
+                <a href="">
+                    <svg class="fill-current text-white w-10 svg-icon" viewBox="0 0 20 20">
+                        <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"></path>
+                    </svg>
+                </a>
+            </div>
+            
+        </div> -->
+        <!-- TOP -->
+        <div class="">
+            <!-- COVER IMG -->
+            <div class="w-full md:h-96  overflow-hidden">
+                <img class="object-cover object-center"  src="./public/img/cover_pic2.jpg" alt="">
+            </div>
+            <!-- USER AVATAR+INFO -->
+            <div class="flex flex-col lg:flex-row lg:h-40">
+                <!-- AVATAR IMG -->
+                <div class="flex-shrink-0 absolute top-10 sm:top-44 lg:relative lg:top-auto w-28  sm:w-44 lg:w-auto left-4 bottom-48 lg:bottom-28">
+                    <img class="rounded-full" src="./public/img/profile_pic.png" alt="">
+                </div>
+                <!-- USER INFO -->
+                <div class="grid grid-cols-2 lg:block">
+                    <div class="flex flex-col pl-10 pt-3">
+                        <div class="flex flex-row sm:block">
+                            <!-- NAME -->
+                            <h1 class="font-bold pb-1 text-2xl">Rastislav B.</h1>
+                            <!-- REVIEWS -->
+                            <div class="flex flex-row items-center w-24 pl-4 sm:pl-0">
+                                <img src="./public/img/reviews_stars.png" alt="">
+                                <span class="pl-2 text-sm">4.8(200)</span>
+                            </div>
+                        </div>
+                        
+                        <!-- TAGS/SKILLS GRID -->
+                        <div class="grid grid-cols-3 w-80 text-xs pt-4">
+                            <a class="font-semibold" href="">PRO TRAINER</a>
+                            <a class="font-semibold" href="">PRO RACER</a>
+                            <a class="font-semibold" href="">PRO GUIDE</a>
+                            <a class="font-semibold" href="">PRO TRAINER</a>
+                            <a class="font-semibold" href="">PRO RACER</a>
+                            <a class="font-semibold" href="">PRO GUIDE</a>
+                            
+                        </div>
+                    </div>
+                    <!-- MOBILE MENU + SPONSORS/SLOGAN... -->
+                    <div class="flex flex-row justify-self-end lg:hidden pr-10 pt-10">
+                         <!-- SLOGAN/TEXT -->
+                        <div class="hidden md:block">
+                            <span class="italic text-sm">Ahoj, volám sa Rasťo Baránek, narodil som sa a žijem v Považskej Bystrici. Mám 25 rokov, posledných 15 rokov je bicykel skoro celý môj život. Jazdím súťažne zjazd na horských bicykloch za Kellys Factory team, som členom Slovenskej reprezentácie a keď nesúťažím, snažím sa pomôcť ostatným zlepšiť svoje jazdenie, techniku a tak podobne</span>
+                
+                        </div>
+                        <!-- SCROLLABLE BRANDS/LOGOS -->
+                        <div class="hidden md:hidden flex-row overflow-x-scroll w-72 lg:hidden">
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                            <a class="flex-shrink-0 w-28" href="">
+                                <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                            </a>
+                        </div>
+                        <a class="hidden pl-28" >
+                            <svg class="svg-icon w-10" viewBox="0 0 20 20">
+                                <path d="M10,1.445c-4.726,0-8.555,3.829-8.555,8.555c0,4.725,3.829,8.555,8.555,8.555c4.725,0,8.555-3.83,8.555-8.555C18.555,5.274,14.725,1.445,10,1.445 M10,17.654c-4.221,0-7.654-3.434-7.654-7.654c0-4.221,3.433-7.654,7.654-7.654c4.222,0,7.654,3.433,7.654,7.654C17.654,14.221,14.222,17.654,10,17.654 M14.39,10c0,0.248-0.203,0.45-0.45,0.45H6.06c-0.248,0-0.45-0.203-0.45-0.45s0.203-0.45,0.45-0.45h7.879C14.187,9.55,14.39,9.752,14.39,10 M14.39,12.702c0,0.247-0.203,0.449-0.45,0.449H6.06c-0.248,0-0.45-0.202-0.45-0.449c0-0.248,0.203-0.451,0.45-0.451h7.879C14.187,12.251,14.39,12.454,14.39,12.702 M14.39,7.298c0,0.248-0.203,0.45-0.45,0.45H6.06c-0.248,0-0.45-0.203-0.45-0.45s0.203-0.45,0.45-0.45h7.879C14.187,6.848,14.39,7.051,14.39,7.298"></path>
+                            </svg>
+                            <span class="hidden">Menu</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- SLOGAN/BRANDS/GROUPS... -->
+                <div class="flex md:hidden lg:flex pt-4 md:pt-0 px-6 md:px-0 flex-row overflow-x-scroll w-full md:w-1/2 items-center">
+                    <!-- SLOGAN/TEXT -->
+                    <div class="">
+                        <span class="italic text-sm">Ahoj, volám sa Rasťo Baránek, narodil som sa a žijem v Považskej Bystrici. Mám 25 rokov, posledných 15 rokov je bicykel skoro celý môj život. Jazdím súťažne zjazd na horských bicykloch za Kellys Factory team, som členom Slovenskej reprezentácie a keď nesúťažím, snažím sa pomôcť ostatným zlepšiť svoje jazdenie, techniku a tak podobne</span>
+            
+                    </div>
+                    <!-- SCROLLABLE  -->
+                    <div class="hidden flex flex-row overflow-x-scroll">
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                        <a class="flex-shrink-0 w-28" href="">
+                            <img class="" src="./public/img/mtbiker_logo.png" alt="">
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- BOTTOM -->
+        <div x-data="{ tab: 'tab1' }" class=" flex flex-row pl-6"> 
+            <!-- lg:inline-grid auto-cols-auto grid-flow-col -->
+            <div class="hidden lg:flex flex-col items-center  lg:w-72"> 
+                <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK1</a>
+                <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK2</a>
+                <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK3</a>
+                <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK4</a>
+                <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK5</a>
+                <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK6</a>
+                <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK7</a>
+            </div>
+            <div class="w-full pt-10 lg:pt-0">
+                <nav class="flex flex-row border-gray-300 text-sm sm:text-base border-t border-b ">
+                    <button @click="tab='tab1'" :class="{'border-b-4': tab === 'tab1', 'border': tab !== 'tab1'}" class="shadow-sm px-4 flex items-center mr-2 border-gray-300   focus:outline-none">
+                        Bio
+                    </button>
+                    <button @click="tab='tab2'" :class="{'border-b-4': tab === 'tab2', 'border': tab !== 'tab2'}" class="shadow-sm pr-4 h-10  pl-2 rounded-sm  mr-2 border-gray-300 flex items-center text-gray-600 focus:outline-none ">
+                        Stats
+                    </button>
+                    <button @click="tab='tab3'" :class="{'border-b-4': tab === 'tab3', 'border': tab !== 'tab3'}" class="shadow-sm pr-4 h-10  pl-2 rounded-sm  mr-2 border-gray-300 flex items-center text-gray-600 focus:outline-none ">
+                        Reviews
+                    </button>
+                    <button @click="tab='tab4'" :class="{'border-b-4': tab === 'tab4', 'border': tab !== 'tab4'}" class="shadow-sm pr-4 h-10  pl-2 rounded-sm  mr-2 border-gray-300 flex items-center text-gray-600 focus:outline-none ">
+                        Offer
+                    </button>
+                    <button  @click="tab='tab5'" :class="{'border-b-4': tab === 'tab5', 'border': tab !== 'tab5'}" class="shadow-sm pr-4 h-10  pl-2 rounded-sm  mr-2 border-gray-300 flex items-center text-gray-600 focus:outline-none ">
+                        Locations
+                    </button>
+                </nav>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
+<script>
+    function scrollBar() {
+        return {
+            scroll(side, el) {
+                const elWidth = el.getBoundingClientRect().width;
+                const scrollBar = document.getElementById('scrollBar');
+                scrollBar.style.scrollBehavior = 'smooth';
+                if (side === 'r') {
+                    scrollBar.scrollLeft += elWidth/2;
+                }
+                else {
+                    scrollBar.scrollLeft -= elWidth/2;
+                }
+                
+            },
+            getCount(el) {
+                const scrollBar = document.getElementById('scrollBar');
+                const childCount = scrollBar.childNodes[1].childElementCount;
+                return `(${childCount})`;
+            }
+        }
+    }
+</script>
+<style>
+.test {
+    grid-template-columns: auto 1fr;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+</style>

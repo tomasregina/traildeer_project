@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- based upon tw 2.1.1 -->
+    <!-- <link href="../tailwind.min.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Facts</title>
+
+    <style>
+        html {
+            --scrollbarBG: #eee;
+            --thumbBG: #222;
+        }
+
+        div::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        div {
+            scrollbar-width: thin;
+            scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+        }
+
+        div::-webkit-scrollbar-track {
+            background: var(--scrollbarBG);
+            border-radius: 6px;
+        }
+
+        div::-webkit-scrollbar-thumb {
+            background-color: var(--thumbBG);
+            border-radius: 6px;
+            border: 3px solid var(--scrollbarBG);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="max-w-screen-xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 w-full px-2">
+            <div class="sec-facts w-full">
+                <div class="mt-3 mb-3 md:mb-8 px-2">
+                    <h2 class="text-3xl font-bold mx-auto">Basic Info</h2>
+                </div>
+                <div class="max-w-lg h-full mx-auto">
+                    <div class="w-full h-full">
+                        
+                        <div
+                            class="trails-list mb-4 h-64 sm:h-72 lg:h-96 overflow-y-scroll lg:overflow-y-scroll overflow-x-hidden">
+                            
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class=" mx-2 w-8 h-8 rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-700 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                          </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class=" mx-2 w-8 h-8 rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-700 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                          </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class=" mx-2 w-8 h-8 rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-700 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                          </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class=" mx-2 w-8 h-8 rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-700 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                          </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class=" mx-2 w-8 h-8 rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-700 my-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                          </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class="my-auto ml-3 mr-4 w-6 h-6 min-w-6 min-h-6  rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class="my-auto ml-3 mr-4 w-6 h-6 min-w-6 min-h-6  rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class="my-auto ml-3 mr-4 w-6 h-6 min-w-6 min-h-6  rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class="my-auto ml-3 mr-4 w-6 h-6 min-w-6 min-h-6  rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class="my-auto ml-3 mr-4 w-6 h-6 min-w-6 min-h-6  rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class="my-auto ml-3 mr-4 w-6 h-6 min-w-6 min-h-6  rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class="my-auto ml-3 mr-4 w-6 h-6 min-w-6 min-h-6  rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class="my-auto ml-3 mr-4 w-6 h-6 min-w-6 min-h-6  rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class="my-auto ml-3 mr-4 w-6 h-6 min-w-6 min-h-6  rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class="my-auto ml-3 mr-4 w-6 h-6 min-w-6 min-h-6  rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class="my-auto ml-3 mr-4 w-6 h-6 min-w-6 min-h-6  rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-50 rounded-md">
+                                <div class="flex flex-row py-1">
+                                    <div
+                                        class="my-auto ml-3 mr-4 w-6 h-6 min-w-6 min-h-6  rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                    </div>
+                                    <div class="flex flex-col justify-between w-9/12 mr-3">
+                                        <h4 class="text-xs font-bold">Super Flow</h4>
+                                        <div class="mx-2 flex flex-row flex-wrap space-x-3">
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <p class="">Description of the wonderful fact </p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="sec-weather w-full">
+                <div class="my-3 px-2">
+                    <h2 class="text-3xl font-bold mx-auto">Weather</h2>
+                </div>
+                <div class="weather-content w-full justify-center h-64 sm:h-72 lg:h-96">
+                    <!-- <a class="weatherwidget-io" href="https://forecast7.com/sk/48d1517d11/bratislava/" data-label_1="BRATISLAVA" data-label_2="" data-font="Roboto" data-icons="Climacons" data-days="5" data-theme="pure" >BRATISLAVA WEATHER</a> -->
+                    <a class="weatherwidget-io" href="https://forecast7.com/sk/48d7617d93/kalnica/" data-label_1="KÁLNICA"  data-font="Roboto" data-icons="Climacons" data-days="5" data-hours="24" data-theme="pure" >KÁLNICA</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="flex flex-wrap flex-row w-full">
+            <div class="hidden text-center w-full p-3">
+                <button
+                    class="mb-2 w-full py-4 bg-yellow-300 hover:bg-black focus:outline-none text-sm font-bold text-gray-800 transition-color duration-100">
+                    Book Tickets
+                </button>
+            </div>
+            <div class="block bg-black bg-opacity-80 w-full">
+                <div class="py-10 px-3 text-center" style="z-index: 10;">
+                    <h2 class="mb-2 text-2xl text-white font-bold">Have you picked the right weather?</h2>
+                    <p class="mb-2 text-gray-50 leading-loose">Theres no bad time for bike! Any weather, any time, we got you covered!</p>
+                </div>
+                <div class=" text-center w-full p-3">
+                    <button
+                        class="mb-2 w-full py-4 bg-yellow-300 hover:bg-black focus:outline-none text-sm font-bold text-gray-800 transition-color duration-100">
+                        Book Tickets
+                    </button>
+                </div>
+                <!-- <div class="text-center w-full">
+                    <button
+                        class="w-full py-4 bg-yellow-400 hover:bg-black bg-opacity-90 focus:outline-none text-sm font-bold text-gray-800 transition-color duration-100">
+                        Get Tickets
+                    </button>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+</body>    
+<script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+
+</html>

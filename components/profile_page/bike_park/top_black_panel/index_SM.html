@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
+    ></script>
+    <title>Profile page black panel</title>
+  </head>
+  <body>
+    <section class="w-full h-full">
+      <main class="w-full h-full overflow-x-hidden">
+        <!-- BLACK TOP PANEL -->
+        <div class="w-full h-full bg-black">
+          <div class="fixed right-0 z-10 top-2/4 icon-bar">
+            <a href="#" class="block p-2 text-center text-white bg-gray-400 hover:bg-gray-500 web"><svg
+                class="w-6 h-6 text-gray-900 fill-current hover:text-white svg-icon"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M17.237,3.056H2.93c-0.694,0-1.263,0.568-1.263,1.263v8.837c0,0.694,0.568,1.263,1.263,1.263h4.629v0.879c-0.015,0.086-0.183,0.306-0.273,0.423c-0.223,0.293-0.455,0.592-0.293,0.92c0.07,0.139,0.226,0.303,0.577,0.303h4.819c0.208,0,0.696,0,0.862-0.379c0.162-0.37-0.124-0.682-0.374-0.955c-0.089-0.097-0.231-0.252-0.268-0.328v-0.862h4.629c0.694,0,1.263-0.568,1.263-1.263V4.319C18.5,3.625,17.932,3.056,17.237,3.056 M8.053,16.102C8.232,15.862,8.4,15.597,8.4,15.309v-0.89h3.366v0.89c0,0.303,0.211,0.562,0.419,0.793H8.053z M17.658,13.156c0,0.228-0.193,0.421-0.421,0.421H2.93c-0.228,0-0.421-0.193-0.421-0.421v-1.263h15.149V13.156z M17.658,11.052H2.509V4.319c0-0.228,0.193-0.421,0.421-0.421h14.308c0.228,0,0.421,0.193,0.421,0.421V11.052z"
+                ></path>
+              </svg></a>
+            <a href="#" class="block p-2 text-center text-white bg-gray-400 hover:bg-gray-500 instagram"><svg
+                class="w-6 h-6 text-gray-900 fill-current hover:text-white svg-icon"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill="current"
+                  d="M14.52,2.469H5.482c-1.664,0-3.013,1.349-3.013,3.013v9.038c0,1.662,1.349,3.012,3.013,3.012h9.038c1.662,0,3.012-1.35,3.012-3.012V5.482C17.531,3.818,16.182,2.469,14.52,2.469 M13.012,4.729h2.26v2.259h-2.26V4.729z M10,6.988c1.664,0,3.012,1.349,3.012,3.012c0,1.664-1.348,3.013-3.012,3.013c-1.664,0-3.012-1.349-3.012-3.013C6.988,8.336,8.336,6.988,10,6.988 M16.025,14.52c0,0.831-0.676,1.506-1.506,1.506H5.482c-0.831,0-1.507-0.675-1.507-1.506V9.247h1.583C5.516,9.494,5.482,9.743,5.482,10c0,2.497,2.023,4.52,4.518,4.52c2.494,0,4.52-2.022,4.52-4.52c0-0.257-0.035-0.506-0.076-0.753h1.582V14.52z"
+                ></path>
+              </svg></a>
+            <a href="#" class="block p-2 text-center text-white bg-gray-400 hover:bg-gray-500 facebook"><svg
+                class="w-6 h-6 text-gray-900 fill-current hover:text-white svg-icon"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill="current"
+                  d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z"
+                ></path>
+              </svg></a>
+            <a href="#" class="block p-2 text-center text-white bg-gray-400 hover:bg-gray-500 phone"><svg
+                class="w-6 h-6 text-gray-900 fill-current hover:text-white svg-icon"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M13.372,1.781H6.628c-0.696,0-1.265,0.569-1.265,1.265v13.91c0,0.695,0.569,1.265,1.265,1.265h6.744c0.695,0,1.265-0.569,1.265-1.265V3.045C14.637,2.35,14.067,1.781,13.372,1.781 M13.794,16.955c0,0.228-0.194,0.421-0.422,0.421H6.628c-0.228,0-0.421-0.193-0.421-0.421v-0.843h7.587V16.955z M13.794,15.269H6.207V4.731h7.587V15.269z M13.794,3.888H6.207V3.045c0-0.228,0.194-0.421,0.421-0.421h6.744c0.228,0,0.422,0.194,0.422,0.421V3.888z"
+                ></path>
+              </svg></a>
+            <a href="#" class="block p-2 text-center text-white bg-gray-400 hover:bg-gray-500 mail"><svg
+                class="w-6 h-6 text-gray-900 fill-current hover:text-white svg-icon"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z"
+                ></path>
+              </svg></a>
+          </div>
+
+          <!-- HEADER PANEL MOBILE -->
+          <div class="flex flex-col w-full mx-auto">
+            <!-- LINK/SOCIAL -->
+            <div
+              class="flex flex-col items-center hidden col-span-2 overflow-hidden text-xs text-white xl:text-sm"
+            >
+              <div class="flex flex-col space-y-1">
+                <div class="flex flex-row gap-2">
+                  <a href="">
+                    <svg
+                      class="w-6 h-6 text-gray-400 fill-current svg-icon"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M17.237,3.056H2.93c-0.694,0-1.263,0.568-1.263,1.263v8.837c0,0.694,0.568,1.263,1.263,1.263h4.629v0.879c-0.015,0.086-0.183,0.306-0.273,0.423c-0.223,0.293-0.455,0.592-0.293,0.92c0.07,0.139,0.226,0.303,0.577,0.303h4.819c0.208,0,0.696,0,0.862-0.379c0.162-0.37-0.124-0.682-0.374-0.955c-0.089-0.097-0.231-0.252-0.268-0.328v-0.862h4.629c0.694,0,1.263-0.568,1.263-1.263V4.319C18.5,3.625,17.932,3.056,17.237,3.056 M8.053,16.102C8.232,15.862,8.4,15.597,8.4,15.309v-0.89h3.366v0.89c0,0.303,0.211,0.562,0.419,0.793H8.053z M17.658,13.156c0,0.228-0.193,0.421-0.421,0.421H2.93c-0.228,0-0.421-0.193-0.421-0.421v-1.263h15.149V13.156z M17.658,11.052H2.509V4.319c0-0.228,0.193-0.421,0.421-0.421h14.308c0.228,0,0.421,0.193,0.421,0.421V11.052z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <span>www.bikeparkkalnica.sk</span>
+                </div>
+                <div class="flex flex-row gap-2">
+                  <a href="">
+                    <svg
+                      class="w-6 h-6 text-gray-400 fill-current svg-icon"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill="current"
+                        d="M14.52,2.469H5.482c-1.664,0-3.013,1.349-3.013,3.013v9.038c0,1.662,1.349,3.012,3.013,3.012h9.038c1.662,0,3.012-1.35,3.012-3.012V5.482C17.531,3.818,16.182,2.469,14.52,2.469 M13.012,4.729h2.26v2.259h-2.26V4.729z M10,6.988c1.664,0,3.012,1.349,3.012,3.012c0,1.664-1.348,3.013-3.012,3.013c-1.664,0-3.012-1.349-3.012-3.013C6.988,8.336,8.336,6.988,10,6.988 M16.025,14.52c0,0.831-0.676,1.506-1.506,1.506H5.482c-0.831,0-1.507-0.675-1.507-1.506V9.247h1.583C5.516,9.494,5.482,9.743,5.482,10c0,2.497,2.023,4.52,4.518,4.52c2.494,0,4.52-2.022,4.52-4.52c0-0.257-0.035-0.506-0.076-0.753h1.582V14.52z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <span>@bikeparkkalnica</span>
+                </div>
+                <div class="flex flex-row gap-2">
+                  <a href="">
+                    <svg
+                      class="w-6 h-6 text-gray-400 fill-current svg-icon"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill="current"
+                        d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <span>@bikeparkkalnica</span>
+                </div>
+                <div class="flex flex-row gap-2">
+                  <a href="">
+                    <svg
+                      class="w-6 h-6 text-gray-400 fill-current svg-icon"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M13.372,1.781H6.628c-0.696,0-1.265,0.569-1.265,1.265v13.91c0,0.695,0.569,1.265,1.265,1.265h6.744c0.695,0,1.265-0.569,1.265-1.265V3.045C14.637,2.35,14.067,1.781,13.372,1.781 M13.794,16.955c0,0.228-0.194,0.421-0.422,0.421H6.628c-0.228,0-0.421-0.193-0.421-0.421v-0.843h7.587V16.955z M13.794,15.269H6.207V4.731h7.587V15.269z M13.794,3.888H6.207V3.045c0-0.228,0.194-0.421,0.421-0.421h6.744c0.228,0,0.422,0.194,0.422,0.421V3.888z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <span>+421111111</span>
+                </div>
+                <div class="flex flex-row gap-2">
+                  <a href="">
+                    <svg
+                      class="w-6 h-6 text-gray-400 fill-current svg-icon"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <span>info@bikeparkkalnica.sk</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- ROW WITH LOGO,TITLE,PILLS -->
+            <div class="grid grid-cols-5 pb-10">
+              <!-- LOGO/IMG -->
+              <div
+                class="flex flex-row items-center justify-center col-span-2 overflow-hidden"
+              >
+                <img
+                  class="object-cover w-24 h-24"
+                  src="https://www.bikeparkkalnica.sk/_files/200000021-0119c0119e/450/Logo%20KELLYS%20Bikepark%20Kalnica%20transparent.png"
+                  alt=""
+                />
+              </div>
+              <!-- TITLE,PILLS -->
+              <div class="flex flex-col col-span-3 text-white">
+                <div class="flex flex-col gap-2 pt-10 lg:gap-4">
+                  <div
+                    class="flex flex-col space-y-2 xl:items-center xl:flex-row"
+                  >
+                    <h1 class="text-lg">Bike Park Kalnica</h1>
+                    <div class="flex flex-row items-center w-20 h-4">
+                      <img
+                        class=""
+                        src="https://images.netdirector.co.uk/gforces-auto/image/upload/w_402,h_302,dpr_2.0,q_auto,c_fill,f_auto,fl_lossy/auto-client/32ceaf303b52b066d371df3f80791e45/5_stars_mobile.png"
+                        alt=""
+                      />
+                      <span class="text-sm text-gray-400">4.8(200)</span>
+                    </div>
+                  </div>
+
+                  <span class="text-sm text-gray-400">Kalnica, Slovakia</span>
+                  <!-- PILLS -->
+                  <div
+                    class="flex flex-row flex-wrap hidden gap-1 text-white lg:justify-center lg:gap-2"
+                  >
+                    <div
+                      class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                    >
+                      <span class="text-xs xl:text-base">Mtb Day tour</span>
+                    </div>
+                    <div
+                      class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                    >
+                      <span class="text-xs xl:text-base">Mtb Day tour</span>
+                    </div>
+                    <div
+                      class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                    >
+                      <span class="text-xs xl:text-base">Mtb Day tour</span>
+                    </div>
+                    <div
+                      class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                    >
+                      <span class="text-xs xl:text-base">Mtb Day tour</span>
+                    </div>
+                    <div
+                      class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                    >
+                      <span class="text-xs xl:text-base">Mtb Day tour</span>
+                    </div>
+                  </div>
+                  <!-- STARS/REVIEWS -->
+                  <div class="flex flex-row items-center hidden h-4 pt-8 w-28">
+                    <img
+                      class=""
+                      src="https://images.netdirector.co.uk/gforces-auto/image/upload/w_402,h_302,dpr_2.0,q_auto,c_fill,f_auto,fl_lossy/auto-client/32ceaf303b52b066d371df3f80791e45/5_stars_mobile.png"
+                      alt=""
+                    />
+                    <span class="text-sm text-gray-400">4.8(200)</span>
+                  </div>
+                </div>
+              </div>
+              <!-- PILLS -->
+              <div
+                class="flex flex-row flex-wrap justify-center col-span-5 gap-1 pt-4 text-white lg:justify-center lg:gap-2"
+              >
+                <div
+                  class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                >
+                  <span class="text-xs xl:text-base">Mtb Day tour</span>
+                </div>
+                <div
+                  class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                >
+                  <span class="text-xs xl:text-base">Mtb Day tour</span>
+                </div>
+                <div
+                  class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                >
+                  <span class="text-xs xl:text-base">Mtb tour</span>
+                </div>
+                <div
+                  class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                >
+                  <span class="text-xs xl:text-base">Mtb</span>
+                </div>
+                <div
+                  class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                >
+                  <span class="text-xs xl:text-base">Mtb Day tour</span>
+                </div>
+                <div
+                  class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                >
+                  <span class="text-xs xl:text-base">Blah lah</span>
+                </div>
+                <div
+                  class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                >
+                  <span class="text-xs xl:text-base">Mr</span>
+                </div>
+                <div
+                  class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                >
+                  <span class="text-xs xl:text-base">Mtb Day</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- HEADER PANEL DESKTOP -->
+          <div class="hidden w-3/4 h-64 grid-cols-4 mx-auto sm:grid">
+            <!-- LOGO/IMG -->
+            <div
+              class="flex flex-row items-center justify-center col-span-1 overflow-hidden"
+            >
+              <img
+                class="object-cover w-28 h-28 lg:w-48 lg:h-48"
+                src="https://www.bikeparkkalnica.sk/_files/200000021-0119c0119e/450/Logo%20KELLYS%20Bikepark%20Kalnica%20transparent.png"
+                alt=""
+              />
+            </div>
+            <!-- TITLE  col-span-3 lg:col-span-2 -->
+            <div class="flex flex-col col-span-2 text-white lg:items-center">
+              <div class="flex flex-col gap-2 pt-10 lg:gap-4">
+                <div
+                  class="flex flex-col space-y-2 xl:items-center xl:flex-row"
+                >
+                  <h1 class="text-2xl lg:text-3xl">Bike Park Kalnica</h1>
+                  <div class="flex flex-row items-center h-4 w-28">
+                    <img
+                      class=""
+                      src="https://images.netdirector.co.uk/gforces-auto/image/upload/w_402,h_302,dpr_2.0,q_auto,c_fill,f_auto,fl_lossy/auto-client/32ceaf303b52b066d371df3f80791e45/5_stars_mobile.png"
+                      alt=""
+                    />
+                    <span class="text-sm text-gray-400">4.8(200)</span>
+                  </div>
+                </div>
+
+                <span class="text-gray-400">Kalnica, Slovakia</span>
+                <!-- PILLS -->
+                <div
+                  class="flex flex-row flex-wrap gap-1 text-sm text-white lg:justify-center lg:gap-2"
+                >
+                  <div
+                    class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                  >
+                    <span class="text-xs xl:text-base">Mtb Day tour</span>
+                  </div>
+                  <div
+                    class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                  >
+                    <span class="text-xs xl:text-base">Mtb Day tour</span>
+                  </div>
+                  <div
+                    class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                  >
+                    <span class="text-xs xl:text-base">Mtb Day tour</span>
+                  </div>
+                  <div
+                    class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                  >
+                    <span class="text-xs xl:text-base">Mtb Day tour</span>
+                  </div>
+                  <div
+                    class="flex items-center justify-center px-2 py-1 border border-gray-400 rounded-full cursor-pointer lg:px-3 lg:py-2"
+                  >
+                    <span class="text-xs xl:text-base">Mtb Day tour</span>
+                  </div>
+                </div>
+                <!-- STARS/REVIEWS -->
+                <div class="flex flex-row items-center hidden h-4 pt-8 w-28">
+                  <img
+                    class=""
+                    src="https://images.netdirector.co.uk/gforces-auto/image/upload/w_402,h_302,dpr_2.0,q_auto,c_fill,f_auto,fl_lossy/auto-client/32ceaf303b52b066d371df3f80791e45/5_stars_mobile.png"
+                    alt=""
+                  />
+                  <span class="text-sm text-gray-400">4.8(200)</span>
+                </div>
+              </div>
+            </div>
+            <!-- LINK/SOCIAL -->
+            <div
+              class="flex flex-col items-end col-span-1 pt-10 pr-4 overflow-hidden text-xs text-white w-max lg:w-auto xl:text-sm xl:pr-8"
+            >
+              <div class="flex flex-col space-y-2">
+                <div class="flex flex-row gap-2">
+                  <a href="">
+                    <svg
+                      class="w-6 h-6 text-gray-400 fill-current svg-icon"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M17.237,3.056H2.93c-0.694,0-1.263,0.568-1.263,1.263v8.837c0,0.694,0.568,1.263,1.263,1.263h4.629v0.879c-0.015,0.086-0.183,0.306-0.273,0.423c-0.223,0.293-0.455,0.592-0.293,0.92c0.07,0.139,0.226,0.303,0.577,0.303h4.819c0.208,0,0.696,0,0.862-0.379c0.162-0.37-0.124-0.682-0.374-0.955c-0.089-0.097-0.231-0.252-0.268-0.328v-0.862h4.629c0.694,0,1.263-0.568,1.263-1.263V4.319C18.5,3.625,17.932,3.056,17.237,3.056 M8.053,16.102C8.232,15.862,8.4,15.597,8.4,15.309v-0.89h3.366v0.89c0,0.303,0.211,0.562,0.419,0.793H8.053z M17.658,13.156c0,0.228-0.193,0.421-0.421,0.421H2.93c-0.228,0-0.421-0.193-0.421-0.421v-1.263h15.149V13.156z M17.658,11.052H2.509V4.319c0-0.228,0.193-0.421,0.421-0.421h14.308c0.228,0,0.421,0.193,0.421,0.421V11.052z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <span>www.bikeparkkalnica.sk</span>
+                </div>
+                <div class="flex flex-row gap-2">
+                  <a href="">
+                    <svg
+                      class="w-6 h-6 text-gray-400 fill-current svg-icon"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill="current"
+                        d="M14.52,2.469H5.482c-1.664,0-3.013,1.349-3.013,3.013v9.038c0,1.662,1.349,3.012,3.013,3.012h9.038c1.662,0,3.012-1.35,3.012-3.012V5.482C17.531,3.818,16.182,2.469,14.52,2.469 M13.012,4.729h2.26v2.259h-2.26V4.729z M10,6.988c1.664,0,3.012,1.349,3.012,3.012c0,1.664-1.348,3.013-3.012,3.013c-1.664,0-3.012-1.349-3.012-3.013C6.988,8.336,8.336,6.988,10,6.988 M16.025,14.52c0,0.831-0.676,1.506-1.506,1.506H5.482c-0.831,0-1.507-0.675-1.507-1.506V9.247h1.583C5.516,9.494,5.482,9.743,5.482,10c0,2.497,2.023,4.52,4.518,4.52c2.494,0,4.52-2.022,4.52-4.52c0-0.257-0.035-0.506-0.076-0.753h1.582V14.52z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <span>@bikeparkkalnica</span>
+                </div>
+                <div class="flex flex-row gap-2">
+                  <a href="">
+                    <svg
+                      class="w-6 h-6 text-gray-400 fill-current svg-icon"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill="current"
+                        d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <span>@bikeparkkalnica</span>
+                </div>
+                <div class="flex flex-row gap-2">
+                  <a href="">
+                    <svg
+                      class="w-6 h-6 text-gray-400 fill-current svg-icon"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M13.372,1.781H6.628c-0.696,0-1.265,0.569-1.265,1.265v13.91c0,0.695,0.569,1.265,1.265,1.265h6.744c0.695,0,1.265-0.569,1.265-1.265V3.045C14.637,2.35,14.067,1.781,13.372,1.781 M13.794,16.955c0,0.228-0.194,0.421-0.422,0.421H6.628c-0.228,0-0.421-0.193-0.421-0.421v-0.843h7.587V16.955z M13.794,15.269H6.207V4.731h7.587V15.269z M13.794,3.888H6.207V3.045c0-0.228,0.194-0.421,0.421-0.421h6.744c0.228,0,0.422,0.194,0.422,0.421V3.888z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <span>+421111111</span>
+                </div>
+                <div class="flex flex-row gap-2">
+                  <a href="">
+                    <svg
+                      class="w-6 h-6 text-gray-400 fill-current svg-icon"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <span>info@bikeparkkalnica.sk</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MASONRY DESKTOP -->
+          <div class="hidden w-full h-screen md:block">
+            <div
+              class="grid w-3/4 grid-cols-4 grid-rows-2 gap-2 mx-auto h-1/3 lg:h-2/4 2xl:h-3/4"
+            >
+              <div class="col-span-2 row-span-2">
+                <img
+                  class="object-cover w-full h-full rounded-sm xl:rounded-md"
+                  src="https://images.unsplash.com/photo-1536244881128-90b1d3d2549f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1393&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="col-span-1 row-span-1">
+                <img
+                  class="object-cover w-full h-full rounded-sm xl:rounded-md"
+                  src="https://images.unsplash.com/photo-1508789454646-bef72439f197?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="col-span-1 row-span-1 borderborder-red-400">
+                <img
+                  class="object-cover w-full h-full rounded-sm xl:rounded-md"
+                  src="https://images.unsplash.com/photo-1556867399-f2019129601a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="col-span-2 row-span-1">
+                <img
+                  class="object-cover w-full h-full rounded-sm xl:rounded-md"
+                  src="https://images.unsplash.com/photo-1586698960173-169c3f3358f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- CAROUSEL MOBILE IMG GALLERY -->
+          <div class="relative w-full h-screen md:hidden">
+            <img
+              class="object-cover w-full"
+              src="https://images.unsplash.com/photo-1536244881128-90b1d3d2549f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1393&q=80"
+              alt=""
+            />
+            <div
+              class="relative flex flex-row justify-center w-full gap-6 bottom-4"
+            >
+              <div class="w-2 h-2 bg-gray-300 rounded-full"></div>
+              <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+              <div class="w-2 h-2 bg-gray-400 rounded-full"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <style>
+      .social-bar {
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+
+      .no-scrollbar {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
+    </style>
+  </body>
+</html>

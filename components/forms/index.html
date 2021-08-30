@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+    <title>Traildeer forms</title>
+</head>
+
+<body>
+    <!-- SCHEME -->
+    <!-- font colors : -->
+    <!-- label : text-gray-700 -->
+    <!-- text : text-gray-800 -->
+    <!-- caption or hint : text-gray-400 -->
+
+    <section class="w-full h-screen">
+        <main class="max-w-6xl mx-auto bg-">
+            <!-- SVG/IMG HORIZONTALL SELECT -->
+            <div x-data="{ selectedOption: 'option1'}" class="flex flex-col items-center w-full">
+                <div class="py-2">
+                    <p><span class="text-sm">1&nbsp</span>HORIZONTAL&nbsp<span class="font-semibold">SELECT</span></p>
+                </div>
+                <div class="flex flex-row space-x-2">
+                    <div :class="{'bg-yellow-300': selectedOption === 'option1'}"
+                        class="flex flex-col items-center w-48 h-64 p-1 pb-2 transition duration-300 ease-in-out transform border border-gray-200 rounded-md shadow-sm cursor-default h-min hover:-translate-y-1 hover:scale-100">
+                        <div :class="{'border-white border-b-2': selectedOption === 'option1', 'border-yellow-200 border-b-2':  selectedOption !== 'option1'}"
+                            class="flex flex-row justify-center w-full">
+                            <h1 class="font-semibold text-gray-800">PERSON</h1>
+                        </div>
+                        <div class="flex flex-row items-center flex-1 w-full overflow-hidden text-center break-words">
+                            <span class="text-gray-800">Here are some info about this kind of account or some
+                                icon/svg</span>
+                        </div>
+                        <div @click.prevent="selectedOption = 'option1'"
+                            :class="{'border-gray-400': selectedOption === 'option1'}"
+                            class="flex flex-row items-end px-10 border rounded-md shadow-sm cursor-pointer">
+                            <a class="font-semibold text-gray-800" href="#">Select</a>
+                        </div>
+                    </div>
+                    <div :class="{'bg-yellow-300': selectedOption === 'option2'}"
+                        class="flex flex-col items-center w-48 h-64 p-1 pb-2 transition duration-300 ease-in-out transform border border-gray-200 rounded-md shadow-sm cursor-default h-min hover:-translate-y-1 hover:scale-100">
+                        <div :class="{'border-white border-b-2 ': selectedOption === 'option2', 'border-yellow-200 border-b-2':  selectedOption !== 'option2'}"
+                            class="flex flex-row justify-center w-full">
+                            <h1 class="font-semibold text-gray-800">BUSSINES</h1>
+                        </div>
+                        <div class="flex flex-row items-center flex-1 w-full overflow-hidden text-center break-words">
+                            <span class="text-gray-800">Here are some info about this kind of account or some
+                                icon/svg</span>
+                        </div>
+                        <div @click.prevent="selectedOption = 'option2'"
+                            :class="{'border-gray-400': selectedOption === 'option2'}"
+                            class="flex flex-row items-end px-10 border rounded-md shadow-sm cursor-pointer">
+                            <a class="font-semibold text-gray-800" href="#">Select</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-row space-x-1">
+                    <div class="flex flex-row items-center py-2 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-md shadow-md w-28 hover:-translate-x-1 hover:scale-100">
+                        <a class="pl-2" href="">
+                            <svg class="w-5 text-gray-800 fill-current svg-icon" viewBox="0 0 20 20">
+                                <path fill="current" d="M18.271,9.212H3.615l4.184-4.184c0.306-0.306,0.306-0.801,0-1.107c-0.306-0.306-0.801-0.306-1.107,0
+                                L1.21,9.403C1.194,9.417,1.174,9.421,1.158,9.437c-0.181,0.181-0.242,0.425-0.209,0.66c0.005,0.038,0.012,0.071,0.022,0.109
+                                c0.028,0.098,0.075,0.188,0.142,0.271c0.021,0.026,0.021,0.061,0.045,0.085c0.015,0.016,0.034,0.02,0.05,0.033l5.484,5.483
+                                c0.306,0.307,0.801,0.307,1.107,0c0.306-0.305,0.306-0.801,0-1.105l-4.184-4.185h14.656c0.436,0,0.788-0.353,0.788-0.788
+                                S18.707,9.212,18.271,9.212z"></path>
+                            </svg>
+                        </a>
+                        <a class="pl-3 font-semibold text-gray-700" href="">Previous</a>
+
+                    </div>
+                    <div class="flex flex-row items-center py-2 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-md shadow-md w-28 hover:translate-x-1 hover:scale-100">
+                        <a class="pl-2 font-semibold text-gray-700 " href="">Next</a>
+                        <a class="pl-10" href="">
+                            <svg class="w-5 text-gray-800 fill-current svg-icon" viewBox="0 0 20 20">
+                                <path fill="current" d="M1.729,9.212h14.656l-4.184-4.184c-0.307-0.306-0.307-0.801,0-1.107c0.305-0.306,0.801-0.306,1.106,0
+                                l5.481,5.482c0.018,0.014,0.037,0.019,0.053,0.034c0.181,0.181,0.242,0.425,0.209,0.66c-0.004,0.038-0.012,0.071-0.021,0.109
+                                c-0.028,0.098-0.075,0.188-0.143,0.271c-0.021,0.026-0.021,0.061-0.045,0.085c-0.015,0.016-0.034,0.02-0.051,0.033l-5.483,5.483
+                                c-0.306,0.307-0.802,0.307-1.106,0c-0.307-0.305-0.307-0.801,0-1.105l4.184-4.185H1.729c-0.436,0-0.788-0.353-0.788-0.788
+                                S1.293,9.212,1.729,9.212z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+            <!-- SIMPLE INPUT -->
+            <div x-data="inputsHandler()" class="flex flex-col items-center w-full">
+                <div class="py-2">
+                    <p><span class="text-sm">2&nbsp</span>SIMPLE &nbsp<span class="font-semibold">INPUT</span></p>
+                </div>
+                <div class="w-96">
+                    <p x-show.transition="true" class="text-xs text-gray-400">Enter your email adress in
+                        format johndoe@gmail.com</p>
+                    <input @keydown="activateInput(input1)" x-model="input1.val" :placeholder="input1.placeholder"
+                        class="w-full border-b-2 border-yellow-400 focus:outline-none " type="text">
+                    <p x-show.transition="true" class="text-xs text-red-500">Email address is required
+                        field</p>
+                </div>
+                <div @click="submitForm()"
+                    class="px-8 py-2 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-md shadow-md cursor-pointer hover:translate-x-1 hover:scale-100">
+                    <a @click.prevent="" class="font-semibold text-gray-700" href="#">Submit</a>
+                </div>
+            </div>
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+            <!-- SIMPLE INPUT -->
+            <div x-data="inputsHandler()" class="flex flex-col items-center w-full">
+                <div class="py-2">
+                    <p><span class="text-sm">2&nbsp</span>SIMPLE &nbsp<span class="font-semibold">INPUT2</span></p>
+                </div>
+                <div class="w-96">
+                    <div class="px-3 py-4 border rounded-md">
+                        <p x-show.transition="true" class="text-xs font-semibold text-gray-600">GUESTS</p>
+                        <input @keydown="activateInput(input1)" x-model="input1.val" :placeholder="input1.placeholder"
+                            class="w-full focus:outline-none " type="text">
+                    </div>
+                    <p x-show.transition="true" class="pt-1 pl-3 text-xs text-red-500">Email address is required
+                        field</p>
+                </div>
+                <div @click="submitForm()"
+                    class="px-8 py-2 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-md shadow-md cursor-pointer hover:translate-x-1 hover:scale-100">
+                    <a @click.prevent="" class="font-semibold text-gray-700" href="#">Submit</a>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+            <!-- SIMPLE INPUT WITH BUTTON ON RIGHT SIDE -->
+            <div x-data="inputsHandler()" class="flex flex-col items-center w-full">
+                <div class="py-2">
+                    <p><span class="text-sm">2&nbsp</span>SIMPLE &nbsp<span class="font-semibold">INPUT WITH BUTTON ON RIGHT SIDE</span></p>
+                </div>
+                <div class="w-96">
+                    <div class="flex flex-row px-3 pr-0 border border-r-0 rounded-md">
+                        <div class="pt-1">
+                            <p x-show.transition="true" class="text-xs font-semibold text-gray-600">START TYPING FOR SEARCH</p>
+                            <input @keydown="activateInput(input1)" x-model="input1.val" :placeholder="input1.placeholder"
+                            class="w-full focus:outline-none " type="text">  
+                        </div>
+                        <div class="flex items-center p-3 ml-auto bg-yellow-300 rounded-md">
+                            <a href="">
+                                <svg class="w-6 h-6 text-gray-700 fill-current svg-icon" viewBox="0 0 20 20">
+                                    <path d="M18.125,15.804l-4.038-4.037c0.675-1.079,1.012-2.308,1.01-3.534C15.089,4.62,12.199,1.75,8.584,1.75C4.815,1.75,1.982,4.726,2,8.286c0.021,3.577,2.908,6.549,6.578,6.549c1.241,0,2.417-0.347,3.44-0.985l4.032,4.026c0.167,0.166,0.43,0.166,0.596,0l1.479-1.478C18.292,16.234,18.292,15.968,18.125,15.804 M8.578,13.99c-3.198,0-5.716-2.593-5.733-5.71c-0.017-3.084,2.438-5.686,5.74-5.686c3.197,0,5.625,2.493,5.64,5.624C14.242,11.548,11.621,13.99,8.578,13.99 M16.349,16.981l-3.637-3.635c0.131-0.11,0.721-0.695,0.876-0.884l3.642,3.639L16.349,16.981z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <p x-show.transition="true" class="pt-1 pl-3 text-xs text-red-500">Email address is required
+                        field</p>
+                </div>
+                <div @click="submitForm()"
+                    class="px-8 py-2 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-md shadow-md cursor-pointer hover:translate-x-1 hover:scale-100">
+                    <a @click.prevent="" class="font-semibold text-gray-700" href="#">Submit</a>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+            <!-- SIMPLE INPUT WITH BUTTON ON LEFT SIDE -->
+            <div x-data="inputsHandler()" class="flex flex-col items-center w-full">
+                <div class="py-2">
+                    <p><span class="text-sm">2&nbsp</span>SIMPLE &nbsp<span class="font-semibold">INPUT WITH BUTTON ON LEFT SIDE</span></p>
+                </div>
+                <div class="w-96">
+                    <div class="flex flex-row px-3 pl-0 pr-0 border border-l-0 rounded-md">
+                        <div class="flex items-center p-3 bg-yellow-300 rounded-md">
+                            <a href="">
+                                <svg class="w-6 h-6 text-gray-700 fill-current svg-icon" viewBox="0 0 20 20">
+                                    <path d="M18.125,15.804l-4.038-4.037c0.675-1.079,1.012-2.308,1.01-3.534C15.089,4.62,12.199,1.75,8.584,1.75C4.815,1.75,1.982,4.726,2,8.286c0.021,3.577,2.908,6.549,6.578,6.549c1.241,0,2.417-0.347,3.44-0.985l4.032,4.026c0.167,0.166,0.43,0.166,0.596,0l1.479-1.478C18.292,16.234,18.292,15.968,18.125,15.804 M8.578,13.99c-3.198,0-5.716-2.593-5.733-5.71c-0.017-3.084,2.438-5.686,5.74-5.686c3.197,0,5.625,2.493,5.64,5.624C14.242,11.548,11.621,13.99,8.578,13.99 M16.349,16.981l-3.637-3.635c0.131-0.11,0.721-0.695,0.876-0.884l3.642,3.639L16.349,16.981z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="pt-1 pl-3">
+                            <p x-show.transition="true" class="text-xs font-semibold text-gray-600">START TYPING FOR SEARCH</p>
+                            <input @keydown="activateInput(input1)" x-model="input1.val" :placeholder="input1.placeholder"
+                            class="w-full focus:outline-none " type="text">  
+                        </div>
+                    </div>
+                    <p x-show.transition="true" class="pt-1 pl-3 text-xs text-red-500">Email address is required
+                        field</p>
+                </div>
+                <div @click="submitForm()"
+                    class="px-8 py-2 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-md shadow-md cursor-pointer hover:translate-x-1 hover:scale-100">
+                    <a @click.prevent="" class="font-semibold text-gray-700" href="#">Submit</a>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+            <!-- 2 FIELD TEXT INPUT -->
+            <div x-data="inputsHandler()" class="flex flex-col items-center">
+                <div class="flex flex-row justify-center w-full space-x-8">
+                    <div class="flex flex-col">
+                        <label class="text-sm font-semibold text-bold ">Surname</label>
+                        <p x-show.transition="true" class="text-xs text-gray-400">Enter your
+                            surname</p>
+                        <input @keydown="activateInput(input1)" x-model="input1.val" :placeholder="input1.placeholder"
+                            class="w-full border-b-2 border-yellow-400 focus:outline-none " type="text"
+                            placeholder="input1 placeholder">
+                        <p x-show.transition="true" class="text-xs text-red-400">Surname is required</p>
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-sm font-semibold text-bold">Lastname</label>
+                        <p x-show.transition="true" class="text-xs text-gray-400">Enter your lastname</p>
+                        <input @keydown="activateInput(input2)" x-model="input2.val" :placeholder="input2.placeholder"
+                            class="w-full border-b-2 border-yellow-400 focus:outline-none" type="text">
+                        <p x-show.transition="true" class="text-xs text-red-400">Lastname is required</p>
+                    </div>
+                </div>
+                <div @click="submitForm()"
+                    class="px-8 py-2 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-md shadow-md w-28 hover:translate-x-1 hover:scale-100">
+                    <a @click.prevent="" class="font-semibold text-gray-800" href="">Submit</a>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+            <!-- SINGLE CHOICE DROPDOWN -->
+            <div class="flex flex-col items-center">
+                <div class="flex flex-col items-start">
+                    <label for="country" class="block text-sm font-bold text-gray-800">SINGLE CHOICE DROPDOWN</label>
+                    <select id="country" name="country" autocomplete="country"
+                        class="block px-3 py-2 mt-1 bg-white border border-gray-300 rounded-md shadow-sm w-44 focus:outline-none focus:border-yellow-500 sm:text-sm">
+                        <option selected disabled hidden>Choose your opt</option>
+                        <option>Opt1</option>
+                        <option>Opt2</option>
+                        <option>Opt3</option>
+                        <option>Opt4</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+            <!--GRID-LIKE BUTTONS CHOICE WITH INFO BTN IN PARENT BTN -->
+            <div x-data="{activeTooltip: '', selectedItem: ''}" class="flex flex-col items-center">
+                <div class="py-2">
+                    <p><span class="text-sm">2&nbsp</span>GRID-LIKE &nbsp<span class="font-semibold">SELECT WITH BTN INSIDE AND FLOATING TOOLTIP</span></p>
+                </div>
+                <div class="flex flex-row space-x-4">
+                    <div :class="{'border-yellow-500': selectedItem === 'item1'}"
+                        class="relative flex flex-col items-center px-3 py-2 border-2 border-gray-600 rounded-md hover:border-yellow-500 ">
+                        <a @click.prevent="selectedItem = 'item1' " class="" href="#">
+                            <svg class="w-10" viewBox="0 0 512.008 512.008">
+                                <path
+                                    d="m510.87 192.555c-3.903-19.613-18.73-35.818-37.629-41.716l17.259-75.807c12.027-1.034 21.5-11.148 21.5-23.439 0-12.976-10.557-23.532-23.532-23.532s-23.532 10.557-23.532 23.532c0 8.366 4.392 15.721 10.987 19.895l-17.502 76.875c-9.27-.313-18.38 1.625-26.582 5.658v-80.129c9.308-3.139 16.032-11.946 16.032-22.3 0-12.976-10.557-23.532-23.532-23.532s-23.532 10.557-23.532 23.532c0 10.354 6.724 19.16 16.032 22.3v90.947c-10.253 10.365-16.032 24.293-16.032 39.059v96.194c0 16.914-10.404 31.539-25.282 37.604 5.29-12.68 8.217-26.583 8.217-41.158 0-50.665-19.03-98.911-53.584-135.85-34.901-37.31-81.749-58.754-131.911-60.381-96.778-3.13-181.018 66.468-195.936 161.909-6.813 43.583 4.989 87.868 32.377 121.501 8.963 11.006 19.206 20.413 30.439 28.087l-40.247 22.36c-15.347 8.526-24.88 24.727-24.88 42.283 0 4.142 3.358 7.5 7.5 7.5h368.742.001c27.696 0 53.738-10.787 73.322-30.371 19.585-19.585 30.371-45.625 30.371-73.323v-121.315c0-2.786 1.676-5.429 4.485-7.069 20.819-12.163 31.201-35.445 26.449-59.314zm-22.402-149.494c4.705 0 8.532 3.828 8.532 8.532s-3.828 8.532-8.532 8.532-8.532-3.828-8.532-8.532 3.827-8.532 8.532-8.532zm-64.129 0c4.705 0 8.532 3.828 8.532 8.532s-3.828 8.532-8.532 8.532-8.532-3.828-8.532-8.532 3.827-8.532 8.532-8.532zm52.515 195.856c-7.463 4.359-11.919 11.844-11.919 20.021v121.316c0 23.691-9.226 45.964-25.978 62.716s-39.025 25.978-62.716 25.978h-360.387c2.1-9.092 7.957-17.03 16.311-21.671l47.877-26.598c17.314 8.869 36.435 14.013 56.521 14.996 2.386.117 4.761.174 7.125.174 73.013-.001 135.143-55.057 143.026-128.198 3.03-28.115-5.449-56.429-23.264-77.681-16.578-19.776-39.62-31.617-64.88-33.341-16.997-1.161-33.968 2.173-49.066 9.64-3.713 1.836-5.234 6.335-3.397 10.048 1.836 3.713 6.334 5.235 10.048 3.397 12.722-6.293 27.038-9.099 41.394-8.121 21.152 1.444 40.474 11.392 54.406 28.012 15.208 18.142 22.441 42.357 19.846 66.438-7.289 67.623-66.366 117.991-134.505 114.648-35.698-1.746-68.007-18.241-90.976-46.446-24.706-30.338-35.345-70.327-29.188-109.712 13.75-87.97 91.4-152.132 180.628-149.231 46.153 1.497 89.282 21.255 121.443 55.636 31.946 34.15 49.539 78.757 49.539 125.603 0 50.865-41.381 92.246-92.246 92.246h-4.463c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h4.463c37.424 0 70.425-19.272 89.619-48.409 28.073-2.964 49.692-26.752 49.692-55.284v-96.194c0-12.282 5.474-23.773 15.019-31.527 9.542-7.754 22.09-10.722 34.429-8.139 15.406 3.223 27.826 15.781 30.905 31.251 3.483 17.498-4.095 34.546-19.306 43.432z">
+                                </path>
+                                <path
+                                    d="m151.791 299.577c4.142 0 7.5-3.358 7.5-7.5 0-4.771 2.062-9.313 5.657-12.459 3.642-3.188 8.334-4.587 13.214-3.933 8.497 1.135 14.713 9.414 14.153 18.845-.656 11.032-5.648 21.094-14.059 28.332-8.392 7.221-19.139 10.647-30.268 9.639-22.159-2.003-38.536-23.222-36.505-47.3 1.504-17.854 9.081-34.933 21.332-48.089 2.823-3.032 2.654-7.777-.377-10.6-3.032-2.823-7.777-2.654-10.6.377-14.53 15.604-23.516 35.866-25.302 57.052-1.291 15.308 2.985 30.295 12.038 42.2 9.403 12.366 22.921 19.93 38.064 21.299 1.737.157 3.467.235 5.188.235 13.335 0 26.034-4.682 36.216-13.444 11.513-9.908 18.349-23.692 19.248-38.812 1.024-17.232-10.897-32.432-27.139-34.603-9.093-1.214-18.236 1.523-25.081 7.514-6.85 5.995-10.778 14.65-10.778 23.747-.001 4.142 3.356 7.5 7.499 7.5z">
+                                </path>
+                            </svg>
+                        </a>
+                        <div @click="activeTooltip = 'tooltip1' "
+                            class="cursor-pointer absolute flex items-center justify-center top-0.5 left-0.5 h-4 w-4 border border-gray-500 rounded-full">
+                            <span class="text-xs text-gray-500">i</span>
+                        </div>
+                        <div x-show="activeTooltip === 'tooltip1' " @click.away="activeTooltip = ''"
+                            class="absolute z-10 p-2 bg-gray-200 rounded-md left-4 ">
+                            <span class="text-xs text-gray-800">Some description about selected/hovered skill</span>
+                        </div>
+                    </div>
+                    <div :class="{'border-yellow-500': selectedItem === 'item2'}"
+                        class="relative flex flex-col items-center px-3 py-2 border-2 border-gray-600 rounded-md hover:border-yellow-500 ">
+                        <a @click.prevent="selectedItem = 'item2' " class="" href="#">
+                            <svg class="w-10" viewBox="0 0 512.008 512.008">
+                                <path
+                                    d="m510.87 192.555c-3.903-19.613-18.73-35.818-37.629-41.716l17.259-75.807c12.027-1.034 21.5-11.148 21.5-23.439 0-12.976-10.557-23.532-23.532-23.532s-23.532 10.557-23.532 23.532c0 8.366 4.392 15.721 10.987 19.895l-17.502 76.875c-9.27-.313-18.38 1.625-26.582 5.658v-80.129c9.308-3.139 16.032-11.946 16.032-22.3 0-12.976-10.557-23.532-23.532-23.532s-23.532 10.557-23.532 23.532c0 10.354 6.724 19.16 16.032 22.3v90.947c-10.253 10.365-16.032 24.293-16.032 39.059v96.194c0 16.914-10.404 31.539-25.282 37.604 5.29-12.68 8.217-26.583 8.217-41.158 0-50.665-19.03-98.911-53.584-135.85-34.901-37.31-81.749-58.754-131.911-60.381-96.778-3.13-181.018 66.468-195.936 161.909-6.813 43.583 4.989 87.868 32.377 121.501 8.963 11.006 19.206 20.413 30.439 28.087l-40.247 22.36c-15.347 8.526-24.88 24.727-24.88 42.283 0 4.142 3.358 7.5 7.5 7.5h368.742.001c27.696 0 53.738-10.787 73.322-30.371 19.585-19.585 30.371-45.625 30.371-73.323v-121.315c0-2.786 1.676-5.429 4.485-7.069 20.819-12.163 31.201-35.445 26.449-59.314zm-22.402-149.494c4.705 0 8.532 3.828 8.532 8.532s-3.828 8.532-8.532 8.532-8.532-3.828-8.532-8.532 3.827-8.532 8.532-8.532zm-64.129 0c4.705 0 8.532 3.828 8.532 8.532s-3.828 8.532-8.532 8.532-8.532-3.828-8.532-8.532 3.827-8.532 8.532-8.532zm52.515 195.856c-7.463 4.359-11.919 11.844-11.919 20.021v121.316c0 23.691-9.226 45.964-25.978 62.716s-39.025 25.978-62.716 25.978h-360.387c2.1-9.092 7.957-17.03 16.311-21.671l47.877-26.598c17.314 8.869 36.435 14.013 56.521 14.996 2.386.117 4.761.174 7.125.174 73.013-.001 135.143-55.057 143.026-128.198 3.03-28.115-5.449-56.429-23.264-77.681-16.578-19.776-39.62-31.617-64.88-33.341-16.997-1.161-33.968 2.173-49.066 9.64-3.713 1.836-5.234 6.335-3.397 10.048 1.836 3.713 6.334 5.235 10.048 3.397 12.722-6.293 27.038-9.099 41.394-8.121 21.152 1.444 40.474 11.392 54.406 28.012 15.208 18.142 22.441 42.357 19.846 66.438-7.289 67.623-66.366 117.991-134.505 114.648-35.698-1.746-68.007-18.241-90.976-46.446-24.706-30.338-35.345-70.327-29.188-109.712 13.75-87.97 91.4-152.132 180.628-149.231 46.153 1.497 89.282 21.255 121.443 55.636 31.946 34.15 49.539 78.757 49.539 125.603 0 50.865-41.381 92.246-92.246 92.246h-4.463c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h4.463c37.424 0 70.425-19.272 89.619-48.409 28.073-2.964 49.692-26.752 49.692-55.284v-96.194c0-12.282 5.474-23.773 15.019-31.527 9.542-7.754 22.09-10.722 34.429-8.139 15.406 3.223 27.826 15.781 30.905 31.251 3.483 17.498-4.095 34.546-19.306 43.432z">
+                                </path>
+                                <path
+                                    d="m151.791 299.577c4.142 0 7.5-3.358 7.5-7.5 0-4.771 2.062-9.313 5.657-12.459 3.642-3.188 8.334-4.587 13.214-3.933 8.497 1.135 14.713 9.414 14.153 18.845-.656 11.032-5.648 21.094-14.059 28.332-8.392 7.221-19.139 10.647-30.268 9.639-22.159-2.003-38.536-23.222-36.505-47.3 1.504-17.854 9.081-34.933 21.332-48.089 2.823-3.032 2.654-7.777-.377-10.6-3.032-2.823-7.777-2.654-10.6.377-14.53 15.604-23.516 35.866-25.302 57.052-1.291 15.308 2.985 30.295 12.038 42.2 9.403 12.366 22.921 19.93 38.064 21.299 1.737.157 3.467.235 5.188.235 13.335 0 26.034-4.682 36.216-13.444 11.513-9.908 18.349-23.692 19.248-38.812 1.024-17.232-10.897-32.432-27.139-34.603-9.093-1.214-18.236 1.523-25.081 7.514-6.85 5.995-10.778 14.65-10.778 23.747-.001 4.142 3.356 7.5 7.499 7.5z">
+                                </path>
+                            </svg>
+                        </a>
+                        <div @click="activeTooltip = 'tooltip2' "
+                            class="cursor-pointer absolute flex items-center justify-center top-0.5 left-0.5 h-4 w-4 border border-gray-500 rounded-full">
+                            <span class="text-xs text-gray-500">i</span>
+                        </div>
+                        <div x-show="activeTooltip === 'tooltip2' " @click.away="activeTooltip = ''"
+                            class="absolute z-10 p-2 bg-gray-200 rounded-md left-4 ">
+                            <span class="text-xs text-gray-800">Some description about selected/hovered skill</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+
+
+            <!-- GRID-LIKE SELECTION WITH TOOLTIP BELOW BTN -->
+            <div x-data="{activeTooltip: 'tooltip1', selectedItem: ''}" class="flex flex-col items-center">
+                <div class="py-2">
+                    <p><span class="text-sm">2&nbsp</span>GRID-LIKE SELECT &nbsp<span class="font-semibold">WITH TOOLTIP BELOW</span></p>
+                </div>
+                <div class="flex flex-row space-x-4 ">
+                    <div @click="selectedItem = 'item1' " class="relative flex flex-col items-center">
+                        <div :class="{'border-yellow-500': selectedItem === 'item1'}" class="flex flex-col items-center w-16 px-3 py-2 border-2 border-gray-600 rounded-md hover:border-yellow-500 ">
+                            <a @click.prevent=""  class="" href="#">
+                                <svg class="w-10" viewBox="0 0 512.008 512.008">
+                                    <path
+                                        d="m510.87 192.555c-3.903-19.613-18.73-35.818-37.629-41.716l17.259-75.807c12.027-1.034 21.5-11.148 21.5-23.439 0-12.976-10.557-23.532-23.532-23.532s-23.532 10.557-23.532 23.532c0 8.366 4.392 15.721 10.987 19.895l-17.502 76.875c-9.27-.313-18.38 1.625-26.582 5.658v-80.129c9.308-3.139 16.032-11.946 16.032-22.3 0-12.976-10.557-23.532-23.532-23.532s-23.532 10.557-23.532 23.532c0 10.354 6.724 19.16 16.032 22.3v90.947c-10.253 10.365-16.032 24.293-16.032 39.059v96.194c0 16.914-10.404 31.539-25.282 37.604 5.29-12.68 8.217-26.583 8.217-41.158 0-50.665-19.03-98.911-53.584-135.85-34.901-37.31-81.749-58.754-131.911-60.381-96.778-3.13-181.018 66.468-195.936 161.909-6.813 43.583 4.989 87.868 32.377 121.501 8.963 11.006 19.206 20.413 30.439 28.087l-40.247 22.36c-15.347 8.526-24.88 24.727-24.88 42.283 0 4.142 3.358 7.5 7.5 7.5h368.742.001c27.696 0 53.738-10.787 73.322-30.371 19.585-19.585 30.371-45.625 30.371-73.323v-121.315c0-2.786 1.676-5.429 4.485-7.069 20.819-12.163 31.201-35.445 26.449-59.314zm-22.402-149.494c4.705 0 8.532 3.828 8.532 8.532s-3.828 8.532-8.532 8.532-8.532-3.828-8.532-8.532 3.827-8.532 8.532-8.532zm-64.129 0c4.705 0 8.532 3.828 8.532 8.532s-3.828 8.532-8.532 8.532-8.532-3.828-8.532-8.532 3.827-8.532 8.532-8.532zm52.515 195.856c-7.463 4.359-11.919 11.844-11.919 20.021v121.316c0 23.691-9.226 45.964-25.978 62.716s-39.025 25.978-62.716 25.978h-360.387c2.1-9.092 7.957-17.03 16.311-21.671l47.877-26.598c17.314 8.869 36.435 14.013 56.521 14.996 2.386.117 4.761.174 7.125.174 73.013-.001 135.143-55.057 143.026-128.198 3.03-28.115-5.449-56.429-23.264-77.681-16.578-19.776-39.62-31.617-64.88-33.341-16.997-1.161-33.968 2.173-49.066 9.64-3.713 1.836-5.234 6.335-3.397 10.048 1.836 3.713 6.334 5.235 10.048 3.397 12.722-6.293 27.038-9.099 41.394-8.121 21.152 1.444 40.474 11.392 54.406 28.012 15.208 18.142 22.441 42.357 19.846 66.438-7.289 67.623-66.366 117.991-134.505 114.648-35.698-1.746-68.007-18.241-90.976-46.446-24.706-30.338-35.345-70.327-29.188-109.712 13.75-87.97 91.4-152.132 180.628-149.231 46.153 1.497 89.282 21.255 121.443 55.636 31.946 34.15 49.539 78.757 49.539 125.603 0 50.865-41.381 92.246-92.246 92.246h-4.463c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h4.463c37.424 0 70.425-19.272 89.619-48.409 28.073-2.964 49.692-26.752 49.692-55.284v-96.194c0-12.282 5.474-23.773 15.019-31.527 9.542-7.754 22.09-10.722 34.429-8.139 15.406 3.223 27.826 15.781 30.905 31.251 3.483 17.498-4.095 34.546-19.306 43.432z">
+                                    </path>
+                                    <path
+                                        d="m151.791 299.577c4.142 0 7.5-3.358 7.5-7.5 0-4.771 2.062-9.313 5.657-12.459 3.642-3.188 8.334-4.587 13.214-3.933 8.497 1.135 14.713 9.414 14.153 18.845-.656 11.032-5.648 21.094-14.059 28.332-8.392 7.221-19.139 10.647-30.268 9.639-22.159-2.003-38.536-23.222-36.505-47.3 1.504-17.854 9.081-34.933 21.332-48.089 2.823-3.032 2.654-7.777-.377-10.6-3.032-2.823-7.777-2.654-10.6.377-14.53 15.604-23.516 35.866-25.302 57.052-1.291 15.308 2.985 30.295 12.038 42.2 9.403 12.366 22.921 19.93 38.064 21.299 1.737.157 3.467.235 5.188.235 13.335 0 26.034-4.682 36.216-13.444 11.513-9.908 18.349-23.692 19.248-38.812 1.024-17.232-10.897-32.432-27.139-34.603-9.093-1.214-18.236 1.523-25.081 7.514-6.85 5.995-10.778 14.65-10.778 23.747-.001 4.142 3.356 7.5 7.499 7.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div @click.away="selectedItem = '' " x-show="selectedItem === 'item1' " class="absolute w-32 mt-2 text-center bg-gray-200 rounded-md top-14 ">
+                            <span class="text-xs leading-none text-gray-800">Some description about selected/hovered skill</span>
+                        </div>
+                    </div>
+                    <div @click="selectedItem = 'item2' " class="relative flex flex-col items-center ">
+                        <div :class="{'border-yellow-500': selectedItem === 'item2'}" class="flex flex-col items-center w-16 px-3 py-2 border-2 border-gray-600 rounded-md hover:border-yellow-500 ">
+                            <a @click.prevent=""  class="" href="#">
+                                <svg class="w-10" viewBox="0 0 512.008 512.008">
+                                    <path
+                                        d="m510.87 192.555c-3.903-19.613-18.73-35.818-37.629-41.716l17.259-75.807c12.027-1.034 21.5-11.148 21.5-23.439 0-12.976-10.557-23.532-23.532-23.532s-23.532 10.557-23.532 23.532c0 8.366 4.392 15.721 10.987 19.895l-17.502 76.875c-9.27-.313-18.38 1.625-26.582 5.658v-80.129c9.308-3.139 16.032-11.946 16.032-22.3 0-12.976-10.557-23.532-23.532-23.532s-23.532 10.557-23.532 23.532c0 10.354 6.724 19.16 16.032 22.3v90.947c-10.253 10.365-16.032 24.293-16.032 39.059v96.194c0 16.914-10.404 31.539-25.282 37.604 5.29-12.68 8.217-26.583 8.217-41.158 0-50.665-19.03-98.911-53.584-135.85-34.901-37.31-81.749-58.754-131.911-60.381-96.778-3.13-181.018 66.468-195.936 161.909-6.813 43.583 4.989 87.868 32.377 121.501 8.963 11.006 19.206 20.413 30.439 28.087l-40.247 22.36c-15.347 8.526-24.88 24.727-24.88 42.283 0 4.142 3.358 7.5 7.5 7.5h368.742.001c27.696 0 53.738-10.787 73.322-30.371 19.585-19.585 30.371-45.625 30.371-73.323v-121.315c0-2.786 1.676-5.429 4.485-7.069 20.819-12.163 31.201-35.445 26.449-59.314zm-22.402-149.494c4.705 0 8.532 3.828 8.532 8.532s-3.828 8.532-8.532 8.532-8.532-3.828-8.532-8.532 3.827-8.532 8.532-8.532zm-64.129 0c4.705 0 8.532 3.828 8.532 8.532s-3.828 8.532-8.532 8.532-8.532-3.828-8.532-8.532 3.827-8.532 8.532-8.532zm52.515 195.856c-7.463 4.359-11.919 11.844-11.919 20.021v121.316c0 23.691-9.226 45.964-25.978 62.716s-39.025 25.978-62.716 25.978h-360.387c2.1-9.092 7.957-17.03 16.311-21.671l47.877-26.598c17.314 8.869 36.435 14.013 56.521 14.996 2.386.117 4.761.174 7.125.174 73.013-.001 135.143-55.057 143.026-128.198 3.03-28.115-5.449-56.429-23.264-77.681-16.578-19.776-39.62-31.617-64.88-33.341-16.997-1.161-33.968 2.173-49.066 9.64-3.713 1.836-5.234 6.335-3.397 10.048 1.836 3.713 6.334 5.235 10.048 3.397 12.722-6.293 27.038-9.099 41.394-8.121 21.152 1.444 40.474 11.392 54.406 28.012 15.208 18.142 22.441 42.357 19.846 66.438-7.289 67.623-66.366 117.991-134.505 114.648-35.698-1.746-68.007-18.241-90.976-46.446-24.706-30.338-35.345-70.327-29.188-109.712 13.75-87.97 91.4-152.132 180.628-149.231 46.153 1.497 89.282 21.255 121.443 55.636 31.946 34.15 49.539 78.757 49.539 125.603 0 50.865-41.381 92.246-92.246 92.246h-4.463c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h4.463c37.424 0 70.425-19.272 89.619-48.409 28.073-2.964 49.692-26.752 49.692-55.284v-96.194c0-12.282 5.474-23.773 15.019-31.527 9.542-7.754 22.09-10.722 34.429-8.139 15.406 3.223 27.826 15.781 30.905 31.251 3.483 17.498-4.095 34.546-19.306 43.432z">
+                                    </path>
+                                    <path
+                                        d="m151.791 299.577c4.142 0 7.5-3.358 7.5-7.5 0-4.771 2.062-9.313 5.657-12.459 3.642-3.188 8.334-4.587 13.214-3.933 8.497 1.135 14.713 9.414 14.153 18.845-.656 11.032-5.648 21.094-14.059 28.332-8.392 7.221-19.139 10.647-30.268 9.639-22.159-2.003-38.536-23.222-36.505-47.3 1.504-17.854 9.081-34.933 21.332-48.089 2.823-3.032 2.654-7.777-.377-10.6-3.032-2.823-7.777-2.654-10.6.377-14.53 15.604-23.516 35.866-25.302 57.052-1.291 15.308 2.985 30.295 12.038 42.2 9.403 12.366 22.921 19.93 38.064 21.299 1.737.157 3.467.235 5.188.235 13.335 0 26.034-4.682 36.216-13.444 11.513-9.908 18.349-23.692 19.248-38.812 1.024-17.232-10.897-32.432-27.139-34.603-9.093-1.214-18.236 1.523-25.081 7.514-6.85 5.995-10.778 14.65-10.778 23.747-.001 4.142 3.356 7.5 7.499 7.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div @click.away="selectedItem = '' " x-show="selectedItem === 'item2' " class="absolute w-32 mt-2 text-center bg-gray-200 rounded-md top-14 ">
+                            <span class="text-xs leading-none text-gray-800">Some description about selected/hovered skill</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+
+            <!-- GRID-LIKE SELECTION WITH TOOLTIP ABOVE BTN -->
+            <div x-data="{activeTooltip: 'tooltip1', selectedItem: ''}" class="flex flex-col items-center">
+                <div class="py-2">
+                    <p><span class="text-sm">2&nbsp</span>GRID-LIKE SELECT &nbsp<span class="font-semibold">WITH TOOLTIP ABOVE</span></p>
+                </div>
+                <div class="flex flex-row space-x-4 ">
+                    <div @click="selectedItem = 'item1' " class="relative flex flex-col items-center">
+                        <div @click.away="selectedItem = '' " x-show="selectedItem === 'item1' " class="absolute w-32 mt-2 text-center bg-gray-200 rounded-md bottom-16 ">
+                            <span class="text-xs leading-none text-gray-700">Some description about selected/hovered skill</span>
+                        </div>
+                        <div :class="{'border-yellow-500': selectedItem === 'item1'}" class="flex flex-col items-center w-16 px-3 py-2 border-2 border-gray-600 rounded-md hover:border-yellow-500 ">
+                            <a @click.prevent=""  class="" href="#">
+                                <svg class="w-10" viewBox="0 0 512.008 512.008">
+                                    <path
+                                        d="m510.87 192.555c-3.903-19.613-18.73-35.818-37.629-41.716l17.259-75.807c12.027-1.034 21.5-11.148 21.5-23.439 0-12.976-10.557-23.532-23.532-23.532s-23.532 10.557-23.532 23.532c0 8.366 4.392 15.721 10.987 19.895l-17.502 76.875c-9.27-.313-18.38 1.625-26.582 5.658v-80.129c9.308-3.139 16.032-11.946 16.032-22.3 0-12.976-10.557-23.532-23.532-23.532s-23.532 10.557-23.532 23.532c0 10.354 6.724 19.16 16.032 22.3v90.947c-10.253 10.365-16.032 24.293-16.032 39.059v96.194c0 16.914-10.404 31.539-25.282 37.604 5.29-12.68 8.217-26.583 8.217-41.158 0-50.665-19.03-98.911-53.584-135.85-34.901-37.31-81.749-58.754-131.911-60.381-96.778-3.13-181.018 66.468-195.936 161.909-6.813 43.583 4.989 87.868 32.377 121.501 8.963 11.006 19.206 20.413 30.439 28.087l-40.247 22.36c-15.347 8.526-24.88 24.727-24.88 42.283 0 4.142 3.358 7.5 7.5 7.5h368.742.001c27.696 0 53.738-10.787 73.322-30.371 19.585-19.585 30.371-45.625 30.371-73.323v-121.315c0-2.786 1.676-5.429 4.485-7.069 20.819-12.163 31.201-35.445 26.449-59.314zm-22.402-149.494c4.705 0 8.532 3.828 8.532 8.532s-3.828 8.532-8.532 8.532-8.532-3.828-8.532-8.532 3.827-8.532 8.532-8.532zm-64.129 0c4.705 0 8.532 3.828 8.532 8.532s-3.828 8.532-8.532 8.532-8.532-3.828-8.532-8.532 3.827-8.532 8.532-8.532zm52.515 195.856c-7.463 4.359-11.919 11.844-11.919 20.021v121.316c0 23.691-9.226 45.964-25.978 62.716s-39.025 25.978-62.716 25.978h-360.387c2.1-9.092 7.957-17.03 16.311-21.671l47.877-26.598c17.314 8.869 36.435 14.013 56.521 14.996 2.386.117 4.761.174 7.125.174 73.013-.001 135.143-55.057 143.026-128.198 3.03-28.115-5.449-56.429-23.264-77.681-16.578-19.776-39.62-31.617-64.88-33.341-16.997-1.161-33.968 2.173-49.066 9.64-3.713 1.836-5.234 6.335-3.397 10.048 1.836 3.713 6.334 5.235 10.048 3.397 12.722-6.293 27.038-9.099 41.394-8.121 21.152 1.444 40.474 11.392 54.406 28.012 15.208 18.142 22.441 42.357 19.846 66.438-7.289 67.623-66.366 117.991-134.505 114.648-35.698-1.746-68.007-18.241-90.976-46.446-24.706-30.338-35.345-70.327-29.188-109.712 13.75-87.97 91.4-152.132 180.628-149.231 46.153 1.497 89.282 21.255 121.443 55.636 31.946 34.15 49.539 78.757 49.539 125.603 0 50.865-41.381 92.246-92.246 92.246h-4.463c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h4.463c37.424 0 70.425-19.272 89.619-48.409 28.073-2.964 49.692-26.752 49.692-55.284v-96.194c0-12.282 5.474-23.773 15.019-31.527 9.542-7.754 22.09-10.722 34.429-8.139 15.406 3.223 27.826 15.781 30.905 31.251 3.483 17.498-4.095 34.546-19.306 43.432z">
+                                    </path>
+                                    <path
+                                        d="m151.791 299.577c4.142 0 7.5-3.358 7.5-7.5 0-4.771 2.062-9.313 5.657-12.459 3.642-3.188 8.334-4.587 13.214-3.933 8.497 1.135 14.713 9.414 14.153 18.845-.656 11.032-5.648 21.094-14.059 28.332-8.392 7.221-19.139 10.647-30.268 9.639-22.159-2.003-38.536-23.222-36.505-47.3 1.504-17.854 9.081-34.933 21.332-48.089 2.823-3.032 2.654-7.777-.377-10.6-3.032-2.823-7.777-2.654-10.6.377-14.53 15.604-23.516 35.866-25.302 57.052-1.291 15.308 2.985 30.295 12.038 42.2 9.403 12.366 22.921 19.93 38.064 21.299 1.737.157 3.467.235 5.188.235 13.335 0 26.034-4.682 36.216-13.444 11.513-9.908 18.349-23.692 19.248-38.812 1.024-17.232-10.897-32.432-27.139-34.603-9.093-1.214-18.236 1.523-25.081 7.514-6.85 5.995-10.778 14.65-10.778 23.747-.001 4.142 3.356 7.5 7.499 7.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div @click="selectedItem = 'item2' " class="relative flex flex-col items-center ">
+                        <div @click.away="selectedItem = '' " x-show="selectedItem === 'item2' " class="absolute w-32 mt-2 text-center bg-gray-200 rounded-md bottom-16 ">
+                            <span class="text-xs leading-none text-gray-700">Some description about selected/hovered skill</span>
+                        </div>
+                        <div :class="{'border-yellow-500': selectedItem === 'item2'}" class="flex flex-col items-center w-16 px-3 py-2 border-2 border-gray-600 rounded-md hover:border-yellow-500 ">
+                            <a @click.prevent=""  class="" href="#">
+                                <svg class="w-10" viewBox="0 0 512.008 512.008">
+                                    <path
+                                        d="m510.87 192.555c-3.903-19.613-18.73-35.818-37.629-41.716l17.259-75.807c12.027-1.034 21.5-11.148 21.5-23.439 0-12.976-10.557-23.532-23.532-23.532s-23.532 10.557-23.532 23.532c0 8.366 4.392 15.721 10.987 19.895l-17.502 76.875c-9.27-.313-18.38 1.625-26.582 5.658v-80.129c9.308-3.139 16.032-11.946 16.032-22.3 0-12.976-10.557-23.532-23.532-23.532s-23.532 10.557-23.532 23.532c0 10.354 6.724 19.16 16.032 22.3v90.947c-10.253 10.365-16.032 24.293-16.032 39.059v96.194c0 16.914-10.404 31.539-25.282 37.604 5.29-12.68 8.217-26.583 8.217-41.158 0-50.665-19.03-98.911-53.584-135.85-34.901-37.31-81.749-58.754-131.911-60.381-96.778-3.13-181.018 66.468-195.936 161.909-6.813 43.583 4.989 87.868 32.377 121.501 8.963 11.006 19.206 20.413 30.439 28.087l-40.247 22.36c-15.347 8.526-24.88 24.727-24.88 42.283 0 4.142 3.358 7.5 7.5 7.5h368.742.001c27.696 0 53.738-10.787 73.322-30.371 19.585-19.585 30.371-45.625 30.371-73.323v-121.315c0-2.786 1.676-5.429 4.485-7.069 20.819-12.163 31.201-35.445 26.449-59.314zm-22.402-149.494c4.705 0 8.532 3.828 8.532 8.532s-3.828 8.532-8.532 8.532-8.532-3.828-8.532-8.532 3.827-8.532 8.532-8.532zm-64.129 0c4.705 0 8.532 3.828 8.532 8.532s-3.828 8.532-8.532 8.532-8.532-3.828-8.532-8.532 3.827-8.532 8.532-8.532zm52.515 195.856c-7.463 4.359-11.919 11.844-11.919 20.021v121.316c0 23.691-9.226 45.964-25.978 62.716s-39.025 25.978-62.716 25.978h-360.387c2.1-9.092 7.957-17.03 16.311-21.671l47.877-26.598c17.314 8.869 36.435 14.013 56.521 14.996 2.386.117 4.761.174 7.125.174 73.013-.001 135.143-55.057 143.026-128.198 3.03-28.115-5.449-56.429-23.264-77.681-16.578-19.776-39.62-31.617-64.88-33.341-16.997-1.161-33.968 2.173-49.066 9.64-3.713 1.836-5.234 6.335-3.397 10.048 1.836 3.713 6.334 5.235 10.048 3.397 12.722-6.293 27.038-9.099 41.394-8.121 21.152 1.444 40.474 11.392 54.406 28.012 15.208 18.142 22.441 42.357 19.846 66.438-7.289 67.623-66.366 117.991-134.505 114.648-35.698-1.746-68.007-18.241-90.976-46.446-24.706-30.338-35.345-70.327-29.188-109.712 13.75-87.97 91.4-152.132 180.628-149.231 46.153 1.497 89.282 21.255 121.443 55.636 31.946 34.15 49.539 78.757 49.539 125.603 0 50.865-41.381 92.246-92.246 92.246h-4.463c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h4.463c37.424 0 70.425-19.272 89.619-48.409 28.073-2.964 49.692-26.752 49.692-55.284v-96.194c0-12.282 5.474-23.773 15.019-31.527 9.542-7.754 22.09-10.722 34.429-8.139 15.406 3.223 27.826 15.781 30.905 31.251 3.483 17.498-4.095 34.546-19.306 43.432z">
+                                    </path>
+                                    <path
+                                        d="m151.791 299.577c4.142 0 7.5-3.358 7.5-7.5 0-4.771 2.062-9.313 5.657-12.459 3.642-3.188 8.334-4.587 13.214-3.933 8.497 1.135 14.713 9.414 14.153 18.845-.656 11.032-5.648 21.094-14.059 28.332-8.392 7.221-19.139 10.647-30.268 9.639-22.159-2.003-38.536-23.222-36.505-47.3 1.504-17.854 9.081-34.933 21.332-48.089 2.823-3.032 2.654-7.777-.377-10.6-3.032-2.823-7.777-2.654-10.6.377-14.53 15.604-23.516 35.866-25.302 57.052-1.291 15.308 2.985 30.295 12.038 42.2 9.403 12.366 22.921 19.93 38.064 21.299 1.737.157 3.467.235 5.188.235 13.335 0 26.034-4.682 36.216-13.444 11.513-9.908 18.349-23.692 19.248-38.812 1.024-17.232-10.897-32.432-27.139-34.603-9.093-1.214-18.236 1.523-25.081 7.514-6.85 5.995-10.778 14.65-10.778 23.747-.001 4.142 3.356 7.5 7.499 7.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+            <!-- RADIO SINGLE CHOICE (edits in tailwind configs required) -->
+            <div class="flex flex-col items-center">
+                <fieldset class="flex flex-col items-center">
+                    <div>
+                        <legend class="text-base font-medium text-gray-900">SIMPLE RADIO BTN CHOICE (radios styling requires custom tailwind config) </legend>
+                        <p class="text-sm text-gray-500">Difficulty skills level</p>
+                    </div>
+                    <div class="mt-4 space-y-4 ">
+                        <div class="flex items-center">
+                            <input id="push_everything" name="push_notifications" type="radio"
+                                class="w-4 h-4 text-indigo-600 border-gray-300 focus:ring-indigo-500">
+                            <label for="push_everything" class="block ml-3 text-sm font-medium text-gray-700">
+                                Level 1
+                            </label>
+                        </div>
+                        <div class="flex items-center">
+                            <input id="push_email" name="push_notifications" type="radio"
+                                class="w-4 h-4 text-indigo-600 border-gray-300 focus:ring-indigo-500">
+                            <label for="push_email" class="block ml-3 text-sm font-medium text-gray-700">
+                                Level 2
+                            </label>
+                        </div>
+                        <div class="flex items-center">
+                            <input id="push_nothing" name="push_notifications" type="radio"
+                                class="w-4 h-4 text-indigo-600 border-gray-300 focus:ring-indigo-500">
+                            <label for="push_nothing" class="block ml-3 text-sm font-medium text-gray-700">
+                                Level 3
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+
+            <!-- SHORT TEXT INPUT -->
+            <div x-data="{ inputActive: false, inputValue: '' }" class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>TEXT INPUT&nbsp<span class="font-semibold">WITH PLACEHOLDER ABOVE</span></p>
+                </div>
+                <div>
+                    <p x-show.transition="true" class="text-xs text-gray-400">Short
+                        descr. placeholder</p>
+                    <textarea @keydown="inputActive = true" x-model="inputValue" name="" id="" cols="50" rows="3"
+                        placeholder="Short description placeholder Short description placeholder Short description placeholder Short description placeholder"
+                        class="overflow-hidden break-words border-b-2 border-yellow-400 resize-none focus:outline-none"></textarea>
+                    <p x-show.transition="true" class="text-xs text-red-500">Phone number is requiredfield</p>
+                </div>
+                <div @click=""
+                    class="px-8 py-2 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-md shadow-md cursor-pointer hover:translate-x-1 hover:scale-100">
+                    <a @click.prevent="" class="font-semibold text-gray-700" href="#">Submit</a>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+            <!-- 2-cols GRID TEXT AREA, PLACEHOLDER ON RIGHT -->
+            <div x-data="{ inputActive: false, inputValue: '' }" class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm break-words">2&nbsp</span>TEXT INPUT&nbsp<span class="font-semibold">WITH PLACEHOLDER ON RIGHT (on keydown)</span></p>
+                </div>
+                <div x-bind:class="{'border-r-0': inputActive}" class="grid w-1/2 grid-cols-5 mb-10 overflow-hidden border border-yellow-300 rounded-md">
+                    <div :class="{'col-span-3': inputActive, 'col-span-5': !inputActive}">
+                        <textarea @click.away="inputActive = false"  @keydown="inputActive = true" class="w-full p-1 focus:outline-none" placeholder="PlaceholderPlaceholderPLaceholder" name="" id=""  rows="5"></textarea>
+                    </div>
+                    <div x-show="inputActive"  class="col-span-2 p-1 bg-yellow-300" >
+                        <span class="text-gray-400">PlaceholderPlaceholder PlaceholderPlaceholde PlaceholderPlaceholde PlaceholderPlaceholde</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+
+            <!-- 2-GRID TEXT AREA, PLACEHOLDER ON LEFT -->
+            <div class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>TEXT INPUT&nbsp<span class="font-semibold">WITH PLACEHOLDER ON LEFT</span></p>
+                </div>
+                <div class="grid w-2/3 grid-cols-6 overflow-hidden border border-yellow-300 rounded-md">
+                    <div class="col-span-2 p-1 overflow-hidden break-all bg-yellow-300 ">
+                        <span class="text-gray-400">PlaceholderPlaceholderPlaceholderPlaceholderPlaceholder</span>
+                    </div>
+                    <div class="col-span-4 ">
+                        <textarea class="w-full p-1 focus:outline-none" placeholder="PlaceholderPlaceholderPlaceholderPlaceholderPlaceholder" name="" id="" cols="50" rows="5"></textarea>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            
+            <!-- SINGLE DYNAMIC INPUT FIELD MANAGER -->
+            <div x-data="singleDynamicItemsHandler()" class="flex flex-col items-center w-full ">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>DYNAMIC INPUT&nbsp<span class="font-semibold"></span></p>
+                </div>
+                <div class="flex flex-row items-center ">
+                    <div class="pr-4 ">
+                        <p class="text-xs text-gray-400">Enter dynamic field</p>
+                        <input x-model="inputValue" placeholder="Placeholder" class="w-full px-1 border border-yellow-400 rounded-md focus:outline-none " type="text">
+                        <p class="text-xs text-red-500">Dynamic field warning</p>
+                    </div>
+                    <div @click="addItem(itemValue)" class="flex flex-row items-center px-4 py-1 border rounded-md shadow-sm cursor-pointer ">
+                        <span class="text-xs text-gray-700" href="">Add</span>
+                        <!-- <a @click.prevent="" href="">
+                            <svg class="w-5 svg-icon" viewBox="0 0 20 20">
+                                <path d="M14.613,10c0,0.23-0.188,0.419-0.419,0.419H10.42v3.774c0,0.23-0.189,0.42-0.42,0.42s-0.419-0.189-0.419-0.42v-3.774H5.806c-0.23,0-0.419-0.189-0.419-0.419s0.189-0.419,0.419-0.419h3.775V5.806c0-0.23,0.189-0.419,0.419-0.419s0.42,0.189,0.42,0.419v3.775h3.774C14.425,9.581,14.613,9.77,14.613,10 M17.969,10c0,4.401-3.567,7.969-7.969,7.969c-4.402,0-7.969-3.567-7.969-7.969c0-4.402,3.567-7.969,7.969-7.969C14.401,2.031,17.969,5.598,17.969,10 M17.13,10c0-3.932-3.198-7.13-7.13-7.13S2.87,6.068,2.87,10c0,3.933,3.198,7.13,7.13,7.13S17.13,13.933,17.13,10"></path>
+                            </svg>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="flex flex-col items-center pt-4">
+                    <template x-for="item in items" :key="item">
+                        <div class="flex flex-row items-center pb-2 cursor-default ">
+                            <div class="px-2 border rounded-md shadow-sm">
+                                <span x-text="item.value" class="text-sm text-gray-800"></span>
+                            </div>
+                            <a @click.prevent="" class="pl-1" href="">
+                                <svg class="w-4 text-gray-700 fill-current svg-icon" viewBox="0 0 20 20">
+                                    <path d="M10.185,1.417c-4.741,0-8.583,3.842-8.583,8.583c0,4.74,3.842,8.582,8.583,8.582S18.768,14.74,18.768,10C18.768,5.259,14.926,1.417,10.185,1.417 M10.185,17.68c-4.235,0-7.679-3.445-7.679-7.68c0-4.235,3.444-7.679,7.679-7.679S17.864,5.765,17.864,10C17.864,14.234,14.42,17.68,10.185,17.68 M10.824,10l2.842-2.844c0.178-0.176,0.178-0.46,0-0.637c-0.177-0.178-0.461-0.178-0.637,0l-2.844,2.841L7.341,6.52c-0.176-0.178-0.46-0.178-0.637,0c-0.178,0.176-0.178,0.461,0,0.637L9.546,10l-2.841,2.844c-0.178,0.176-0.178,0.461,0,0.637c0.178,0.178,0.459,0.178,0.637,0l2.844-2.841l2.844,2.841c0.178,0.178,0.459,0.178,0.637,0c0.178-0.176,0.178-0.461,0-0.637L10.824,10z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </template>
+                </div>
+            </div>
+
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+             <!-- DOUBLE DYNAMIC INPUT FIELD MANAGER -->
+             <div x-data="doubleDynamicItemsHandler()" class="flex flex-col items-center w-full ">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>DYNAMIC INPUT&nbsp<span class="font-semibold"></span></p>
+                </div>
+                <div class="flex flex-row items-center ">
+                    <div class="flex flex-row pr-4 space-x-4 ">
+                        <div>
+                            <p class="text-xs text-gray-400">Enter dynamic field</p>
+                            <input x-model="input1Value" placeholder="Placeholder" class="w-full px-1 border border-yellow-400 rounded-md focus:outline-none " type="text">
+                            <p class="text-xs text-red-500">Dynamic field warning</p>
+    
+                        </div>
+                        <div>
+                            <p class="text-xs text-gray-400">Enter dynamic field</p>
+                            <input x-model="input2Value" placeholder="Placeholder" class="w-full px-1 border border-yellow-400 rounded-md focus:outline-none " type="text">
+                            <p class="text-xs text-red-500">Dynamic field warning</p>
+    
+                        </div>                    </div>
+                    <div @click="addItem(input1Value, input2Value)" class="flex flex-row items-center px-4 py-1 border rounded-md shadow-sm cursor-pointer ">
+                        <span class="text-xs text-gray-700" href="">Add</span>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center pt-4">
+                    <template x-for="item in items" :key="item">
+                        <div class="flex flex-row items-center pb-2 cursor-default ">
+                            <div class="grid grid-cols-2 px-2 border rounded-md shadow-sm">
+                                <span x-text="item.key" class="pr-1 text-sm text-gray-700 border-r"></span>
+                                <span x-text="item.value" class="pl-1 text-sm text-gray-700"></span>
+                            </div>
+                            <a @click.prevent="" class="pl-1" href="">
+                                <svg class="w-3 text-gray-700 fill-current svg-icon" viewBox="0 0 20 20">
+                                    <path d="M10.185,1.417c-4.741,0-8.583,3.842-8.583,8.583c0,4.74,3.842,8.582,8.583,8.582S18.768,14.74,18.768,10C18.768,5.259,14.926,1.417,10.185,1.417 M10.185,17.68c-4.235,0-7.679-3.445-7.679-7.68c0-4.235,3.444-7.679,7.679-7.679S17.864,5.765,17.864,10C17.864,14.234,14.42,17.68,10.185,17.68 M10.824,10l2.842-2.844c0.178-0.176,0.178-0.46,0-0.637c-0.177-0.178-0.461-0.178-0.637,0l-2.844,2.841L7.341,6.52c-0.176-0.178-0.46-0.178-0.637,0c-0.178,0.176-0.178,0.461,0,0.637L9.546,10l-2.841,2.844c-0.178,0.176-0.178,0.461,0,0.637c0.178,0.178,0.459,0.178,0.637,0l2.844-2.841l2.844,2.841c0.178,0.178,0.459,0.178,0.637,0c0.178-0.176,0.178-0.461,0-0.637L10.824,10z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </template>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            
+            <!-- TAB-LIKE SELECT 1 -->
+            <div x-data="{activeTab: 'tab1'}" class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>TAB-LIKE&nbsp<span class="font-semibold">SELECT</span></p>
+                </div>
+                <div class="border-b-2 ">
+                    <ul class='flex space-x-1 cursor-pointer'>
+                      <li @click="activeTab = 'tab1'" :class="{'bg-white': activeTab === 'tab1', 'bg-gray-300': activeTab !== 'tab1'}" class='px-6 py-2 text-gray-800 rounded-t-lg'>Tab1</li>
+                      <li @click="activeTab = 'tab2'" :class="{'bg-white': activeTab === 'tab2', 'bg-gray-300': activeTab !== 'tab2'}" class='px-6 py-2 text-gray-800 rounded-t-lg'>Tab2</li>
+                      <li @click="activeTab = 'tab3'" :class="{'bg-white': activeTab === 'tab3', 'bg-gray-300': activeTab !== 'tab3'}" class='px-6 py-2 text-gray-800 rounded-t-lg'>Tab3</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            
+            <!-- TAB-LIKE SELECT 2 -->
+            <div class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>TAB-LIKE&nbsp<span class="font-semibold">SELECT 2</span></p>
+                </div>
+                <div class="bg-white">
+                    <nav class="flex flex-col sm:flex-row">
+                        <button class="block px-6 py-4 font-medium text-gray-600 border-b-2 border-yellow-500 text-yelow-500 hover:text-yellow-500 focus:outline-none">
+                            Tab 1
+                        </button><button class="block px-6 py-4 text-gray-600 hover:text-yellow-500 focus:outline-none">
+                            Tab 2
+                        </button><button class="block px-6 py-4 text-gray-600 hover:text-yellow-500 focus:outline-none">
+                            Tab 3
+                        </button><button class="block px-6 py-4 text-gray-600 hover:text-yellow-500 focus:outline-none">
+                            Tab 4
+                        </button>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            
+            
+            <!--INPUT WITH INPUT VALUE TYPE CHOICE  -->
+            <div class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>INPUT WITH&nbsp<span class="font-semibold">WITH VALUE TYPE CHOICE</span></p>
+                </div>
+                <div class="flex flex-row items-center">
+                    <input placeholder="Placeholder" class="px-1 border border-yellow-400 rounded-md focus:outline-none " type="text">
+                    <select class="ml-2 border rounded-md focus:outline-none" name="" id="">
+                        <option selected disabled value="">selectValueType</option>
+                        <option value="">valueType1</option>
+                        <option value="">valueType2</option>
+                        <option value="">valueType3</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            <!--INPUT WITH INPUT VALUE TYPE CHOICE  -->
+            <div class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>INPUT WITH&nbsp<span class="font-semibold">WITH VALUE TYPE CHOICE 2</span></p>
+                </div>
+                <div>
+                    <label for="price" class="block text-sm font-medium text-gray-700">Price</label>
+                    <div class="relative mt-1 border rounded-md shadow-sm">
+                      <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <span class="text-gray-500 sm:text-sm">
+                            €
+                        </span>
+                      </div>
+                      <input type="text" name="price" id="price" class="block w-full pr-12 border-gray-300 rounded-md focus:ring-indigo-500 focus:outline-none pl-7 sm:text-sm" placeholder="0.00">
+                      <div class="absolute inset-y-0 right-0 flex items-center">
+                        <label for="currency" class="sr-only">Currency</label>
+                        <select id="currency" name="currency" class="h-full py-0 pl-2 text-gray-500 bg-transparent border-transparent rounded-md focus:ring-indigo-500 focus:border-indigo-500 pr-7 sm:text-sm">
+                          <option>EUR</option>
+                          <option>CZK</option>
+                          <option>ETC</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            
+            <!-- COUNTER-LIKE INPUT -->
+            <div class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>COUNTER&nbsp<span class="font-semibold">BUTTONS</span></p>
+                </div>
+                <div class="grid grid-cols-4 py-1 bg-gray-100 border border-gray-100 rounded-lg w-36">
+                    <div class="flex flex-row items-center justify-center col-span-1 cursor-pointer ">
+                        <span class="text-lg text-gray-600">-</span>
+                        <!-- <a href="">
+                            <svg class="w-5 svg-icon" viewBox="0 0 20 20">
+                                <path d="M14.776,10c0,0.239-0.195,0.434-0.435,0.434H5.658c-0.239,0-0.434-0.195-0.434-0.434s0.195-0.434,0.434-0.434h8.684C14.581,9.566,14.776,9.762,14.776,10 M18.25,10c0,4.558-3.693,8.25-8.25,8.25c-4.557,0-8.25-3.691-8.25-8.25c0-4.557,3.693-8.25,8.25-8.25C14.557,1.75,18.25,5.443,18.25,10 M17.382,10c0-4.071-3.312-7.381-7.382-7.381C5.929,2.619,2.619,5.93,2.619,10c0,4.07,3.311,7.382,7.381,7.382C14.07,17.383,17.382,14.07,17.382,10"></path>
+                            </svg>
+                        </a> -->
+                    </div>
+                    <div class="flex flex-row items-center justify-center col-span-2 overflow-hidden text-gray-500 bg-gray-100">
+                        <input class="w-full text-center bg-gray-100 focus:outline-none" type="number" value="0">
+                    </div>
+                    <div class="flex flex-row items-center justify-center col-span-1 cursor-pointer">
+                        <span class="text-lg text-gray-600">+</span>
+                        <!-- <a href="">
+                            <svg class="w-5 text-gray-600 fill-current svg-icon" viewBox="0 0 20 20">
+                                <path d="M14.613,10c0,0.23-0.188,0.419-0.419,0.419H10.42v3.774c0,0.23-0.189,0.42-0.42,0.42s-0.419-0.189-0.419-0.42v-3.774H5.806c-0.23,0-0.419-0.189-0.419-0.419s0.189-0.419,0.419-0.419h3.775V5.806c0-0.23,0.189-0.419,0.419-0.419s0.42,0.189,0.42,0.419v3.775h3.774C14.425,9.581,14.613,9.77,14.613,10 M17.969,10c0,4.401-3.567,7.969-7.969,7.969c-4.402,0-7.969-3.567-7.969-7.969c0-4.402,3.567-7.969,7.969-7.969C14.401,2.031,17.969,5.598,17.969,10 M17.13,10c0-3.932-3.198-7.13-7.13-7.13S2.87,6.068,2.87,10c0,3.933,3.198,7.13,7.13,7.13S17.13,13.933,17.13,10"></path>
+                            </svg>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            <!-- PILLS LIKE SELECTION -->
+            <div class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>PILLS-LIKE&nbsp<span class="font-semibold">SELECT</span></p>
+                </div>
+                <div class="flex flex-row space-x-2 text-gray-800">
+                    <div class="px-6 py-3 bg-yellow-400 rounded-full cursor-pointer ">
+                        <span>Opt1</span>
+                    </div>
+                    <div class="px-6 py-3 border border-gray-800 rounded-full cursor-pointer ">
+                        <span>Opt2</span>
+                    </div>
+                    <div class="px-6 py-3 border border-gray-800 rounded-full cursor-pointer ">
+                        <span>Opt3</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            
+            <!-- DATEPICKER -->
+            <div class="flex flex-col items-center w-full">
+                <div class="antialiased sans-serif">
+                    <div x-data="datepickerHandler()" x-init="[initDate(), getNoOfDays()]" x-cloak>
+                        <div class="container px-4 py-2 mx-auto md:py-10">
+                            <div class="w-64 mb-5">
+              
+                                <label for="datepicker" class="block mb-1 font-bold text-gray-700">Select Date</label>
+                                <div class="relative">
+                                    <input type="hidden" name="date" x-ref="date">
+                                    <input 
+                                        type="text"
+                                        readonly
+                                        x-model="datepickerValue"
+                                        @click="showDatepicker = !showDatepicker"
+                                        @keydown.escape="showDatepicker = false"
+                                        class="w-full py-3 pl-4 pr-10 font-medium leading-none text-gray-600 rounded-lg shadow-sm cursor-pointer focus:outline-none focus:shadow-outline"
+                                        placeholder="Select date">
+              
+                                        <div class="absolute top-0 right-0 px-3 py-2">
+                                            <svg class="w-6 h-6 text-gray-400"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                            </svg>
+                                        </div>
+              
+              
+                                        <!-- <div x-text="no_of_days.length"></div>
+                                        <div x-text="32 - new Date(year, month, 32).getDate()"></div>
+                                        <div x-text="new Date(year, month).getDay()"></div> -->
+              
+                                        <div 
+                                            class="absolute top-0 left-0 p-4 mt-12 bg-white rounded-lg shadow" 
+                                            style="width: 17rem" 
+                                            x-show.transition="showDatepicker"
+                                            @click.away="showDatepicker = false">
+              
+                                            <div class="flex items-center justify-between mb-2">
+                                                <div>
+                                                    <span x-text="MONTH_NAMES[month]" class="text-lg font-bold text-gray-800"></span>
+                                                    <span x-text="year" class="ml-1 text-lg font-normal text-gray-600"></span>
+                                                </div>
+                                                <div>
+                                                    <button 
+                                                        type="button"
+                                                        class="inline-flex p-1 transition duration-100 ease-in-out rounded-full cursor-pointer hover:bg-gray-200" 
+                                                        :class="{'cursor-not-allowed opacity-25': month == 0 }"
+                                                        :disabled="month == 0 ? true : false"
+                                                        @click="month--; getNoOfDays()">
+                                                        <svg class="inline-flex w-6 h-6 text-gray-500"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                                                        </svg>  
+                                                    </button>
+                                                    <button 
+                                                        type="button"
+                                                        class="inline-flex p-1 transition duration-100 ease-in-out rounded-full cursor-pointer hover:bg-gray-200" 
+                                                        :class="{'cursor-not-allowed opacity-25': month == 11 }"
+                                                        :disabled="month == 11 ? true : false"
+                                                        @click="month++; getNoOfDays()">
+                                                        <svg class="inline-flex w-6 h-6 text-gray-500"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                                                        </svg>									  
+                                                    </button>
+                                                </div>
+                                            </div>
+              
+                                            <div class="flex flex-wrap mb-3 -mx-1">
+                                                <template x-for="(day, index) in DAYS" :key="index">	
+                                                    <div style="width: 14.26%" class="px-1">
+                                                        <div
+                                                            x-text="day" 
+                                                            class="text-xs font-medium text-center text-gray-800"></div>
+                                                    </div>
+                                                </template>
+                                            </div>
+              
+                                            <div class="flex flex-wrap -mx-1">
+                                                <template x-for="blankday in blankdays">
+                                                    <div 
+                                                        style="width: 14.28%"
+                                                        class="p-1 text-sm text-center border border-transparent"	
+                                                    ></div>
+                                                </template>	
+                                                <template x-for="(date, dateIndex) in no_of_days" :key="dateIndex">	
+                                                    <div style="width: 14.28%" class="px-1 mb-1">
+                                                        <div
+                                                            @click="getDateValue(date)"
+                                                            x-text="date"
+                                                            class="text-sm leading-none leading-loose text-center transition duration-100 ease-in-out rounded-full cursor-pointer"
+                                                            :class="{'bg-yellow-500 text-white': isToday(date) == true, 'text-gray-700 hover:bg-yellow-200': isToday(date) == false }"	
+                                                        ></div>
+                                                    </div>
+                                                </template>
+                                            </div>
+                                        </div>
+              
+                                </div>	 
+                            </div>
+              
+                        </div>
+                    </div>
+            </div>
+
+
+
+            
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            <!-- TIME INPUT -->
+            <div class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>SIMPLE TIME&nbsp<span class="font-semibold">INPUT</span></p>
+                </div>
+                <div class="p-1 border border-gray-300 rounded-md ">
+                    <input class="border-b-2 border-yellow-400 focus:outline-none" type="time" placeholder="hh:mm" step="00:05">
+                </div>
+            </div>
+
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            
+            <!-- TIME INPUT 2 -->
+            <div class="flex flex-col items-center w-full custom-time-input">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>SIMPLE TIME&nbsp<span class="font-semibold">INPUT 2</span></p>
+                </div>
+                <div class="p-1 border border-gray-300 rounded-md ">
+                    <input class="border-b-2 border-yellow-400 focus:outline-none" type="time" placeholder="hh:mm" step="00:05">
+                </div>
+            </div>
+
+
+        
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            <!-- SLIDER -->
+            <div x-data="{inputValue: 50}" class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>SLIDER WITH &nbsp<span class="font-semibold">VALUE ON RIGHT/BELOW??</span></p>
+                </div>
+                <div class="grid items-center grid-cols-2 ">
+                    <input x-model="inputValue" class="h-3 overflow-visible bg-yellow-400 rounded-lg appearance-none focus:outline-none w-128" type="range">
+                    <div class="p-1 ml-8 bg-gray-100 border rounded-md w-min ">
+                        <span x-text="inputValue"></span>
+                    </div>
+                </div>        
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            <!-- HOVER DYNAMIC SELECT -->
+            <div x-data="customHoverHandler()" class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>HOVERED SELECTION&nbsp<span class="font-semibold"></span></p>
+                </div>
+                <div class="flex flex-row space-x-2" @mouseover.away="actualHovered = undefined" >
+                    <div @mouseover="hoverFunc(0)"  :class="{'bg-yellow-400': actualHovered >= 0}" class="w-8 h-8 border-2 border-yellow-400 rounded-full"></div>
+                    <div @mouseover="hoverFunc(1)"  :class="{'bg-yellow-400': actualHovered >= 1}" class="w-8 h-8 border-2 border-yellow-400 rounded-full"></div>
+                    <div @mouseover="hoverFunc(2)"  :class="{'bg-yellow-400': actualHovered >= 2}" class="w-8 h-8 border-2 border-yellow-400 rounded-full"></div>
+                    <div @mouseover="hoverFunc(3)"  :class="{'bg-yellow-400': actualHovered >= 3}" class="w-8 h-8 border-2 border-yellow-400 rounded-full"></div>
+                </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+            <!-- BUTTONS -->
+            <div class="flex flex-col items-center w-full space-y-4">
+                <div class="px-8 py-2 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-md shadow-md cursor-pointer hover:translate-x-1 hover:scale-100">
+                    <a class="font-semibold text-gray-700" href="#">Submit</a>
+                </div>
+                <div class="px-10 py-4 mt-4 transition duration-300 ease-in-out transform border border-yellow-400 rounded-md shadow-sm cursor-pointer hover:translate-x-1 hover:scale-100">
+                    <a class="font-semibold text-gray-700" href="#">Submit</a>
+                </div>
+                <div class="px-8 py-4 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-full shadow-md cursor-pointer hover:translate-x-1 hover:scale-100">
+                    <a class="font-semibold text-gray-700" href="#">Submit</a>
+                </div>
+                <div class="flex flex-row items-center px-8 py-4 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-md shadow-md cursor-pointer hover:translate-x-1 hover:scale-100">
+                    <a href="">
+                        <svg class="w-5 h-5 text-gray-700 fill-current svg-icon" viewBox="0 0 20 20">
+							<path d="M18.125,15.804l-4.038-4.037c0.675-1.079,1.012-2.308,1.01-3.534C15.089,4.62,12.199,1.75,8.584,1.75C4.815,1.75,1.982,4.726,2,8.286c0.021,3.577,2.908,6.549,6.578,6.549c1.241,0,2.417-0.347,3.44-0.985l4.032,4.026c0.167,0.166,0.43,0.166,0.596,0l1.479-1.478C18.292,16.234,18.292,15.968,18.125,15.804 M8.578,13.99c-3.198,0-5.716-2.593-5.733-5.71c-0.017-3.084,2.438-5.686,5.74-5.686c3.197,0,5.625,2.493,5.64,5.624C14.242,11.548,11.621,13.99,8.578,13.99 M16.349,16.981l-3.637-3.635c0.131-0.11,0.721-0.695,0.876-0.884l3.642,3.639L16.349,16.981z"></path>
+						</svg>
+                    </a>
+                    <a class="pl-3 text-sm font-bold text-gray-700 " href="#">SUBMIT</a>
+                </div>
+                <div class="flex flex-row px-2 py-2 space-x-4 border rounded-md">
+                    <a href="" class="transition duration-300 ease-in-out transform hover:-translate-x-1 hover:scale-100">
+                        <svg class="w-5 text-gray-800 fill-current svg-icon" viewBox="0 0 20 20">
+                            <path fill="current" d="M18.271,9.212H3.615l4.184-4.184c0.306-0.306,0.306-0.801,0-1.107c-0.306-0.306-0.801-0.306-1.107,0
+                            L1.21,9.403C1.194,9.417,1.174,9.421,1.158,9.437c-0.181,0.181-0.242,0.425-0.209,0.66c0.005,0.038,0.012,0.071,0.022,0.109
+                            c0.028,0.098,0.075,0.188,0.142,0.271c0.021,0.026,0.021,0.061,0.045,0.085c0.015,0.016,0.034,0.02,0.05,0.033l5.484,5.483
+                            c0.306,0.307,0.801,0.307,1.107,0c0.306-0.305,0.306-0.801,0-1.105l-4.184-4.185h14.656c0.436,0,0.788-0.353,0.788-0.788
+                            S18.707,9.212,18.271,9.212z"></path>
+                        </svg>
+                    </a>
+                    <a href="" class="transition duration-300 ease-in-out transform hover:translate-x-1 hover:scale-100">
+                        <svg class="w-5 text-gray-800 fill-current svg-icon" viewBox="0 0 20 20">
+                            <path fill="current" d="M1.729,9.212h14.656l-4.184-4.184c-0.307-0.306-0.307-0.801,0-1.107c0.305-0.306,0.801-0.306,1.106,0
+                            l5.481,5.482c0.018,0.014,0.037,0.019,0.053,0.034c0.181,0.181,0.242,0.425,0.209,0.66c-0.004,0.038-0.012,0.071-0.021,0.109
+                            c-0.028,0.098-0.075,0.188-0.143,0.271c-0.021,0.026-0.021,0.061-0.045,0.085c-0.015,0.016-0.034,0.02-0.051,0.033l-5.483,5.483
+                            c-0.306,0.307-0.802,0.307-1.106,0c-0.307-0.305-0.307-0.801,0-1.105l4.184-4.185H1.729c-0.436,0-0.788-0.353-0.788-0.788
+                            S1.293,9.212,1.729,9.212z"></path>
+                        </svg>
+                    </a>                    
+                </div>
+                <div class="px-10 py-4 bg-yellow-300 rounded-lg shadow-md cursor-pointer">
+                    <a href="">
+                        <svg class="w-6 h-6 text-gray-700 fill-current svg-icon" viewBox="0 0 20 20">
+							<path d="M18.125,15.804l-4.038-4.037c0.675-1.079,1.012-2.308,1.01-3.534C15.089,4.62,12.199,1.75,8.584,1.75C4.815,1.75,1.982,4.726,2,8.286c0.021,3.577,2.908,6.549,6.578,6.549c1.241,0,2.417-0.347,3.44-0.985l4.032,4.026c0.167,0.166,0.43,0.166,0.596,0l1.479-1.478C18.292,16.234,18.292,15.968,18.125,15.804 M8.578,13.99c-3.198,0-5.716-2.593-5.733-5.71c-0.017-3.084,2.438-5.686,5.74-5.686c3.197,0,5.625,2.493,5.64,5.624C14.242,11.548,11.621,13.99,8.578,13.99 M16.349,16.981l-3.637-3.635c0.131-0.11,0.721-0.695,0.876-0.884l3.642,3.639L16.349,16.981z"></path>
+						</svg>
+                    </a> 
+                </div>
+                <div class="px-10 py-4 mt-4 transition duration-300 ease-in-out transform border border-gray-400 rounded-md shadow-sm cursor-pointer hover:translate-x-1 hover:scale-100">
+                    <a class="font-semibold text-gray-700 border-b border-gray-700" href="#">Submit</a>
+                </div>
+                <div class="px-8 py-4 mt-4 transition duration-300 ease-in-out transform bg-gray-800 rounded-full shadow-md cursor-pointer hover:translate-x-1 hover:scale-100">
+                    <a class="text-yellow-400 font-tight" href="#">Submit</a>
+                </div>
+            </div>
+
+
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+            <!-- LOGIN DROPDOWN -->
+            <div class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>LOGIN DROPDOWN&nbsp<span class="font-semibold"></span></p>
+                </div>
+                <div class="flex items-center justify-center bg-gray-200 h-min dark:bg-gray-500">
+                    <div x-data="{ open: false }" class="flex items-center justify-center w-64 bg-white shadow dark:bg-gray-800">
+                        <div @click="open = !open" class="relative py-3 border-b-4 border-transparent" :class="{'border-yellow-400 transform transition duration-300 ': open}" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100">
+                          <div class="flex items-center justify-center space-x-3 cursor-pointer">
+                            <div class="w-12 h-12 overflow-hidden border-2 border-gray-900 rounded-full dark:border-white">
+                              <img src="https://images.unsplash.com/photo-1610397095767-84a5b4736cbd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" class="object-cover w-full h-full">
+                            </div>
+                            <div class="text-lg font-semibold text-gray-900 dark:text-white">
+                              <div class="cursor-pointer">Username</div>
+                            </div>
+                          </div>
+                          <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute px-5 py-3 mt-5 bg-white border rounded-lg shadow w-60 dark:bg-gray-800 dark:border-transparent">
+                            <ul class="space-y-3 dark:text-white">
+                              <li class="font-medium">
+                                <a href="#" class="flex items-center transition-colors duration-200 transform border-r-4 border-transparent hover:border-yellow-400">
+                                  <div class="mr-3">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                                  </div>
+                                  Account
+                                </a>
+                              </li>
+                              <li class="font-medium">
+                                <a href="#" class="flex items-center transition-colors duration-200 transform border-r-4 border-transparent hover:border-yellow-400">
+                                  <div class="mr-3">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                  </div>
+                                  Setting
+                                </a>
+                              </li>
+                              <hr class="dark:border-gray-700">
+                              <li class="font-medium">
+                                <a href="#" class="flex items-center transition-colors duration-200 transform border-r-4 border-transparent hover:border-red-600">
+                                  <div class="mr-3 text-red-600">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
+                                  </div>
+                                  Logout
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+
+            <!-- ICON DROPDOWN  -->
+            <div class="flex flex-col items-center w-full">
+                <div>
+                    <p><span class="text-sm">2&nbsp</span>ICON DROPDOWN &nbsp<span class="font-semibold"></span></p>
+                </div>
+                <div class="flex items-center justify-center bg-gray-200 h-min dark:bg-gray-500">
+                    <div x-data="{ open: false }" class="flex items-center justify-center w-20 bg-white shadow dark:bg-gray-800">
+                        <div @click="open = !open" class="relative py-3 border-b-4 border-transparent" :class="{'border-yellow-400 transform transition duration-300 ': open}" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100">
+                          <div class="flex items-center justify-center space-x-3 cursor-pointer">
+                            <div class="w-12 h-12 overflow-hidden border-2 border-gray-900 rounded-full dark:border-white">
+                              <img src="https://www.flaticon.com/svg/vstatic/svg/197/197484.svg?token=exp=1617746215~hmac=ef897253bb71df1cb316277af8d2074d" alt="" class="object-cover w-full h-full">
+                            </div>
+                          </div>
+                          <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute px-5 py-3 mt-5 bg-white border rounded-lg shadow w-28 dark:bg-gray-800 dark:border-transparent">
+                            <ul class="space-y-3 dark:text-white">
+                              <li class="font-medium">
+                                <a href="#" class="flex items-center transition-colors duration-200 transform border-r-4 border-transparent hover:border-yellow-400">
+                                  <div class="mr-3">
+                                    <img src="https://www.flaticon.com/svg/vstatic/svg/197/197576.svg?token=exp=1617746215~hmac=0224f1e87d4b3511c6198511099bd6bf" alt="" class="object-cover w-full h-full">
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="font-medium">
+                                <a href="#" class="flex items-center transition-colors duration-200 transform border-r-4 border-transparent hover:border-yellow-400">
+                                  <div class="mr-3">
+                                    <img src="https://www.flaticon.com/svg/vstatic/svg/197/197484.svg?token=exp=1617746215~hmac=ef897253bb71df1cb316277af8d2074d" alt="" class="object-cover w-full h-full">
+
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="w-full bg-gray-900 h-0.5 my-10"></div>
+
+            <!-- CONTACT FORM -->
+            <div class="flex flex-col items-center w-full ">
+                <div class="py-2">
+                    <p><span class="text-sm">2 </span>CONTACT <span class="font-semibold">FORM</span></p>
+                </div>
+                <div class="flex flex-col space-y-5 w-96">
+                    <div>
+                        <p  class="text-xs text-gray-400">Enter your email adress</p>
+                        <input placeholder="john@doe.com"  
+                            class="w-full border-b-2 border-yellow-300 focus:outline-none " type="text">
+                        <p  class="text-xs text-red-500">Email address is required
+                            field</p>
+                        </div>     
+                    <div>
+                        <p  class="text-xs text-gray-400">Enter your name</p>
+                        <input placeholder="John"  
+                            class="w-full border-b-2 border-yellow-300 focus:outline-none " type="text">
+                        <p  class="text-xs text-red-500">Name is required
+                            field</p>
+                        <p  class="text-xs text-gray-400">What do you want to say...</p>
+                    </div>
+                    <div>
+                        <textarea  class="w-full p-1 border border-yellow-300 rounded-md resize-none focus:outline-none" placeholder="PlaceholderPlaceholderPLaceholder" name="" id=""  rows="5"></textarea>
+                    </div>
+                </div>
+                <div 
+                    class="px-8 py-2 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-md shadow-md cursor-pointer hover:translate-x-1 hover:scale-100">
+                    <a  class="font-semibold text-gray-700" href="#">Send us a message</a>
+                </div>
+            </div>
+
+
+
+        </main>
+    </section>
+</body>
+
+</html>
+<script>
+    function inputsHandler() {
+        return {
+            input1: {
+                isActive: false,
+                placeholder: 'input1 placeholder',
+                val: '',
+                type: 'text'
+            },
+            input2: {
+                isActive: false,
+                placeholder: 'input2 placeholder',
+                val: '',
+                type: 'password'
+            },
+            input3: {
+                isActive: false,
+                placeholder: 'input3 placeholder',
+                type: 'password'
+            },
+            submitted: false,
+            activateInput(input) {
+                input.isActive = true;
+                this.submitted = false
+            },
+            submitForm() {
+                this.submitted = true
+            },
+            isActive(input) {
+                return ((input.isActive === true) && (input.val.length != 0));
+            },
+            isSubmitted(input) {
+                return (this.submitted && input.val === '');
+            }
+        }
+    }
+
+    function singleDynamicItemsHandler() {
+        return {
+            items: [
+            {value: 'item1'},
+            {value: 'item2'},
+            {value: 'item3'},
+            ],
+            inputValue: '',
+            addItem(itemValue) {
+                const newItem = { value: itemValue };
+                this.items.push(newItem);
+            }
+        }
+    }
+
+    function doubleDynamicItemsHandler() {
+        return {
+            items: [
+            {key: 'item1Key', value: 'item1Value'},
+            {key: 'item2Key', value: 'item2Value'},
+            {key: 'item3Key', value: 'item3Value'},
+            ],
+            input1Value: '',
+            input2Value: '',
+            addItem(input1Value, input2Value) {
+                const newItem = { key: input1Value, value: input2Value };
+                this.items.push(newItem);
+            }
+        }
+    }
+
+    function customHoverHandler() {
+        return {
+            actualHovered: undefined,
+            hoverFunc(order) {
+                console.log('oooo', order);
+                this.actualHovered = order
+            }
+        }
+        
+    }
+
+    
+    const MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+    function datepickerHandler() {
+        return {
+            showDatepicker: false,
+            datepickerValue: '',
+
+            month: '',
+            year: '',
+            no_of_days: [],
+            blankdays: [],
+            days: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+
+            initDate() {
+                let today = new Date();
+                this.month = today.getMonth();
+                this.year = today.getFullYear();
+                this.datepickerValue = new Date(this.year, this.month, today.getDate()).toDateString();
+            },
+
+            isToday(date) {
+                const today = new Date();
+                const d = new Date(this.year, this.month, date);
+
+                return today.toDateString() === d.toDateString() ? true : false;
+            },
+
+            getDateValue(date) {
+                let selectedDate = new Date(this.year, this.month, date);
+                this.datepickerValue = selectedDate.toDateString();
+
+                this.$refs.date.value = selectedDate.getFullYear() +"-"+ ('0'+ selectedDate.getMonth()).slice(-2) +"-"+ ('0' + selectedDate.getDate()).slice(-2);
+
+                console.log(this.$refs.date.value);
+
+                this.showDatepicker = false;
+            },
+
+            getNoOfDays() {
+                let daysInMonth = new Date(this.year, this.month + 1, 0).getDate();
+
+                // find where to start calendar day of week
+                let dayOfWeek = new Date(this.year, this.month).getDay();
+                let blankdaysArray = [];
+                for ( var i=1; i <= dayOfWeek; i++) {
+                    blankdaysArray.push(i);
+                }
+
+                let daysArray = [];
+                for ( var i=1; i <= daysInMonth; i++) {
+                    daysArray.push(i);
+                }
+
+                this.blankdays = blankdaysArray;
+                this.no_of_days = daysArray;
+            }
+        }
+    }
+</script>
+<style>
+    .test:hover:before,
+    .test:hover ~ span:before  {
+        background-color: red;
+    }
+
+
+    input[type="range"]::-webkit-slider-thumb {
+        width: 15px;
+        -webkit-appearance: none;
+          appearance: none;
+        height: 15px;
+        cursor: ew-resize;
+        background: gray;
+        border-radius: 50%;   
+    }
+    
+    input[type='number']::-webkit-inner-spin-button,
+    input[type='number']::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    [x-cloak] {
+        display: none;
+    }
+    .custom-time-input * input[type=time] {
+        border: none;
+        color: #2a2c2d;
+        font-size: 14px;
+        line-height: 10px;
+        width: 125px;
+      }
+      
+      /* Wrapper around the hour, minute, second, and am/pm fields as well as 
+      the up and down buttons and the 'X' button */
+      .custom-time-input * input[type=time]::-webkit-datetime-edit-fields-wrapper {
+        display: flex;
+      }
+      
+      /* The space between the fields - between hour and minute, the minute and 
+      second, second and am/pm */
+      .custom-time-input * input[type=time]::-webkit-datetime-edit-text {
+        padding: 19px 4px;
+      }
+      
+      /* The naming convention for the hour, minute, second, and am/pm field is
+      `-webkit-datetime-edit-{field}-field` */
+      
+      /* Hour */
+      .custom-time-input * input[type=time]::-webkit-datetime-edit-hour-field {
+        background-color: #f2f4f5;
+        border-radius: 15%;
+        padding: 19px 13px;
+      }
+      
+      /* Minute */
+      .custom-time-input * input[type=time]::-webkit-datetime-edit-minute-field {
+        background-color: #f2f4f5;
+        border-radius: 15%;
+        padding: 19px 13px;
+      }
+      
+
+      
+
+    
+</style>
+
+<!-- EMAIL INPUT -->
+<!-- <div x-data="{ inputActive: false, placeholder: 'johndoe@gmail.com', inputValue: '', submitted: false}" class="flex flex-col items-center w-full">
+    <div class="py-2">
+        <p><span class="text-sm">2&nbsp</span>ENTER YOUR &nbsp<span class="font-semibold">EMAIL</span></p>
+    </div>
+    <div class="w-96">
+        <input @keydown="inputActive = true, submitted = false" x-model="inputValue"  :placeholder="placeholder" class="w-full border-b-2 border-yellow-400 focus:outline-none " type="text" >
+        <p x-show.transition="inputActive && inputValue.length != 0" class="text-sm text-gray-400">Enter your email adress in format johndoe@gmail.com</p>
+        <p x-show.transition="submitted && inputValue === '' " class="text-sm text-red-500">Email address is required field</p>
+    </div>
+    <div @click="submitted = true" class="px-8 py-2 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-lg shadow-md cursor-pointer hover:translate-x-1 hover:scale-100">
+        <a @click.prevent="" class="font-semibold text-gray-700" href="#">Submit</a>
+    </div>
+</div> -->
+
+
+
+
+<!-- 2 FIELD TEXT INPUT -->
+<!-- <div x-data="{ input1Active: false, input2Active: false, input1Placeholder: 'John', input2Placeholder: 'Doe', input1Value: '', input2Value: '', submitted: false}" class="flex flex-col items-center">
+    <div class="flex flex-row justify-center w-full space-x-8">
+        <div class="flex flex-col">
+            <p class="font-semibold">Surname</p>
+            <input @keydown="input1Active = true, submitted = false" x-model="input1Value" :placeholder="input1Placeholder" class="w-full border-b-2 border-yellow-400 focus:outline-none " type="text">
+            <p x-show.transition="input1Active && input1Value.length != 0" class="text-sm text-gray-400">Enter your surname</p>
+            <p x-show.transition="submitted && input1Value === '' " class="text-sm text-red-500">Surname is required</p>
+        </div>
+        <div class="flex flex-col">
+            <p class="font-semibold">Lastname</p>
+            <input @keydown="input2Active = true, submitted = false" x-model="input2Value" :placeholder="input2Placeholder"  class="w-full border-b-2 border-yellow-400 focus:outline-none " type="text">
+            <p x-show.transition="input2Active && input2Value.length != 0" class="text-sm text-gray-400">Enter your lastname</p>
+            <p x-show.transition="submitted && input2Value === '' " class="text-sm text-red-500">Lastname is required</p>
+        </div> 
+    </div>
+    <div @click="submitted = true" class="px-8 py-2 mt-4 transition duration-300 ease-in-out transform bg-yellow-300 rounded-lg shadow-md w-28 hover:translate-x-1 hover:scale-100">
+        <a @click.prevent="" class="font-semibold text-gray-700" href="">Submit</a>
+    </div>
+</div> -->

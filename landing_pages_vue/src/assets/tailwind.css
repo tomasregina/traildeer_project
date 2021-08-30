@@ -1,0 +1,21 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: 'Sofia Pro';
+        src: local('Sofia Pro'),
+          url(../fonts/Sofia/SofiaProRegularAz.otf) format('opentype')
+      }
+      @font-face {
+        font-family: 'Poppins';
+        src: local('Poppins'),
+          url(../fonts/Poppins/Poppins-Regular.ttf) format('truetype')
+      }
+  }
+
+ 
+    

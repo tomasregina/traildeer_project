@@ -1,0 +1,850 @@
+{
+  "en": {
+    "top_sec": {
+      "background": {
+        "url": "/img/ambassador/hero.jpg"
+      },
+      "logo": {
+        "url": "/img/ambassador/logo.png",
+        "src_set": "/img/ambassador/logo.png"
+      },
+      "text_content": {
+        "title": "Help us grow & grow with us"
+      }
+    },
+    "who_is_amb_sec": {
+      "process_sec": {
+        "header": {
+          "title": "Who is a Traildeer Ambassador?",
+          "descr": "At Traildeer we're all about bringing bikers together riding their favourite trails wherever these trails are. As we want to bring exciting bike experiences to as many riders as possible as fast as possible we're looking for local ambassadors that can help us grow faster and further via their bike network at home."
+        },
+        "steps": [
+          {
+            "order": "1",
+            "text": "Sign up new guides and riders by introducing Traildeer to your network off- and online."
+          },
+          {
+            "order": "2",
+            "text": "Helping us find a way to specific people, institutions or resorts in the MTB industry."
+          },
+          {
+            "order": "3",
+            "text": "Supporting interested guides and riders in the sign up process by helping them through it."
+          },
+          {
+            "order": "4",
+            "text": "Creating your own content to support the expansion and brand reputation."
+          },
+          {
+            "order": "5",
+            "text": "Provide insights for our marketing campaigns to make them more attractive in the specific market."
+          },
+          {
+            "order": "6",
+            "text": "Collecting feedback from the local guides and riders and sharing it with the team."
+          }
+        ]
+      },
+      "simple_cta": {
+        "text_content": {
+          "title": " ...anything else that would help spread the word faster "
+        },
+        "cta_btn": {
+          "btn_title": "Learn more",
+          "btn_redirect": "https://www.traildeer.com/signup"
+        },
+        "modal": {
+          "iframe_link": "https://44e61aa1.sibforms.com/serve/MUIEAD66bCVQizKTUBEVaQU1MPDIoDzWavI4W4ofFsUez9ELjuwqzw9iCrJ7x4U6ncb_M7F4EBPEEoEYXBAPcW5wgXHms-3m1L8_SXWy6ECfHfqNNMCqipJYCYjA7Zpw9VICZQ7juJQuQE8k922P9HPRYyBhmR8a__sMyvbsOLN7GXH9h7B15a2ikAckePhnXT-9jxU3rLGJmWKi"
+        }
+      },
+      "full_width_img": {
+        "url": "/img/ambassador/middle.jpeg"
+      }
+    },
+
+    "reviews_sec": {
+      "reviews_sec_header": {
+        "title": "Our Ambassador Team",
+        "descr": "Become part of an ambassador influencer team and learn from each other how to do it even better"
+      },
+      "reviews": [
+        {
+          "id": "1",
+          "photo_url": "/img/ambassador/olaf.jpeg",
+          "review_text": "Coach, Guide, Physiotherapist",
+          "author": "Olaf Odziomek",
+          "author_country": "🇵🇱 Poland",
+          "social_name": "@olafodziom",
+          "social_link": "https://www.instagram.com/olafodziom/"
+        },
+        {
+          "id": "2",
+          "photo_url": "/img/ambassador/jaric.jpeg",
+          "review_text": "Guide, Youtuber, Racer",
+          "author": "Ivo Jaric",
+          "author_country": "🇭🇷 Croatia",
+          "social_name": "@ivojaric_mtbguide",
+          "social_link": "https://www.instagram.com/ivojaric_mtbguide/"
+        },
+        {
+          "id": "3",
+          "photo_url": "/img/ambassador/takevcic.jpeg",
+          "review_text": "Coach, Guide, Trailbuilder",
+          "author": "Tadej Takevcic",
+          "author_country": "🇸🇮 Slovenia",
+          "social_name": "@tadejtekavcic",
+          "social_link": "https://www.instagram.com/tadejtekavcic/"
+        },
+        {
+          "id": "4",
+          "photo_url": "/img/ambassador/krajper.png",
+          "review_text": "Racer, Trailbuilder",
+          "author": "Peter Krajcoviech",
+          "author_country": "🇸🇰 Slovakia",
+          "social_name": "@krajper",
+          "social_link": "https://www.instagram.com/krajper/"
+        }
+      ]
+    },
+
+    "what_is_in_for_you": {
+      "badges_sec": {
+        "header": {
+          "title": "What is in it for you?",
+          "descr": "We greatly value the support an Ambassador can provide us and therefore we aim to compensate you for a job well done throughout the life of our cooperation and beyond."
+        },
+        "badges": [
+          {
+            "id": "1",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/hand.png",
+            "title": "Monthly income",
+            "descr": "Get some extra cash on top of all the benefits every month"
+          },
+          {
+            "id": "2",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/review.png",
+            "title": "Build your reputation",
+            "descr": "The more we grow the more your reputation will thrive"
+          },
+          {
+            "id": "3",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/perc.png",
+            "title": "Sign up new guides",
+            "descr": "Earn a percentage from every tour of a guide you help us sign up"
+          },
+          {
+            "id": "4",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/badge1.png",
+            "title": "Grow with us",
+            "descr": "We're spreading like wildfire and the more we grow the more your reputation will grow"
+          },
+          {
+            "id": "5",
+            "srcset": "/img/ambassador/badge2.png",
+            "icon": "/img/ambassador/badge2.png",
+            "title": "Product Discounts",
+            "descr": "As an ambassador you ride with any guide or coach on the platform with a significant discount"
+          },
+          {
+            "id": "6",
+            "srcset": "/img/ambassador/badge3.png",
+            "icon": "/img/ambassador/badge3.png",
+            "title": "Get Featured",
+            "descr": "Featuring your offer/s on our platform in our featured section and our social media regularly"
+          },
+          {
+            "id": "7",
+            "srcset": "/img/ambassador/badge4.png",
+            "icon": "/img/ambassador/badge4.png",
+            "title": "Low Booking Fee",
+            "descr": "If you're a guide, coach or a vacation operator we will cut our booking fee's for all your tours by half"
+          },
+          {
+            "id": "8",
+            "srcset": "/img/ambassador/badge5.png",
+            "icon": "/img/ambassador/badge5.png",
+            "title": "Join a Community",
+            "descr": "Join the online and offline ambassador community with top riders from around the world"
+          },
+          {
+            "id": "9",
+            "srcset": "/img/ambassador/badge6.png",
+            "icon": "/img/ambassador/badge6.png",
+            "title": "Exclusive Events",
+            "descr": "Our ambassador community will enjoy invite-only unique rides with great guests and  trainings"
+          }
+        ]
+      },
+      "simple_cta": {
+        "text_content": {
+          "title": "Much more coming soon"
+        },
+        "cta_btn": {
+          "btn_title": "Reach to us!"
+        },
+        "modal": {
+          "iframe_link": "https://44e61aa1.sibforms.com/serve/MUIEAD66bCVQizKTUBEVaQU1MPDIoDzWavI4W4ofFsUez9ELjuwqzw9iCrJ7x4U6ncb_M7F4EBPEEoEYXBAPcW5wgXHms-3m1L8_SXWy6ECfHfqNNMCqipJYCYjA7Zpw9VICZQ7juJQuQE8k922P9HPRYyBhmR8a__sMyvbsOLN7GXH9h7B15a2ikAckePhnXT-9jxU3rLGJmWKi"
+        }
+      },
+      "full_width_img": {
+        "url": "/img/ambassador/middle2.jpeg"
+      }
+    },
+    "are_you_ideal_amb_sec": {
+      "simple_cta": {
+        "text_content": {
+          "title": "Are you our ideal Ambassador?",
+          "descr": "Are you \"just\" a passionate rider or a bike professional? If you are well-connected on or offline and have a good amount of influence in the local market we should to talk. We are looking for general ambassadors, and also riders in specific categories like e-MTB, gravel, XC, DH or Enduro"
+        },
+        "cta_btn": {
+          "btn_title": "Send us a message!"
+        },
+        "modal": {
+          "iframe_link": "https://44e61aa1.sibforms.com/serve/MUIEAD66bCVQizKTUBEVaQU1MPDIoDzWavI4W4ofFsUez9ELjuwqzw9iCrJ7x4U6ncb_M7F4EBPEEoEYXBAPcW5wgXHms-3m1L8_SXWy6ECfHfqNNMCqipJYCYjA7Zpw9VICZQ7juJQuQE8k922P9HPRYyBhmR8a__sMyvbsOLN7GXH9h7B15a2ikAckePhnXT-9jxU3rLGJmWKi"
+        }
+      },
+      "full_width_img": {
+        "url": "/img/ambassador/bottom.jpg"
+      }
+    }
+  },
+  "sk": {
+    "top_sec": {
+      "background": {
+        "url": "/img/ambassador/hero.jpg"
+      },
+      "logo": {
+        "url": "/img/ambassador/logo.png",
+        "src_set": "/img/ambassador/logo.png"
+      },
+      "text_content": {
+        "title": "Pomôž rásť nám a tým aj sebe"
+      }
+    },
+    "who_is_amb_sec": {
+      "process_sec": {
+        "header": {
+          "title": "Kto je Traildeer Ambasádor?",
+          "descr": "V Traildeer sa zameriavame na spájanie bajkerov, ktorí jazdia na svojich obľúbených trailoch, nech už kdekoľvek. Pretože chceme jazdcom priniesť vzrušujúce zážitky z jazdy na bajku čo najrýchlejšie, hľadáme miestnych Ambasádorov, ktorí nám prostredníctvom ich lokálnych kontaktov môžu pomôcť rásť ešte rýchlejšie."
+        },
+        "steps": [
+          {
+            "order": "1",
+            "text": "Oslovenie poskytovateľov a predstavenie Traildeeru v tvojej sieti kontaktov online a offline"
+          },
+          {
+            "order": "2",
+            "text": "Pomôcť nám nájsť cestu ku konkrétnym ľuďom, inštitúciám alebo trail centrám"
+          },
+          {
+            "order": "3",
+            "text": "Podpora poskytovateľov, ktorí majú záujem o registráciu, odpovedaním na otázky"
+          },
+          {
+            "order": "4",
+            "text": "Poznatky z lokálneho trhu pre naše marketingové kampane, aby boli ešte efektívnejšie"
+          },
+          {
+            "order": "5",
+            "text": "Tvorba vlastného obsahu na podporu expanzie a reputácie značky"
+          },
+          {
+            "order": "6",
+            "text": "Zbieranie spätnej väzby z lokálneho trhu a jej zdieľanie s tímom"
+          }
+        ]
+      },
+      "simple_cta": {
+        "text_content": {
+          "title": " ... čokoľvek iné, čo by nám pomohlo expandovať rýchlejšie "
+        },
+        "cta_btn": {
+          "btn_title": "Zisti viac",
+          "btn_redirect": "https://www.traildeer.com/signup"
+        },
+        "modal": {
+          "iframe_link": "https://44e61aa1.sibforms.com/serve/MUIEAApLpjARIIMzVOkdBJ2JTbSXVd5rYavOMc1XpntMd2x_tmIkqxuKUc8CdGfVvYK3b2OthXY3ZcGa3O7_esvF8Qh1NE_q0TM3aMNeMNOUhLQmxXUpofuPFnmN6ZgiJe44kthcb1DAqSNB4-j5YxGZXPcJnCkWbytcPUIlWDYx_ujRM8ps05kyuMVoWc1LXpzhaCPYjaVD9ZLd"
+        }
+      },
+      "full_width_img": {
+        "url": "/img/ambassador/middle.jpeg"
+      }
+    },
+    "reviews_sec": {
+      "reviews_sec_header": {
+        "title": "Náš tím Ambasádorov",
+        "descr": "Staň sa členom nášho ambasádorského tímu, podeľ sa o svoje skúsenosti a zlepšuj sa!"
+      },
+      "reviews": [
+        {
+          "id": "1",
+          "photo_url": "/img/ambassador/olaf.jpeg",
+          "review_text": "Tréner, Sprievodca, Fyzioterapeut",
+          "author": "Olaf Odziomek",
+          "author_country": "🇵🇱 Poľsko",
+          "social_name": "@olafodziom",
+          "social_link": "https://www.instagram.com/olafodziom/"
+        },
+        {
+          "id": "2",
+          "photo_url": "/img/ambassador/jaric.jpeg",
+          "review_text": "Sprievodca, Youtuber, Pretekár",
+          "author": "Ivo Jaric, ",
+          "author_country": "🇭🇷 Chorvátsko",
+          "social_name": "@ivojaric_mtbguide",
+          "social_link": "https://www.instagram.com/ivojaric_mtbguide/"
+        },
+        {
+          "id": "3",
+          "photo_url": "/img/ambassador/takevcic.jpeg",
+          "review_text": "Tréner, Sprievodca, Trailbuilder",
+          "author": "Tadej Takevcic",
+          "author_country": "🇸🇮 Slovinsko",
+          "social_name": "@tadejtekavcic",
+          "social_link": "https://www.instagram.com/tadejtekavcic/"
+        },
+        {
+          "id": "4",
+          "photo_url": "/img/ambassador/krajper.png",
+          "review_text": "Pretekár, Trailbuilder",
+          "author": "Peter Krajcoviech",
+          "author_country": "🇸🇰 Slovensko",
+          "social_name": "@krajper",
+          "social_link": "https://www.instagram.com/krajper/"
+        }
+      ]
+    },
+    "what_is_in_for_you": {
+      "badges_sec": {
+        "header": {
+          "title": "Čo by si z toho mal ty?",
+          "descr": "Veľmi si vážime podporu, ktorú nám môže poskytnúť Ambasador, a preto sa snažíme kompenzovať dobre vykonanú prácu počas celej našej spolupráce i mimo nej."
+        },
+        "badges": [
+          {
+            "id": "1",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/hand.png",
+            "title": "Mesačný príjem",
+            "descr": "Získaj extra príplatky navyše každý mesiac"
+          },
+          {
+            "id": "2",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/review.png",
+            "title": "Buduj si reputáciu",
+            "descr": "Čím viac budeme rásť, tým viac bude rásť aj vaša reputácia"
+          },
+          {
+            "id": "3",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/perc.png",
+            "title": "Oslov ostatných",
+            "descr": "Získaj percento z každej prehliadky sprievodcu, ktorého si nám pomohol zaregistrovať"
+          },
+          {
+            "id": "4",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/badge1.png",
+            "title": "Zlepšuj sa s nami",
+            "descr": "Rozširujeme sa rýchlo a čím viac budeme rásť, tým viac bude rásť tvoja reputácia a úspech"
+          },
+          {
+            "id": "5",
+            "srcset": "/img/ambassador/badge2.png",
+            "icon": "/img/ambassador/badge2.png",
+            "title": "Zľavy na produkty",
+            "descr": "Ako Ambasádor jazdíš s akýmkoľvek sprievodcom alebo trénerom na platforme so značnou zľavou"
+          },
+          {
+            "id": "6",
+            "srcset": "/img/ambassador/badge3.png",
+            "icon": "/img/ambassador/badge3.png",
+            "title": "Získaj viditeľnosť",
+            "descr": "Pravidelne budeme robiť reklamu tvojich produktov v odporúčanej sekcii a na sociálnych sieťach"
+          },
+          {
+            "id": "7",
+            "srcset": "/img/ambassador/badge4.png",
+            "icon": "/img/ambassador/badge4.png",
+            "title": "Nížší rezervačný poplatok",
+            "descr": "Ak si sprievodcom, trénerom alebo cestovkou, znížime ti rezervačný poplatok za všetky tvoje produkty na polovicu"
+          },
+          {
+            "id": "8",
+            "srcset": "/img/ambassador/badge5.png",
+            "icon": "/img/ambassador/badge5.png",
+            "title": "Pripojte sa k našej komunite",
+            "descr": "Pripoj sa k online a offline komunite Ambasádorov, ktorými sú skvelí jazdci z celého sveta"
+          },
+          {
+            "id": "9",
+            "srcset": "/img/ambassador/badge6.png",
+            "icon": "/img/ambassador/badge6.png",
+            "title": "Exkluzívne podujatia",
+            "descr": "Našu komunitu Ambasádorov potešia školenia a VIP jazdy so skvelými hosťami"
+          }
+        ]
+      },
+      "simple_cta": {
+        "text_content": {
+          "title": "Oveľa viac už čoskoro"
+        },
+        "cta_btn": {
+          "btn_title": "Ozvi sa nám"
+        },
+        "modal": {
+          "iframe_link": "https://44e61aa1.sibforms.com/serve/MUIEAApLpjARIIMzVOkdBJ2JTbSXVd5rYavOMc1XpntMd2x_tmIkqxuKUc8CdGfVvYK3b2OthXY3ZcGa3O7_esvF8Qh1NE_q0TM3aMNeMNOUhLQmxXUpofuPFnmN6ZgiJe44kthcb1DAqSNB4-j5YxGZXPcJnCkWbytcPUIlWDYx_ujRM8ps05kyuMVoWc1LXpzhaCPYjaVD9ZLd"
+        }
+      },
+      "full_width_img": {
+        "url": "/img/ambassador/middle2.jpeg"
+      }
+    },
+    "are_you_ideal_amb_sec": {
+      "simple_cta": {
+        "text_content": {
+          "title": "Si náš ideálny Ambasador?",
+          "descr": "Si vášnivý jazdec alebo už dokonca profesionál? Ak si dobre prepojený, či už online alebo offline a máš dobré meno na lokálnom trhu, mali by sme sa porozprávať. Hľadáme Ambasádorov všeobecne ale aj v konkrétnych kategóriách ako napr. e-MTB, XC, DH alebo Enduro"
+        },
+        "cta_btn": {
+          "btn_title": "Pošli nám správu!"
+        },
+        "modal": {
+          "iframe_link": "https://44e61aa1.sibforms.com/serve/MUIEAApLpjARIIMzVOkdBJ2JTbSXVd5rYavOMc1XpntMd2x_tmIkqxuKUc8CdGfVvYK3b2OthXY3ZcGa3O7_esvF8Qh1NE_q0TM3aMNeMNOUhLQmxXUpofuPFnmN6ZgiJe44kthcb1DAqSNB4-j5YxGZXPcJnCkWbytcPUIlWDYx_ujRM8ps05kyuMVoWc1LXpzhaCPYjaVD9ZLd"
+        }
+      },
+      "full_width_img": {
+        "url": "/img/ambassador/bottom.jpg"
+      }
+    }
+  },
+  "cs": {
+    "top_sec": {
+      "background": {
+        "url": "/img/ambassador/hero.jpg"
+      },
+      "logo": {
+        "url": "/img/ambassador/logo.png",
+        "src_set": "/img/ambassador/logo.png"
+      },
+      "text_content": {
+        "title": "Pomoz růst nám a tím i sobě"
+      }
+    },
+    "who_is_amb_sec": {
+      "process_sec": {
+        "header": {
+          "title": "Kdo je Traildeer Ambasador?",
+          "descr": "V Traildeer se zaměřujeme na spojování bikerů, kteří jezdí na svých oblíbených trailech, ať už kdekoliv. Protože chceme jezdcem přinést vzrušující zážitky z jízdy na kole co nejrychleji, hledáme místních Ambasadorů, kteří nám prostřednictvím lokálních kontaktů mohou pomoci růst ještě rychleji"
+        },
+        "steps": [
+          {
+            "order": "1",
+            "text": "Oslovení poskytovatelů a představení Traildeeru v tvé síti kontaktů online a offline"
+          },
+          {
+            "order": "2",
+            "text": "Pomoci nám najít cestu ke konkrétním lidem, institucím nebo trail centrům"
+          },
+          {
+            "order": "3",
+            "text": "Podpora poskytovatelů, kteří mají zájem o registraci, odpovídáním na otázky"
+          },
+          {
+            "order": "4",
+            "text": "Poznatky z lokálního trhu pro naše marketingové kampaně, aby byly ještě efektivnější"
+          },
+          {
+            "order": "5",
+            "text": "Tvorba vlastního obsahu na podporu expanze a reputace značky"
+          },
+          {
+            "order": "6",
+            "text": "Sbírání zpětné vazby z lokálního trhu a její sdílení s týmem"
+          }
+        ]
+      },
+      "simple_cta": {
+        "text_content": {
+          "title": " ...cokoli jiného, ​​co by nám pomohlo expandovat rychleji "
+        },
+        "cta_btn": {
+          "btn_title": "Zjisti více",
+          "btn_redirect": "https://www.traildeer.com/signup"
+        },
+        "modal": {
+          "iframe_link": "https://44e61aa1.sibforms.com/serve/MUIEANEqtFoUnpos_pjbUfYAbh1XtYjDmHzdRwjxLmPl4o7jwe5Pgz7WLvrFfkayNkDgae_k8RsSYJU6na9F5D-SC4nhZC4p8wQxvf_JMTPLc8-utku-uoOqKQzJ8142azajVRfi_Q5zbuDaOXbmcQ3Ef3D-T0jb-04N7kZJH_B5TzfWk6jC-U3OlqVVwywonvIisXRKeYH0TzIm"
+        }
+      },
+      "full_width_img": {
+        "url": "/img/ambassador/middle.jpeg"
+      }
+    },
+    "reviews_sec": {
+      "reviews_sec_header": {
+        "title": "Náš tím Ambasadorov",
+        "descr": "Staň se členem našeho ambasádorského týmu, poděl se o své zkušenosti a zlepšuj se!"
+      },
+      "reviews": [
+        {
+          "id": "1",
+          "photo_url": "/img/ambassador/olaf.jpeg",
+          "review_text": "Trenér, Průvodce, Fyzioterapeut",
+          "author": "Olaf Odziomek",
+          "author_country": "🇵🇱 Polsko",
+          "social_name": "@olafodziom",
+          "social_link": "https://www.instagram.com/olafodziom/"
+        },
+        {
+          "id": "2",
+          "photo_url": "/img/ambassador/jaric.jpeg",
+          "review_text": "Průvodce, Youtuber, Závodník",
+          "author": "Ivo Jaric",
+          "author_country": "🇭🇷 Chorvatsko",
+          "social_name": "@ivojaric_mtbguide",
+          "social_link": "https://www.instagram.com/ivojaric_mtbguide/"
+        },
+        {
+          "id": "3",
+          "photo_url": "/img/ambassador/takevcic.jpeg",
+          "review_text": "Tréner, Průvodce, Trailbuilder",
+          "author": "Tadej Takevcic",
+          "author_country": "🇸🇮 Slovinsko",
+          "social_name": "@tadejtekavcic",
+          "social_link": "https://www.instagram.com/tadejtekavcic/"
+        },
+        {
+          "id": "4",
+          "photo_url": "/img/ambassador/krajper.png",
+          "review_text": "Závodník, Trailbuilder",
+          "author": "Peter Krajcoviech",
+          "author_country": "🇸🇰 Slovensko",
+          "social_name": "@krajper",
+          "social_link": "https://www.instagram.com/krajper/"
+        }
+      ]
+    },
+    "what_is_in_for_you": {
+      "badges_sec": {
+        "header": {
+          "title": "Co by si z toho měl ty?",
+          "descr": "Velmi si vážíme podporu, kterou nám Ambasador může poskytnout, a proto se snažíme kompenzovat dobře vykonanou práci během celé naší spolupráce i mimo ni"
+        },
+        "badges": [
+          {
+            "id": "1",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/hand.png",
+            "title": "Měsíční příjem",
+            "descr": "Získej extra příplatky navíc každý měsíc"
+          },
+          {
+            "id": "2",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/review.png",
+            "title": "Buduj si reputaci",
+            "descr": "Čím více budeme růst, tím více poroste i vaše reputace"
+          },
+          {
+            "id": "3",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/perc.png",
+            "title": "Oslov ostatních",
+            "descr": "Získejte procento z každého výletu průvodce, kterého si nám pomohl zaregistrovat"
+          },
+          {
+            "id": "4",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/badge1.png",
+            "title": "Zlepšuj se s námi",
+            "descr": "Rozšiřujeme se rychle a čím více budeme růst, tím více poroste tvá reputace a úspěch"
+          },
+          {
+            "id": "5",
+            "srcset": "/img/ambassador/badge2.png",
+            "icon": "/img/ambassador/badge2.png",
+            "title": "Slevy na produkty",
+            "descr": "Jako Ambasador jezdíš s jakýmkoli průvodcem nebo trenérem na platformě se značnou slevou"
+          },
+          {
+            "id": "6",
+            "srcset": "/img/ambassador/badge3.png",
+            "icon": "/img/ambassador/badge3.png",
+            "title": "Získej viditelnost",
+            "descr": "Pravidelně budeme dělat reklamu tvých produktů v doporučené sekci a na sociálních sítích"
+          },
+          {
+            "id": "7",
+            "srcset": "/img/ambassador/badge4.png",
+            "icon": "/img/ambassador/badge4.png",
+            "title": "Nižší rezervační poplatek",
+            "descr": "Pokud si průvodcem, trenérem nebo cestovkou, snížíme ti rezervační poplatek za všechny tvé produkty na polovinu"
+          },
+          {
+            "id": "8",
+            "srcset": "/img/ambassador/badge5.png",
+            "icon": "/img/ambassador/badge5.png",
+            "title": "Připojte se k naší komunitě",
+            "descr": "Připoj se k online a offline komunitě Ambasadorů, kterými jsou skvělí jezdci z celého světa"
+          },
+          {
+            "id": "9",
+            "srcset": "/img/ambassador/badge6.png",
+            "icon": "/img/ambassador/badge6.png",
+            "title": "Exkluzivní Akce",
+            "descr": "Naši komunitu Ambasadorů potěší školení a VIP jízdy se skvělými hosty"
+          }
+        ]
+      },
+      "simple_cta": {
+        "text_content": {
+          "title": "Mnohem více již brzy"
+        },
+        "cta_btn": {
+          "btn_title": "Ozvi se nám"
+        },
+        "modal": {
+          "iframe_link": "https://44e61aa1.sibforms.com/serve/MUIEANEqtFoUnpos_pjbUfYAbh1XtYjDmHzdRwjxLmPl4o7jwe5Pgz7WLvrFfkayNkDgae_k8RsSYJU6na9F5D-SC4nhZC4p8wQxvf_JMTPLc8-utku-uoOqKQzJ8142azajVRfi_Q5zbuDaOXbmcQ3Ef3D-T0jb-04N7kZJH_B5TzfWk6jC-U3OlqVVwywonvIisXRKeYH0TzIm"
+        }
+      },
+      "full_width_img": {
+        "url": "/img/ambassador/middle2.jpeg"
+      }
+    },
+    "are_you_ideal_amb_sec": {
+      "simple_cta": {
+        "text_content": {
+          "title": "Jsi náš ideální Ambasador?",
+          "descr": "Jsi \"jen\" vášnivý jezdec nebo už dokonce profesionál? Pokud si dobře propojený ať už online nebo offline a máš dobré jméno na lokálním trhu, měli bychom si promluvit. Hledáme Ambasadora obecně i v konkrétních kategoriích jako je např. e-MTB, XC, DH nebo Enduro"
+        },
+        "cta_btn": {
+          "btn_title": "Pošli nám zprávu!"
+        },
+        "modal": {
+          "iframe_link": "https://44e61aa1.sibforms.com/serve/MUIEANEqtFoUnpos_pjbUfYAbh1XtYjDmHzdRwjxLmPl4o7jwe5Pgz7WLvrFfkayNkDgae_k8RsSYJU6na9F5D-SC4nhZC4p8wQxvf_JMTPLc8-utku-uoOqKQzJ8142azajVRfi_Q5zbuDaOXbmcQ3Ef3D-T0jb-04N7kZJH_B5TzfWk6jC-U3OlqVVwywonvIisXRKeYH0TzIm"
+        }
+      },
+      "full_width_img": {
+        "url": "/img/ambassador/bottom.jpg"
+      }
+    }
+  },
+  "fr": {
+    "top_sec": {
+      "background": {
+        "url": "/img/ambassador/hero.jpg"
+      },
+      "logo": {
+        "url": "/img/ambassador/logo.png",
+        "src_set": "/img/ambassador/logo.png"
+      },
+      "text_content": {
+        "title": "Aide-nous à nous développer & avance avec nous"
+      }
+    },
+    "who_is_amb_sec": {
+      "process_sec": {
+        "header": {
+          "title": "Qui est ambassadeur Traildeer ?",
+          "descr": "Chez Traildeer, notre objectif est de rassembler les participants sur leurs sentiers préférés, où qu'ils soient. Nous voulons proposer des expériences vélo inoubliables au plus grand nombre, le plus rapidement possible ; nous cherchons donc des ambassadeurs locaux qui peuvent nous aider à nous développer plus vite et plus loin via leur réseau."
+        },
+        "steps": [
+          {
+            "order": "1",
+            "text": "Recruter de nouveaux guides et riders en présentant Traildeer à ton réseau en ligne et hors ligne."
+          },
+          {
+            "order": "2",
+            "text": "Nous aider à nous contacter des personnes, des institutions ou des stations spécifiques dans l'industrie du VTT."
+          },
+          {
+            "order": "3",
+            "text": "Soutenir les guides et riders intéressés en les aidant à le compléter le formulaire d'inscription."
+          },
+          {
+            "order": "4",
+            "text": "Créer ton propre contenu pour soutenir le développement et la réputation de la marque."
+          },
+          {
+            "order": "5",
+            "text": "Fournir des informations pour nos campagnes marketing afin de les rendre plus attrayantes sur le marché ciblé."
+          },
+          {
+            "order": "6",
+            "text": "Recueillir les commentaires des guides et participants locaux et les partager avec l'équipe."
+          }
+        ]
+      },
+      "simple_cta": {
+        "text_content": {
+          "title": " ...tout ce qui pourrait aider à faire passer le mot plus rapidement "
+        },
+        "cta_btn": {
+          "btn_title": "En savoir plus",
+          "btn_redirect": "https://www.traildeer.com/signup"
+        },
+        "modal": {
+          "iframe_link": "https://44e61aa1.sibforms.com/serve/MUIEAD66bCVQizKTUBEVaQU1MPDIoDzWavI4W4ofFsUez9ELjuwqzw9iCrJ7x4U6ncb_M7F4EBPEEoEYXBAPcW5wgXHms-3m1L8_SXWy6ECfHfqNNMCqipJYCYjA7Zpw9VICZQ7juJQuQE8k922P9HPRYyBhmR8a__sMyvbsOLN7GXH9h7B15a2ikAckePhnXT-9jxU3rLGJmWKi"
+        }
+      },
+      "full_width_img": {
+        "url": "/img/ambassador/middle.jpeg"
+      }
+    },
+
+    "reviews_sec": {
+      "reviews_sec_header": {
+        "title": "Notre équipe d'ambassadeurs",
+        "descr": "Rejoindre une équipe d'influenceurs ambassadeurs et échanger les meilleures pratiques"
+      },
+      "reviews": [
+        {
+          "id": "1",
+          "photo_url": "/img/ambassador/olaf.jpeg",
+          "review_text": "Coach, Guide, Kiné",
+          "author": "Olaf Odziomek",
+          "author_country": "🇵🇱 Pologne",
+          "social_name": "@olafodziom",
+          "social_link": "https://www.instagram.com/olafodziom/"
+        },
+        {
+          "id": "2",
+          "photo_url": "/img/ambassador/jaric.jpeg",
+          "review_text": "Guide, Youtubeur, Compétiteur",
+          "author": "Ivo Jaric",
+          "author_country": "🇭🇷 Croatie",
+          "social_name": "@ivojaric_mtbguide",
+          "social_link": "https://www.instagram.com/ivojaric_mtbguide/"
+        },
+        {
+          "id": "3",
+          "photo_url": "/img/ambassador/takevcic.jpeg",
+          "review_text": "Moniteur, guide, trailbuilder",
+          "author": "Tadej Takevcic",
+          "author_country": "🇸🇮 Slovénie",
+          "social_name": "@tadejtekavcic",
+          "social_link": "https://www.instagram.com/tadejtekavcic/"
+        },
+        {
+          "id": "4",
+          "photo_url": "/img/ambassador/krajper.png",
+          "review_text": "Compétiteur, traibuilder",
+          "author": "Peter Krajcoviech",
+          "author_country": "🇸🇰 Slovaquie",
+          "social_name": "@krajper",
+          "social_link": "https://www.instagram.com/krajper/"
+        }
+      ]
+    },
+
+    "what_is_in_for_you": {
+      "badges_sec": {
+        "header": {
+          "title": "Quels sont les avantages pour toi?",
+          "descr": "Nous apprécions grandement le soutien qu'un ambassadeur peut nous fournir et nous visons donc à te rémunérer pour un travail bien fait tout au long de notre coopération et au-delà."
+        },
+        "badges": [
+          {
+            "id": "1",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/hand.png",
+            "title": "Revenu mensuel",
+            "descr": "Gagne de l'argent supplémentaire en plus de tous les avantages chaque mois"
+          },
+          {
+            "id": "2",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/review.png",
+            "title": "Construis ta réputation",
+            "descr": "Plus nous grandirons, plus ta réputation s'améliorera"
+          },
+          {
+            "id": "3",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/perc.png",
+            "title": "Recrute de nouveaux guides",
+            "descr": "Gagne un pourcentage sur chaque sortie d'un guide que tu as recruté"
+          },
+          {
+            "id": "4",
+            "srcset": "/img/ambassador/badge1.png",
+            "icon": "/img/ambassador/badge1.png",
+            "title": "Grandis avec nous",
+            "descr": "Nous nous agrandissons à la vitesse de l'éclair et plus nous grandissons, plus ta réputation s'améliorera"
+          },
+          {
+            "id": "5",
+            "srcset": "/img/ambassador/badge2.png",
+            "icon": "/img/ambassador/badge2.png",
+            "title": "Remises sur les offres",
+            "descr": "En tant qu'ambassadeur, tu roules avec n'importe quel guide ou moniteur sur la plate-forme avec une grosse remise"
+          },
+          {
+            "id": "6",
+            "srcset": "/img/ambassador/badge3.png",
+            "icon": "/img/ambassador/badge3.png",
+            "title": "Fais toi remarquer",
+            "descr": "Présenter régulièrement ton/tes offre(s) sur notre plateforme dans notre section vedette et sur nos réseaux sociaux"
+          },
+          {
+            "id": "7",
+            "srcset": "/img/ambassador/badge4.png",
+            "icon": "/img/ambassador/badge4.png",
+            "title": "Frais de réservation minimes",
+            "descr": "Nous réduisons de moitié nos frais de réservation pour les sorties des guides, moniteurs ou tour operators"
+          },
+          {
+            "id": "8",
+            "srcset": "/img/ambassador/badge5.png",
+            "icon": "/img/ambassador/badge5.png",
+            "title": "Rejoins une communauté",
+            "descr": "Rejoins la communauté des ambassadeurs en ligne et hors ligne avec les meilleurs bikers du monde entier"
+          },
+          {
+            "id": "9",
+            "srcset": "/img/ambassador/badge6.png",
+            "icon": "/img/ambassador/badge6.png",
+            "title": "Événements exclusifs",
+            "descr": "Notre communauté d'ambassadeurs profitera de sorties et de formation exclusives, sur invitation, et avec des invités de marque"
+          }
+        ]
+      },
+      "simple_cta": {
+        "text_content": {
+          "title": "Bien plus à venir"
+        },
+        "cta_btn": {
+          "btn_title": "Contacte-nous!"
+        },
+        "modal": {
+          "iframe_link": "https://44e61aa1.sibforms.com/serve/MUIEAD66bCVQizKTUBEVaQU1MPDIoDzWavI4W4ofFsUez9ELjuwqzw9iCrJ7x4U6ncb_M7F4EBPEEoEYXBAPcW5wgXHms-3m1L8_SXWy6ECfHfqNNMCqipJYCYjA7Zpw9VICZQ7juJQuQE8k922P9HPRYyBhmR8a__sMyvbsOLN7GXH9h7B15a2ikAckePhnXT-9jxU3rLGJmWKi"
+        }
+      },
+      "full_width_img": {
+        "url": "/img/ambassador/middle2.jpeg"
+      }
+    },
+    "are_you_ideal_amb_sec": {
+      "simple_cta": {
+        "text_content": {
+          "title": "Es-tu notre ambassadeur idéal ?",
+          "descr": "Tu es \"juste\" un vététiste passionné ou un professionnel du vélo ? Si tu as un bon réseau en ligne ou hors ligne et que tu as une bonne influence sur le marché local, nous devrions en parler. Nous recherchons des ambassadeurs généralistes, mais aussi des coureurs dans des catégories spécifiques comme e-MTB, gravel, XC, DH ou Enduro"
+        },
+        "cta_btn": {
+          "btn_title": "Envoie-nous un message!"
+        },
+        "modal": {
+          "iframe_link": "https://44e61aa1.sibforms.com/serve/MUIEAD66bCVQizKTUBEVaQU1MPDIoDzWavI4W4ofFsUez9ELjuwqzw9iCrJ7x4U6ncb_M7F4EBPEEoEYXBAPcW5wgXHms-3m1L8_SXWy6ECfHfqNNMCqipJYCYjA7Zpw9VICZQ7juJQuQE8k922P9HPRYyBhmR8a__sMyvbsOLN7GXH9h7B15a2ikAckePhnXT-9jxU3rLGJmWKi"
+        }
+      },
+      "full_width_img": {
+        "url": "/img/ambassador/bottom.jpg"
+      }
+    }
+  }
+}

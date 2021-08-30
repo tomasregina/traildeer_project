@@ -1,0 +1,1020 @@
+{
+  "en": {
+    "top_sec": {
+      "background": {
+        "url": "/img/join/hero.jpg"
+      },
+      "logo": {
+        "url": "/img/join/logo.png",
+        "src_set": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/a7c4ef4a-group-27-2x_1079021000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/a7c4ef4a-group-27-2x_10ei042000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/a7c4ef4a-group-27-2x_1000000000000000000028.png 3x"
+      },
+      "text_content": {
+        "title": "Join us on this wild ride",
+        "subtitle": "as bike guide, coach or racer"
+      },
+      "cta_btn": {
+        "btn_title": "Sign up today",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "badges_sec": {
+      "header": {
+        "title": "Do you make money on your bike?",
+        "descr": "No matter if you're a professional bike guide, coach, racer or a bike vacation provider; or even if you are \"only\" an aspiring rider who wants to build a living by riding your bike, we have some goodies in our backpack for you."
+      },
+      "badges": [
+        {
+          "id": "1",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/6cbe8f47-021-streaming_104c04c000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/6cbe8f47-021-streaming_108o08o000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/6cbe8f47-021-streaming_10d00d0000000000000028.png 3x",
+          "icon": "/img/join/badge1.png",
+          "title": "Free Marketing",
+          "descr": "Whatever product you put up on Traildeer, it's for free until someone makes a booking. Therefore you gain visibility of our rider audience at no cost just a little effort"
+        },
+        {
+          "id": "2",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/eeabcaca-027-location_1041041000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/eeabcaca-027-location_1082082000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/eeabcaca-027-location_10c30c3000000000000028.png 3x",
+          "icon": "/img/join/badge2.png",
+          "title": "Attract Bikers",
+          "descr": "Since we're international in nature, your products will be shown to our  audience from other countries and you can attract a wider scope of riders this way"
+        },
+        {
+          "id": "3",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/b8d8a5d7-022-streaming_1041041000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/b8d8a5d7-022-streaming_1082082000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/b8d8a5d7-022-streaming_10c30c3000000000000028.png 3x",
+          "icon": "/img/join/badge3.png",
+          "title": "Cut Your Costs",
+          "descr": "Our aim is to help you reduce your marketing and website development costs to the minimum, so that you can focus on growing your own business and riding your bike instead"
+        },
+        {
+          "id": "4",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/f8b982ca-043-way_104i04i000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/f8b982ca-043-way_1090090000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/f8b982ca-043-way_10di0di000000000000028.png 3x",
+          "icon": "/img/join/badge4.png",
+          "title": "Beautiful Products",
+          "descr": "Mountain biking is not only a very cool, but also a beautiful sport and therefore we try to make your products shine with little effort required on your end"
+        },
+        {
+          "id": "5",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/1c8a98ed-035-badge_1046046000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/1c8a98ed-035-badge_108c08c000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/1c8a98ed-035-badge_10ci0ci000000000000028.png 3x",
+          "icon": "/img/join/badge5.png",
+          "title": "Build Reputation",
+          "descr": "If you do provide a fantastic experience for our riders you'll be getting great reviews in turn, which will build a strong reputation and ensure your success"
+        },
+        {
+          "id": "6",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/edad9c7c-007-cycling_103y03y000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/edad9c7c-007-cycling_107w07w000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/edad9c7c-007-cycling_10bu0bu000000000000028.png 3x",
+          "icon": "/img/join/badge6.png",
+          "title": "Join a Community",
+          "descr": "Traildeer goes beyond making money. We want to connect the world of bikers like never before, so wherever you go in future you will be able find someone to ride with close by"
+        }
+      ]
+    },
+    "news_sec": {
+      "news_cta": {
+        "title": "Much more coming soon",
+        "btn_title": "Sign me up!",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "about_sec": {
+      "about": {
+        "backgroung_img": "/img/join/home.jpeg",
+        "title": "The home for all MTB adventures",
+        "descr": "We've started with a simple idea - connect local riders with those from other regions, countries or even continents to get them riding together. By now we've expanded to tours, bike camps, expeditions and vacations and soon we will also let service providers in to make the platform the single place to go when planning your next ride."
+      }
+    },
+    "reviews_sec": {
+      "reviews_sec_header": {
+        "title": "Guides, Trainers & Trailbuilders",
+        "descr": "Check out what they think about us"
+      },
+      "reviews": [
+        {
+          "id": "1",
+          "photo_url": "/img/join/rycak.jpg",
+          "review_text": "\"I like the idea of connecting riders internationally a lot and look forward to see more people riding together\"",
+          "author": "Tom Rycak",
+          "author_bio": "rider & trailbuilder",
+          "author_country": "🇵🇱 Poland"
+        },
+        {
+          "id": "2",
+          "photo_url": "/img/join/hercog.jpg",
+          "review_text": "\"Putting our trails on the MTB world map by creating an amazing experience for our riders. Thanks Traildeer for helping with it.\"",
+          "author": "Jani Hercog",
+          "author_bio": "guide & tour operator ridgelinetrails.com",
+          "author_country": "🇸🇮 Slovenia"
+        },
+        {
+          "id": "3",
+          "photo_url": "/img/join/kalabus.jpg",
+          "review_text": "\"As an avid rider, documentarist and expedition organizer, what traildeer offers makes a lot of sense to me.\"",
+          "author": "Roman Kalabus",
+          "author_bio": "bike adventurer baobabtrails.com",
+          "author_country": "🇨🇿 Czechia"
+        },
+        {
+          "id": "4",
+          "photo_url": "/img/join/pivko.jpg",
+          "review_text": "\"The guys from Traildeer helped me to sign up and create my first camp on the platform and within two days it has been booked out.\"",
+          "author": "Samo Pivko",
+          "author_bio": "pro coach & racer bearider.sk",
+          "author_country": "🇸🇰 Slovakia"
+        }
+      ]
+    },
+    "locations_sec": {
+      "locations_sec_header": {
+        "title": "Expanding in Europe",
+        "descr": "Traildeer only makes sense if it is really international, so riders can travel to new locations. Every tour,  camp, vacation or expedition in a new country helps us help you to attract riders from all around Europe."
+      },
+      "locations_sec_imgs": [
+        {
+          "id": 1,
+
+          "photo_url": "/img/join/italy.jpeg",
+          "location": "Italy",
+          "width": "378",
+          "height": "580"
+        },
+        {
+          "id": 2,
+          "photo_url": "/img/join/austria.jpeg",
+          "location": "Austria",
+          "width": "226",
+          "height": "739"
+        },
+        {
+          "id": 3,
+          "photo_url": "/img/join/slovenia.jpeg",
+          "location": "Slovenia",
+          "width": "297",
+          "height": "345"
+        },
+        {
+          "id": 5,
+          "photo_url": "/img/join/poland.jpeg",
+          "location": "Poland",
+          "width": "297",
+          "height": "380"
+        },
+        {
+          "id": 4,
+          "photo_url": "/img/join/croatia.jpeg",
+          "location": "Croatia",
+          "width": "320",
+          "height": "146"
+        }
+      ]
+    },
+    "entry_sec": {
+      "entry_cta": {
+        "background_img": "/img/join/cta.jpeg",
+        "title": "Already seen enough?",
+        "btn_title": "Let me in already!",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "process_sec": {
+      "header": {
+        "title": "A quick and simple process",
+        "descr": "We care about high quality of members and the content, however we also want the process to be as easy as possible so that you're up and riding in no time."
+      },
+      "steps": [
+        {
+          "text": "Sign up as a rider"
+        },
+        {
+          "text": "Onboarding call with us"
+        },
+        {
+          "text": "Fill out the guide application"
+        },
+        {
+          "text": "Start attracting riders"
+        },
+        {
+          "text": "Start adding your product/s"
+        },
+        {
+          "text": "Ride, get rated and attract more"
+        }
+      ]
+    },
+    "faq_sec": {
+      "faq_sec_header_img": {
+        "img_url": "/img/join/faq.jpg"
+      },
+      "faq_sec_header_text": {
+        "title": "Frequently asked questions",
+        "descr": "We understand you probably have a hundred questions running through your head right now. Here are some of the key ones people are asking, sign up and we will answer the rest."
+      },
+      "faq_sec_faqs": [
+        {
+          "id": "1",
+          "ques": "How does the business model work?",
+          "answ": "A classic marketplace model with a 15% fixed rate for a successful booking  of your product on offer."
+        },
+        {
+          "id": "2",
+          "ques": "How do I get paid?",
+          "answ": "After accepting a booking request, we block the money and 24h after the tour we send it to your account. "
+        },
+        {
+          "id": "3",
+          "ques": "How do you maintain quality of the service?",
+          "answ": "We rely on rider & provider reviews to sort out the good from the ugly, but also vet all providers and listings."
+        },
+        {
+          "id": "4",
+          "ques": "Do I need to have a company or be certified?",
+          "answ": "That depends on multiple factors such as laws in your country, extent of service you want to provide etc."
+        }
+      ]
+    },
+    "bottom_entry_sec": {
+      "bottom_cta": {
+        "background_img": "/img/join/bottom.jpg",
+        "title": "Every end is a new beginning",
+        "btn_title": "Start your journey!",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "footer_sec": {
+      "footer": {
+        "copyright": "Trailldeer.com ©copyright 2021. All rights reserved."
+      }
+    },
+    "social_links": {
+      "fb": "https://www.facebook.com/traildeer",
+      "ig": "https://www.instagram.com/traildeer/"
+    },
+    "media_data": {
+      "youtube_link": "https://www.youtube.com/embed/4Ym2F-tHdkk",
+      "header": "Some media header text",
+      "descr": "Some media description text"
+    }
+  },
+
+  "sk": {
+    "top_sec": {
+      "background": {
+        "url": "/img/join/hero.jpg"
+      },
+      "logo": {
+        "url": "/img/join/logo.png",
+        "src_set": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/a7c4ef4a-group-27-2x_1079021000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/a7c4ef4a-group-27-2x_10ei042000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/a7c4ef4a-group-27-2x_1000000000000000000028.png 3x"
+      },
+      "text_content": {
+        "title": "Pripoj sa k tejto divokej jazde",
+        "subtitle": "ako sprievodca, tréner alebo pretekár"
+      },
+      "cta_btn": {
+        "btn_title": "Zaregistruj sa ešte dnes",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "badges_sec": {
+      "header": {
+        "title": "Zarábaš si jazdou na bicykli?",
+        "descr": "Nezáleží na tom, či si profesionálnym sprievodcom, trénerom, pretekárom, cestovnou agentúrou, alebo si “len” ambicióznym jazdcom, ktorý si chce privyrobiť jazdou na bicykli, máme pre teba to pravé"
+      },
+      "badges": [
+        {
+          "id": "1",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/6cbe8f47-021-streaming_104c04c000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/6cbe8f47-021-streaming_108o08o000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/6cbe8f47-021-streaming_10d00d0000000000000028.png 3x",
+          "src": "/img/join/badge1.png",
+          "title": "Marketing zdarma",
+          "descr": "Nech už na Traildeer umiestniš akýkoľvek produkt, je zadarmo, kým niekto neurobí rezerváciu. Získaj zviditeľnenie bez akýchkoľvek nákladov, len za cenu mierneho úsilia"
+        },
+        {
+          "id": "2",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/eeabcaca-027-location_1041041000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/eeabcaca-027-location_1082082000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/eeabcaca-027-location_10c30c3000000000000028.png 3x",
+          "icon": "/img/join/badge2.png",
+          "title": "Prilákaj bajkerov",
+          "descr": "Keďže máme medzinárodný dosah, tvoje výlety a ostatné produkty sa zobrazia nášmu publiku z iných krajín a týmto spôsobom môžeš prilákať širší okruh jazdcov"
+        },
+        {
+          "id": "3",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/b8d8a5d7-022-streaming_1041041000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/b8d8a5d7-022-streaming_1082082000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/b8d8a5d7-022-streaming_10c30c3000000000000028.png 3x",
+          "icon": "/img/join/badge3.png",
+          "title": "Zníž svoje náklady",
+          "descr": "Naším cieľom je pomôcť ti znížiť náklady na marketing a web na minimum, aby si sa mohol sústrediť na jazdenie so zákazníkmi a rozvoj vlastného podnikania"
+        },
+        {
+          "id": "4",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/f8b982ca-043-way_104i04i000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/f8b982ca-043-way_1090090000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/f8b982ca-043-way_10di0di000000000000028.png 3x",
+          "icon": "/img/join/badge4.png",
+          "title": "Krásne produkty",
+          "descr": "Vieme, že produkty, ktoré sa najviac predávajú online, sú tie vizuálne najatraktívnejšie. Preto sa zameriavame na kvalitný dizajn produktov, ktorý spolu s nami dokážete vytvoriť za pár minút"
+        },
+        {
+          "id": "5",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/1c8a98ed-035-badge_1046046000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/1c8a98ed-035-badge_108c08c000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/1c8a98ed-035-badge_10ci0ci000000000000028.png 3x",
+          "icon": "/img/join/badge5.png",
+          "title": "Buduj si povesť ",
+          "descr": "Ak poskytneš našim bajkerom fantastický zážitok, budeš za to získavať skvelé recenzie a tie na oplátku zaistia tvoj úspech."
+        },
+        {
+          "id": "6",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/edad9c7c-007-cycling_103y03y000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/edad9c7c-007-cycling_107w07w000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/edad9c7c-007-cycling_10bu0bu000000000000028.png 3x",
+          "icon": "/img/join/badge6.png",
+          "title": "Pripoj sa ku komunite",
+          "descr": "Traildeer nie je iba o zarábaní peňazí. Chceme prepojiť svet bajkerov ako nikdy predtým, takže nech už v budúcnosti pôjdeš kamkoľvek, budeš ľahko vedieť nájsť niekoho, s kým si môžeš zajazdiť v blízkom okolí."
+        }
+      ]
+    },
+    "news_sec": {
+      "news_cta": {
+        "title": "Oveľa viac už čoskoro",
+        "btn_title": "Zaregistrovať ",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "about_sec": {
+      "about": {
+        "backgroung_img": "/img/join/home.jpeg",
+        "title": "Domov pre všetky bajkové dobrodružstvá",
+        "descr": "Začali sme jednoduchou myšlienkou - spojiť miestnych jazdcov s tými z iných regiónov, krajín alebo dokonca kontinentov, aby ste si mohli zajazdiť spolu. Teraz sme sa rozšírili o výlety, cyklistické kempy, expedície, dovolenky a čoskoro tiež umožníme poskytovateľom služieb, aby sa platforma stala jediným miestom, kde nájdeš všetko potrebné pre tvoje ďalšie bajkové dobrodružstvo."
+      }
+    },
+    "reviews_sec": {
+      "reviews_sec_header": {
+        "title": "Sprievodcovia, tréneri a stavitelia tratí",
+        "descr": "Zisti, čo o nás hovoria"
+      },
+      "reviews": [
+        {
+          "id": "1",
+          "photo_url": "/img/join/rycak.jpg",
+          "review_text": "\"Páči sa mi myšlienka medzinárodného prepojenia jazdcov a teším sa, keď uvidím viac ľudí jazdiť spolu\"",
+          "author": "Tom Rycak",
+          "author_bio": "jazdec a staviteľ trás",
+          "author_country": "🇵🇱  Poľsko"
+        },
+        {
+          "id": "2",
+          "photo_url": "/img/join/hercog.jpg",
+          "review_text": "\"Umiestnením našich MTB trás na mapu sveta sme vytvorili úžasné zážitky pre našich jazdcov. Ďakujeme Traildeeru za pomoc.\"",
+          "author": "Jani Hercog",
+          "author_bio": "sprievodca a cestovná kancelária ridgelinetrails.com",
+          "author_country": "🇸🇮  Slovinsko"
+        },
+        {
+          "id": "3",
+          "photo_url": "/img/join/kalabus.jpg",
+          "review_text": "\"Ako vášnivý jazdec, dokumentarista a organizátor expedície mi dáva zmysel to, čo Traildeer ponúka.\"",
+          "author": "Roman Kalabus",
+          "author_bio": "dobrodruh na bicykli baobabtrails.com",
+          "author_country": "🇨🇿 Česko"
+        },
+        {
+          "id": "4",
+          "photo_url": "/img/join/pivko.jpg",
+          "review_text": "\"Chalani z Traildeeru mi pomohli prihlásiť sa a vytvoriť môj MTB kemp na platforme, ktorý bol do dvoch dní vypredaný.\"",
+          "author": "Samo Pivko",
+          "author_bio": "pro tréner a pretekár bearider.sk",
+          "author_country": "🇸🇰  Slovensko"
+        }
+      ]
+    },
+    "locations_sec": {
+      "locations_sec_header": {
+        "title": "Expanzia v Európe",
+        "descr": "Traildeer má zmysel, iba ak je skutočne medzinárodný a jazdci môžu cestovať a objavovať nové miesta. Každý výlet, bajk kemp, dovolenka alebo expedícia v novej krajine nám pomáha prílakať pre vás jazdcov z celej Európy"
+      },
+      "locations_sec_imgs": [
+        {
+          "id": 1,
+
+          "photo_url": "/img/join/italy.jpeg",
+          "location": "Taliansko",
+          "width": "378",
+          "height": "580"
+        },
+        {
+          "id": 2,
+          "photo_url": "/img/join/austria.jpeg",
+          "location": "Rakúsko",
+          "width": "226",
+          "height": "739"
+        },
+        {
+          "id": 3,
+          "photo_url": "/img/join/slovenia.jpeg",
+          "location": "Slovinsko",
+          "width": "297",
+          "height": "345"
+        },
+        {
+          "id": 5,
+          "photo_url": "/img/join/poland.jpeg",
+          "location": "Poľsko",
+          "width": "297",
+          "height": "380"
+        },
+        {
+          "id": 4,
+          "photo_url": "/img/join/croatia.jpeg",
+          "location": "Chorvátsko",
+          "width": "320",
+          "height": "146"
+        }
+      ]
+    },
+    "entry_sec": {
+      "entry_cta": {
+        "background_img": "/img/join/cta.jpeg",
+        "title": "Už si toho videl dosť?",
+        "btn_title": "Pustite ma už dnu!",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "process_sec": {
+      "header": {
+        "title": "Rýchly a jednoduchý proces",
+        "descr": "Záleží nám na vysokej kvalite partnerov a obsahu, zároveň však chceme, aby bol proces čo najjednoduchší"
+      },
+      "steps": [
+        {
+          "text": "Prihlás sa ako jazdec"
+        },
+        {
+          "text": "Absolvuj s nami zoznamovací rozhovor"
+        },
+        {
+          "text": "Vyplň prihlášku sprievodcu"
+        },
+        {
+          "text": "Začni prilákavať bajkerov"
+        },
+        {
+          "text": "Pridaj svoje produkty"
+        },
+        {
+          "text": "Jazdi, dostaň hodnotenie a tým si prilákaj ešte viac zákazníkov"
+        }
+      ]
+    },
+    "faq_sec": {
+      "faq_sec_header_img": {
+        "img_url": "/img/join/faq.jpg"
+      },
+      "faq_sec_header_text": {
+        "title": "Často kladené otázky",
+        "descr": "Chápeme, že ti teraz hlavou behá množstvo otázok. Tu sú odpovede na niektoré z kľúčových, ktoré sa ľudia pýtajú. Zaregistruj sa a my radi odpovieme na zvyšok."
+      },
+      "faq_sec_faqs": [
+        {
+          "id": "1",
+          "ques": "Ako funguje obchodný model?",
+          "answ": "Klasický trhový model s 15% fixnou sadzbou za každú úspešnú rezerváciu ponúkaného produktu."
+        },
+        {
+          "id": "2",
+          "ques": "Ako dostanem zaplatené?",
+          "answ": "Po prijatí žiadosti o rezerváciu zablokujeme zakazníkovi peniaze, po tvojom schválení požiadavky zákazníka, sú prevedené na náš účet a 24 hodín po uskutočnení zážitku ti ich pošleme na tvoj účet a necháme si náš poplatok. "
+        },
+        {
+          "id": "3",
+          "ques": "Ako udržujete kvalitu služieb?",
+          "answ": "Spoliehame sa na recenzie jazdcov a poskytovateľov, a tým sa oddeľujú kvalitní poskytovatelia, ako aj jazdci, od tých horších. Zároveň tiež preverujeme všetkých poskytovateľov a produkty osobne pred ich zverejnením."
+        },
+        {
+          "id": "4",
+          "ques": "Potrebujem mať spoločnosť alebo byť certifikovaný?",
+          "answ": "To závisí od viacerých faktorov, ako sú napr. zákony v tvojej krajine, rozsahu služieb, ktoré chceš poskytovať a pod. Ozvi sa nám a radi ti poradíme, ak to bude v našich silách."
+        }
+      ]
+    },
+    "bottom_entry_sec": {
+      "bottom_cta": {
+        "background_img": "/img/join/bottom.jpg",
+        "title": "Každý koniec je novým začiatkom",
+        "btn_title": "Začni svoju jazdu s nami!",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "footer_sec": {
+      "footer": {
+        "copyright": "Trailldeer.com © copyright 2021. Všetky práva vyhradené."
+      }
+    },
+    "social_links": {
+      "fb": "https://www.facebook.com/traildeer",
+      "ig": "https://www.instagram.com/traildeer/"
+    },
+    "media_data": {
+      "youtube_link": "https://www.youtube.com/embed/4Ym2F-tHdkk",
+      "header": "Some media header text",
+      "descr": "Some media description text"
+    }
+  },
+
+  "cs": {
+    "top_sec": {
+      "background": {
+        "url": "/img/join/hero.jpg"
+      },
+      "logo": {
+        "url": "/img/join/logo.png",
+        "src_set": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/a7c4ef4a-group-27-2x_1079021000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/a7c4ef4a-group-27-2x_10ei042000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/a7c4ef4a-group-27-2x_1000000000000000000028.png 3x"
+      },
+      "text_content": {
+        "title": "Připoj se k divoké jízdě",
+        "subtitle": "jako průvodce, trenér nebo závodník"
+      },
+      "cta_btn": {
+        "btn_title": "Zaregistruj se ještě dnes",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "badges_sec": {
+      "header": {
+        "title": "Vyděláváš si peníze jízdou na kole?",
+        "descr": "Nezáleží na tom, zda si profesionálním průvodcem na kole, trenérem, závodníkem nebo cestovní agenturou, anebo si \"jen\" ambiciózním jezdcem, který si chce přivyrobit jízdou, máme pro tebe to pravé."
+      },
+      "badges": [
+        {
+          "id": "1",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/6cbe8f47-021-streaming_104c04c000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/6cbe8f47-021-streaming_108o08o000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/6cbe8f47-021-streaming_10d00d0000000000000028.png 3x",
+          "src": "/img/join/badge1.png",
+          "title": "Marketing zdarma",
+          "descr": "Ať už na Traildeer umístíš jakýkoli produkt, je to zdarma, až dokud někdo neudělá rezervaci. Tímto zíškáš viditelnost našeho bikerskýho publika bez jakýchkoli nákladů jen s trochou úsilí"
+        },
+        {
+          "id": "2",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/eeabcaca-027-location_1041041000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/eeabcaca-027-location_1082082000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/eeabcaca-027-location_10c30c3000000000000028.png 3x",
+          "icon": "/img/join/badge2.png",
+          "title": "Přilákat bikeri",
+          "descr": "Protože máme mezinárodní charakter, tvé produkty se zobrazí našemu publiku z jiných zemí a tímto způsobem můžeš přilákat širší okruh jezdců"
+        },
+        {
+          "id": "3",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/b8d8a5d7-022-streaming_1041041000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/b8d8a5d7-022-streaming_1082082000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/b8d8a5d7-022-streaming_10c30c3000000000000028.png 3x",
+          "icon": "/img/join/badge3.png",
+          "title": "Sniž své náklady",
+          "descr": "Naším cílem je pomoci ti snížit náklady na marketing a web na minimum, aby ses mohl soustředit na jízdu se zákazníkmi a rozvoj vlastního podnikání"
+        },
+        {
+          "id": "4",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/f8b982ca-043-way_104i04i000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/f8b982ca-043-way_1090090000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/f8b982ca-043-way_10di0di000000000000028.png 3x",
+          "icon": "/img/join/badge4.png",
+          "title": "Krásne produkty",
+          "descr": "Víme, že produkty, které se nejvíce prodávají online, jsou ty vizuálně nejatraktivnější. Proto se zaměřujeme na design produktů, které s naší pomocí dokážete vytvořit za pár minut"
+        },
+        {
+          "id": "5",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/1c8a98ed-035-badge_1046046000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/1c8a98ed-035-badge_108c08c000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/1c8a98ed-035-badge_10ci0ci000000000000028.png 3x",
+          "icon": "/img/join/badge5.png",
+          "title": "Buduj si pověst",
+          "descr": "Pokud poskytneš našim jezdcům fantastický zážitek, budeš získavat skvělé recenze, které ti zajistí tvůj úspěch"
+        },
+        {
+          "id": "6",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/edad9c7c-007-cycling_103y03y000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/edad9c7c-007-cycling_107w07w000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/edad9c7c-007-cycling_10bu0bu000000000000028.png 3x",
+          "icon": "/img/join/badge6.png",
+          "title": "Připoj se ke komunitě",
+          "descr": "Traildeer není pouze o vydělávání peněz. Chceme propojit svět bikerů jako nikdy předtím, takže ať už v budoucnu půjdeš kamkoliv, budeš snadno vědět najít někoho, s kým si můžeš zajezdit v blízkém okolí"
+        }
+      ]
+    },
+    "news_sec": {
+      "news_cta": {
+        "title": "Mnohem více již brzy",
+        "btn_title": "Zaregistrovat",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "about_sec": {
+      "about": {
+        "backgroung_img": "/img/join/home.jpeg",
+        "title": "Domov pro všechna bikový dobrodružství",
+        "descr": "Začali jsme jednoduchou myšlenkou - spojit místních jezdců s těmi z jiných regionů, zemí nebo dokonce kontinentů, abyste si mohli zajezdit spolu. Nyní jsme se rozšířili o výlety, cyklistické kempy, expedice, dovolené a brzy také umožníme poskytovatelům služeb, aby se platforma stala jediným místem, kde najdeš vše potřebné pro tvé další bajkové dobrodružství."
+      }
+    },
+    "reviews_sec": {
+      "reviews_sec_header": {
+        "title": "Průvodci, trenéři a stavitelé stezek",
+        "descr": "Zjisti, co o nás říkají"
+      },
+      "reviews": [
+        {
+          "id": "1",
+          "photo_url": "/img/join/rycak.jpg",
+          "review_text": "\"Velmi se mi líbí myšlenka mezinárodního propojení jezdců a těším se, až uvidím více lidí jezdit společně\"",
+          "author": "Tom Rycak",
+          "author_bio": "jezdec a stavitel stezek",
+          "author_country": "🇵🇱 Polsko"
+        },
+        {
+          "id": "2",
+          "photo_url": "/img/join/hercog.jpg",
+          "review_text": "\"Umístěním našich MTB tras na mapu světa jsme vytvořili úžasné zážitky pro naše jezdce. Děkujeme Traildeeru za pomoc.\"",
+          "author": "Jani Hercog",
+          "author_bio": "průvodce a cestovní kancelář ridgelinetrails.com",
+          "author_country": "🇸🇮 Slovinsko"
+        },
+        {
+          "id": "3",
+          "photo_url": "/img/join/kalabus.jpg",
+          "review_text": "\"Jako vášnivý jezdec, dokumentarista a organizátor expedice mi to, co Traildeer nabízí, dává velký smysl.\"",
+          "author": "Roman Kalabus",
+          "author_bio": "dobrodruh na kole baobabtrails.com",
+          "author_country": "🇨🇿 Česko"
+        },
+        {
+          "id": "4",
+          "photo_url": "/img/join/pivko.jpg",
+          "review_text": "\"Kluci z Traildeeru mi pomohli přihlásit se a vytvořit MTB kemp na platformě, který byl do dvou dnů vyprodán.\"",
+          "author": "Samo Pivko",
+          "author_bio": "pro trenér a závodník bearider.sk",
+          "author_country": "🇸🇰 Slovensko"
+        }
+      ]
+    },
+    "locations_sec": {
+      "locations_sec_header": {
+        "title": "Expanze v Evropě",
+        "descr": "Traildeer má smysl, pouze pokud je skutečně mezinárodní, aby jezdci mohli cestovat na nová místa. Každý výlet, kemp, dovolená nebo expedice v nové zemi nám pomáhá pro vás přilákat další jezdce z celé Evropy."
+      },
+      "locations_sec_imgs": [
+        {
+          "id": 1,
+
+          "photo_url": "/img/join/italy.jpeg",
+          "location": "Itálie",
+          "width": "378",
+          "height": "580"
+        },
+        {
+          "id": 2,
+          "photo_url": "/img/join/austria.jpeg",
+          "location": "Rakousko",
+          "width": "226",
+          "height": "739"
+        },
+        {
+          "id": 3,
+          "photo_url": "/img/join/slovenia.jpeg",
+          "location": "Slovinsko",
+          "width": "297",
+          "height": "345"
+        },
+        {
+          "id": 5,
+          "photo_url": "/img/join/poland.jpeg",
+          "location": "Polsko",
+          "width": "297",
+          "height": "380"
+        },
+        {
+          "id": 4,
+          "photo_url": "/img/join/croatia.jpeg",
+          "location": "Chorvatsko",
+          "width": "320",
+          "height": "146"
+        }
+      ]
+    },
+    "entry_sec": {
+      "entry_cta": {
+        "background_img": "/img/join/cta.jpeg",
+        "title": "Už jsi toho viděl dost?",
+        "btn_title": "Pusťte mě dovnitř!",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "process_sec": {
+      "header": {
+        "title": "Rychlý a jednoduchý proces",
+        "descr": "Záleží nám na vysoké kvalitě členů a obsahu, zároveň však chceme, aby byl proces co nejjednodušší a aby si byl přihlášen v co nejkratším čase."
+      },
+      "steps": [
+        {
+          "text": "Přihlas se jako jezdec"
+        },
+        {
+          "text": "Absolvuj s námi zoznamovací pohovor"
+        },
+        {
+          "text": "Vyplň přihlášku průvodce"
+        },
+        {
+          "text": "Začni přitahovat jezdce"
+        },
+        {
+          "text": "Přidej své produkty"
+        },
+        {
+          "text": "Jezdi, dostaň hodnocení a prilákej si víc zákazníků"
+        }
+      ]
+    },
+    "faq_sec": {
+      "faq_sec_header_img": {
+        "img_url": "/img/join/faq.jpg"
+      },
+      "faq_sec_header_text": {
+        "title": "Často kladené otázky",
+        "descr": "Chápeme, že ti pravděpodobně teď hlavou prochází sto otázek. Zde jsou některé z klíčových, které se lidé ptají. Zaregistruj se a my odpovíme na zbytek."
+      },
+      "faq_sec_faqs": [
+        {
+          "id": "1",
+          "ques": "Jak funguje obchodní model?",
+          "answ": "Klasický trhový model s 15% pevnou sazbou za úspěšnou rezervaci nabízeného produktu."
+        },
+        {
+          "id": "2",
+          "ques": "Jak dostanu zaplaceno?",
+          "answ": "Po přijetí žádosti o rezervaci zablokujeme zákazníkovi peníze, po tvém schválení jeho požadavky jsou převedeny na náš účet a 24 hodin po uskutečnění zážitku ti je pošleme na tvůj účet a necháme si náš poplatek."
+        },
+        {
+          "id": "3",
+          "ques": "Jak udržujete kvalitu služeb?",
+          "answ": "Spoléháme na recenze jezdců a poskytovatelů, a tím se oddělují kvalitní poskytovatelé i jezdci od těch horších. Zároveň také prověřujeme všechny poskytovatele a produkty osobně před jejich zveřejněním."
+        },
+        {
+          "id": "4",
+          "ques": "Musím nato mít společnost nebo být certifikován?",
+          "answ": "To závisí na několika faktorech, jako jsou zákony ve tvé zemi, rozsah služeb, které chceš poskytovat atd. Ozvi se nám a rádi ti poradíme, když budeme vědět."
+        }
+      ]
+    },
+    "bottom_entry_sec": {
+      "bottom_cta": {
+        "background_img": "/img/join/bottom.jpg",
+        "title": "Každý konec je nový začátek",
+        "btn_title": "Vydej se na jízdu s námi!",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "footer_sec": {
+      "footer": {
+        "copyright": "Trailldeer.com © copyright 2021. Všechna práva vyhrazena."
+      }
+    },
+    "social_links": {
+      "fb": "https://www.facebook.com/traildeer",
+      "ig": "https://www.instagram.com/traildeer/"
+    },
+    "media_data": {
+      "youtube_link": "https://www.youtube.com/embed/4Ym2F-tHdkk",
+      "header": "Some media header text",
+      "descr": "Some media description text"
+    }
+  },
+  "fr": {
+    "top_sec": {
+      "background": {
+        "url": "/img/join/hero.jpg"
+      },
+      "logo": {
+        "url": "/img/join/logo.png",
+        "src_set": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/a7c4ef4a-group-27-2x_1079021000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/a7c4ef4a-group-27-2x_10ei042000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/a7c4ef4a-group-27-2x_1000000000000000000028.png 3x"
+      },
+      "text_content": {
+        "title": "Rejoignez-nous dans cette course folle",
+        "subtitle": "comme guide de vélo, entraîneur ou coureur"
+      },
+      "cta_btn": {
+        "btn_title": "Inscrivez-vous aujourd'hui",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "badges_sec": {
+      "header": {
+        "title": "Es-tu rémunéré pour rouler ?",
+        "descr": "Que tu sois guide vélo pro, entraîneur, coureur ou professionnel des vacances à vélo ; voire \"seulement\" un cycliste en herbe qui veut gagner sa vie en faisant du vélo, nous avons quelques goodies dans notre sac pour toi."
+      },
+      "badges": [
+        {
+          "id": "1",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/6cbe8f47-021-streaming_104c04c000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/6cbe8f47-021-streaming_108o08o000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/6cbe8f47-021-streaming_10d00d0000000000000028.png 3x",
+          "icon": "/img/join/badge1.png",
+          "title": "Marketing gratuit",
+          "descr": "Quel que soit le produit que tu mets sur Traildeer, c'est gratuit jusqu'à ce que quelqu'un fasse une réservation. Du coup, tu gagnes en visibilité sur notre public de riders, sans frais, avec effort minime"
+        },
+        {
+          "id": "2",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/eeabcaca-027-location_1041041000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/eeabcaca-027-location_1082082000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/eeabcaca-027-location_10c30c3000000000000028.png 3x",
+          "icon": "/img/join/badge2.png",
+          "title": "Attirer les riders",
+          "descr": "Notre site étant international, tes produits seront présentés à notre public d'autres pays et tu pourras ainsi attirer un plus grand nombre de pratiquants."
+        },
+        {
+          "id": "3",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/b8d8a5d7-022-streaming_1041041000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/b8d8a5d7-022-streaming_1082082000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/b8d8a5d7-022-streaming_10c30c3000000000000028.png 3x",
+          "icon": "/img/join/badge3.png",
+          "title": "Réduis tes coûts",
+          "descr": "Notre objectif est de t'aider à réduire au minimum les coûts de marketing et de développement de site Web, pour pouvoir te concentrer sur la croissance de ta propre entreprise et plutôt sur ton vélo."
+        },
+        {
+          "id": "4",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/f8b982ca-043-way_104i04i000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/f8b982ca-043-way_1090090000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/f8b982ca-043-way_10di0di000000000000028.png 3x",
+          "icon": "/img/join/badge4.png",
+          "title": "Produits magnifiques",
+          "descr": "Le VTT n'est pas seulement une activité cool, mais aussi un beau sport et nous essayons donc de faire briller tes offres avec peu d'effort de ta part."
+        },
+        {
+          "id": "5",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/1c8a98ed-035-badge_1046046000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/1c8a98ed-035-badge_108c08c000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/1c8a98ed-035-badge_10ci0ci000000000000028.png 3x",
+          "icon": "/img/join/badge5.png",
+          "title": "Bâtir sa réputation",
+          "descr": "Si tu offres une expérience fantastique à nos riders, tu obtiendras à ton tour d'excellentes critiques, ce qui te bâtira une solide réputation et assurera ton succès."
+        },
+        {
+          "id": "6",
+          "srcset": "//d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/edad9c7c-007-cycling_103y03y000000000000028.png 1x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/edad9c7c-007-cycling_107w07w000000000000028.png 2x, //d9hhrg4mnvzow.cloudfront.net/join.traildeer.com/edad9c7c-007-cycling_10bu0bu000000000000028.png 3x",
+          "icon": "/img/join/badge6.png",
+          "title": "Rejoindre une communauté",
+          "descr": "Traildeer va au-delà de l'argent. Nous voulons connecter le monde du vélo comme jamais auparavant, donc où que tu ailles à l'avenir, tu pourras trouver quelqu'un avec qui rouler à proximité"
+        }
+      ]
+    },
+    "news_sec": {
+      "news_cta": {
+        "title": "Bien plus à venir",
+        "btn_title": "M'enregistrer!",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "about_sec": {
+      "about": {
+        "backgroung_img": "/img/join/home.jpeg",
+        "title": "Le lieu pour toutes les aventures à vélo",
+        "descr": "Nous sommes partis d'une idée simple : connecter les cyclistes locaux avec ceux d'autres régions, pays ou même continents pour les faire rouler ensemble. Nous couvrons maintenant les circuits, camps de vélo, expéditions et autres vacances. Bientôt, nous laisserons également entrer les fournisseurs de services pour faire de la plate-forme le seul endroit où aller lors de la planification de ta prochaine randonnée."
+      }
+    },
+    "reviews_sec": {
+      "reviews_sec_header": {
+        "title": "Guides, formateurs et trail builders",
+        "descr": "Découvre ce qu'ils pensent de nous"
+      },
+      "reviews": [
+        {
+          "id": "1",
+          "photo_url": "/img/join/rycak.jpg",
+          "review_text": "\"J'aime beaucoup l'idée de connecter les coureurs au niveau international et j'ai hâte de voir plus de gens rouler ensemble\"",
+          "author": "Tom Rycak",
+          "author_bio": "rider & trailbuilder",
+          "author_country": "🇵🇱 Pologne"
+        },
+        {
+          "id": "2",
+          "photo_url": "/img/join/hercog.jpg",
+          "review_text": "\"Mettre nos sentiers sur la carte du monde du VTT en créant une expérience incroyable pour nos cyclistes. Merci à Traildeer de nous aider.\"",
+          "author": "Jani Hercog",
+          "author_bio": "guide & tour opérateur ridgelinetrails.com",
+          "author_country": "🇸🇮 Slovénie"
+        },
+        {
+          "id": "3",
+          "photo_url": "/img/join/kalabus.jpg",
+          "review_text": "\"En tant que rider passionné, documentariste et organisateur d'expéditions, ce que propose Traildeer a beaucoup de sens pour moi.\"",
+          "author": "Roman Kalabus",
+          "author_bio": "bike adventurer baobabtrails.com",
+          "author_country": "🇨🇿 Czechia"
+        },
+        {
+          "id": "4",
+          "photo_url": "/img/join/pivko.jpg",
+          "review_text": "\"Les gars de Traildeer m'ont aidé à m'inscrire et à créer mon premier camp sur la plate-forme et en deux jours, il était complet.\"",
+          "author": "Samo Pivko",
+          "author_bio": "pro coach et coureur bearider.sk",
+          "author_country": "🇸🇰 Slovaquie"
+        }
+      ]
+    },
+    "locations_sec": {
+      "locations_sec_header": {
+        "title": "Se développer en Europe",
+        "descr": "Traildeer n'a de sens que s'il est vraiment international, afin que les riders puissent voyager vers de nouvelles destinations. Chaque voyage, camp, vacances ou expédition dans un nouveau pays nous permet de vous aider à attirer des riders de toute l'Europe."
+      },
+      "locations_sec_imgs": [
+        {
+          "id": 1,
+
+          "photo_url": "/img/join/italy.jpeg",
+          "location": "Italie",
+          "width": "378",
+          "height": "580"
+        },
+        {
+          "id": 2,
+          "photo_url": "/img/join/austria.jpeg",
+          "location": "L'Autriche",
+          "width": "226",
+          "height": "739"
+        },
+        {
+          "id": 3,
+          "photo_url": "/img/join/slovenia.jpeg",
+          "location": "Slovénie",
+          "width": "297",
+          "height": "345"
+        },
+        {
+          "id": 5,
+          "photo_url": "/img/join/poland.jpeg",
+          "location": "Pologne",
+          "width": "297",
+          "height": "380"
+        },
+        {
+          "id": 4,
+          "photo_url": "/img/join/croatia.jpeg",
+          "location": "Croatie",
+          "width": "320",
+          "height": "146"
+        }
+      ]
+    },
+    "entry_sec": {
+      "entry_cta": {
+        "background_img": "/img/join/cta.jpeg",
+        "title": "Déjà assez vu?",
+        "btn_title": "Laisse-moi entrer!",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "process_sec": {
+      "header": {
+        "title": "Un processus simple et rapide",
+        "descr": "Nous nous soucions de la qualité des membres et du contenu, mais nous voulons également que le processus soit aussi simple que possible pour être opérationnel en un rien de temps."
+      },
+      "steps": [
+        {
+          "text": "M'inscrire en tant que rider"
+        },
+        {
+          "text": "Appel d'intégration avec nous"
+        },
+        {
+          "text": "Remplir la demande pour être guide"
+        },
+        {
+          "text": "Commencer à attirer des riders"
+        },
+        {
+          "text": "Commencer à ajouter un/des produit(s)"
+        },
+        {
+          "text": "Rouler, obtenir une note et devenir plus attractif"
+        }
+      ]
+    },
+    "faq_sec": {
+      "faq_sec_header_img": {
+        "img_url": "/img/join/faq.jpg"
+      },
+      "faq_sec_header_text": {
+        "title": "Questions fréquemment posées",
+        "descr": "Nous comprenons que tu as probablement une centaine de questions qui te trottent dans la tête en ce moment. Voici quelques-unes des questions clés que les gens posent, inscris-toi et nous répondrons au reste."
+      },
+      "faq_sec_faqs": [
+        {
+          "id": "1",
+          "ques": "Quel est le modèle économique?",
+          "answ": "Un modèle de marketplace classique avec un taux fixe de 15% pour une réservation réussie de votre produit proposé."
+        },
+        {
+          "id": "2",
+          "ques": "Comment suis-je payé?",
+          "answ": "Après avoir accepté une demande de réservation, nous bloquons l'argent et 24h après la visite nous l'envoyons sur votre compte. "
+        },
+        {
+          "id": "3",
+          "ques": "Comment maintenez-vous la qualité du service?",
+          "answ": "Nous nous appuyons sur les avis des cavaliers et des fournisseurs pour faire le tri entre le bon et le moche, mais nous vérifions également tous les fournisseurs et les annonces."
+        },
+        {
+          "id": "4",
+          "ques": "Dois-je avoir une entreprise ou être certifié?",
+          "answ": "Cela dépend de plusieurs facteurs tels que les lois de votre pays, l'étendue du service que vous souhaitez fournir, etc."
+        }
+      ]
+    },
+    "bottom_entry_sec": {
+      "bottom_cta": {
+        "background_img": "/img/join/bottom.jpg",
+        "title": "Chaque fin est un nouveau commencement",
+        "btn_title": "Commence ton voyage!",
+        "btn_redirect": "https://www.traildeer.com/signup"
+      }
+    },
+    "footer_sec": {
+      "footer": {
+        "copyright": "Trailldeer.com ©copyright 2021. Tous droits réservés."
+      }
+    },
+    "social_links": {
+      "fb": "https://www.facebook.com/traildeer",
+      "ig": "https://www.instagram.com/traildeer/"
+    },
+    "media_data": {
+      "youtube_link": "https://www.youtube.com/embed/4Ym2F-tHdkk",
+      "header": "Some media header text",
+      "descr": "Some media description text"
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "en": {
+    "top_hero": {
+      "img_src": "/img/whyRide/hero copy.jpeg",
+      "title": "Why choose Traildeer?",
+      "descr": "One thing that unites us all as riders is that there is never enough time to ride our bikes. We would love to explore that new place, conquer that mountain or clear that gap finally, but we have families, jobs and those dreaded responsibilities that keep us away from biking. Although we can’tcreate more time, what we can help you with is to get the most out of your next riding experience."
+    },
+    "banner1": {
+      "img_src": "/img/whyRide/banner1 copy.jpeg",
+      "title": "More time for biking",
+      "descr": "One thing that unites us all as riders is that there is never enough time to ride our bikes. We would love to explore that new place, conquer that mountain or clear that gap finally, but we have families, jobs and those dreaded responsibilities that keep us away from biking. Although we can’tcreate more time, what we can help you with is to get the most out of your next riding experience."
+    },
+    "cta": {
+      "descr": "There’s only so much time for riding, why not make the best of it?",
+      "btn_title": "FIND YOUR NEXT RIDE",
+      "btn_link": "https://www.traildeer.com/signup"
+    },
+    "banner2": {
+      "img_src": "/img/whyRide/banner2 copy.jpeg",
+      "title": "Ensuring the best experience",
+      "descr": "No matter if it is discovering a new location, enjoying that Rad vacation with your friends you’re planning for so long or even learning to hold that manual you’ve always wanted to impress everyone with. We’ll make sure your next ride is a blast."
+    },
+    "grid": {
+      "title": "9 Benefits for every Rider",
+      "descr": "Below you’ll find all the reasons it makes sense to choose us for your next bike adventure. ",
+      "items": [
+        {
+          "id": "1",
+          "icon_src": "/img/whyRide/globe.png",
+          "title": "1. Get inspired",
+          "descr": "Discover the trail world around you and find the next place to go riding."
+        },
+        {
+          "id": "2",
+          "icon_src": "/img/whyRide/magnifying-glass.png",
+          "title": "2. Reveal the unknown",
+          "descr": "Find the hidden riding gems not only the places everyone knows."
+        },
+        {
+          "id": "3",
+          "icon_src": "/img/whyRide/phone-call.png",
+          "title": "3. Trusted providers",
+          "descr": "We make sure that all of our guides, coaches and tour operators are legit."
+        },
+        {
+          "id": "4",
+          "icon_src": "/img/whyRide/map-placeholder.png",
+          "title": "4. All info in one place",
+          "descr": "Find what you need to make the best decision to spent your next bike ride."
+        },
+        {
+          "id": "5",
+          "icon_src": "/img/whyRide/email.png",
+          "title": "5. Fast & secure booking",
+          "descr": "Easily book the ride you want only with a few clicks and securely."
+        },
+        {
+          "id": "6",
+          "icon_src": "/img/whyRide/arroba.png",
+          "title": "6. Matched expectations",
+          "descr": "We work hard on making sure the ride description matches reality."
+        },
+        {
+          "id": "7",
+          "icon_src": "/img/whyRide/chat.png",
+          "title": "7. Direct communication",
+          "descr": "No more digging for contact info, dates and endless email communication."
+        },
+        {
+          "id": "8",
+          "icon_src": "/img/whyRide/help.png",
+          "title": "8. International support",
+          "descr": "When not sure reach out and we’re happy to help in most languages."
+        },
+        {
+          "id": "9",
+          "icon_src": "/img/whyRide/hand-shake.png",
+          "title": "9. Supporting local trails",
+          "descr": "Part of our returns is going straight to local trail builders for their hard work."
+        }
+      ]
+    },
+    "bottom_cta": {
+      "descr": "Still have a question about choosing us?",
+      "btn_title": "REACH OUT TO US",
+      "modal_link": "https://44e61aa1.sibforms.com/serve/MUIEAD66bCVQizKTUBEVaQU1MPDIoDzWavI4W4ofFsUez9ELjuwqzw9iCrJ7x4U6ncb_M7F4EBPEEoEYXBAPcW5wgXHms-3m1L8_SXWy6ECfHfqNNMCqipJYCYjA7Zpw9VICZQ7juJQuQE8k922P9HPRYyBhmR8a__sMyvbsOLN7GXH9h7B15a2ikAckePhnXT-9jxU3rLGJmWKi"
+    },
+    "bottom_hero": {
+      "img_src": "/img/whyRide/bottom_cta.jpeg"
+    }
+  },
+  "fr": {
+    "top_hero": {
+      "img_src": "/img/whyRide/hero copy.jpeg",
+      "title": "Pourquoi choisir Traildeer ?",
+      "descr": "Une chose qui nous unit tous en tant que riders, c'est qu'il n'y a jamais assez de temps pour faire du vélo. On aimerait explorer ce nouveau spot, conquérir cette montagne ou enfin rentrer ce saut, mais nous avons des familles, des emplois et ces responsabilités qui nous éloignent du vélo. Nous ne pouvons pas créer plus de temps, manis nous pouvons t'aider à tirer le meilleur parti de ta prochaine sortie."
+    },
+    "banner1": {
+      "img_src": "/img/whyRide/banner1 copy.jpeg",
+      "title": "Davantage de temps pour le vélo",
+      "descr": "Une chose qui nous unit tous en tant que riders, c'est qu'il n'y a jamais assez de temps pour faire du vélo. On aimerait explorer ce nouveau spot, conquérir cette montagne ou enfin rentrer ce saut, mais nous avons des familles, des emplois et ces responsabilités qui nous éloignent du vélo. Nous ne pouvons pas créer plus de temps, mais nous pouvons t'aider à tirer le meilleur parti de ta prochaine sortie."
+    },
+    "cta": {
+      "descr": "Le temps pour rouler est limité, pourquoi ne pas en tirer le meilleur parti?",
+      "btn_title": "TROUVE TA PROCHAINE SORTIE",
+      "btn_link": "https://www.traildeer.com/signup"
+    },
+    "banner2": {
+      "img_src": "/img/whyRide/banner2 copy.jpeg",
+      "title": "S'assurer la meilleure expérience possible",
+      "descr": "Que ça soit pour découvrir un nouveau spot, profiter des vacances entre amis planifiées depuis si longtemps ou même apprendre à tenir ce manual pour impressionner tout le monde : nous nous assurerons que ton prochain séjour soit inoubliable"
+    },
+    "grid": {
+      "title": "9 avantages pour chaque rider",
+      "descr": "Voici les raisons pour lesquelles il est logique de nous choisir pour votre prochain séjour à vélo. ",
+      "items": [
+        {
+          "id": "1",
+          "icon_src": "/img/whyRide/globe.png",
+          "title": "1. Trouver l'inspiration",
+          "descr": "Découvrir un monde de sentiers autour de toi et trouver le prochain spot où rouler"
+        },
+        {
+          "id": "2",
+          "icon_src": "/img/whyRide/magnifying-glass.png",
+          "title": "2. Trouver les perles rares",
+          "descr": "Trouvez les singles cachés, pas seulement les traces super connues."
+        },
+        {
+          "id": "3",
+          "icon_src": "/img/whyRide/phone-call.png",
+          "title": "3. Guides de confiance",
+          "descr": "Nous nous assurons que tous nos guides, moniteurs et tour operators soient clean."
+        },
+        {
+          "id": "4",
+          "icon_src": "/img/whyRide/map-placeholder.png",
+          "title": "4. Toute l'info centralisée",
+          "descr": "Trouve tout ce qu'il faut pour choisir ta prochaine sortie."
+        },
+        {
+          "id": "5",
+          "icon_src": "/img/whyRide/email.png",
+          "title": "5. Réservation rapide et sécurisée",
+          "descr": "Réservation facile en quelques clics et en toute sécurité."
+        },
+        {
+          "id": "6",
+          "icon_src": "/img/whyRide/arroba.png",
+          "title": "6. À la hauteur de tes attentes",
+          "descr": "Nous travaillons dur pour nous assurer que la description des sorties correspondent à la réalité."
+        },
+        {
+          "id": "7",
+          "icon_src": "/img/whyRide/chat.png",
+          "title": "7. Communication directe",
+          "descr": "Plus besoin de chercher partout pour trouver les contacts ou les dates"
+        },
+        {
+          "id": "8",
+          "icon_src": "/img/whyRide/help.png",
+          "title": "8. Suivi international",
+          "descr": "Contacte nous et nous serons heureux d'aider dans la plupart des langues."
+        },
+        {
+          "id": "9",
+          "icon_src": "/img/whyRide/hand-shake.png",
+          "title": "9. Soutien aux trailbuilders",
+          "descr": "Une partie de nos bénéfices revient directement aux trailbuilders locaux pour leur travail acharné."
+        }
+      ]
+    },
+    "bottom_cta": {
+      "descr": "Encore une question avant de faire un choix?",
+      "btn_title": "CONTACTE-NOUS",
+      "modal_link": "https://44e61aa1.sibforms.com/serve/MUIEAD66bCVQizKTUBEVaQU1MPDIoDzWavI4W4ofFsUez9ELjuwqzw9iCrJ7x4U6ncb_M7F4EBPEEoEYXBAPcW5wgXHms-3m1L8_SXWy6ECfHfqNNMCqipJYCYjA7Zpw9VICZQ7juJQuQE8k922P9HPRYyBhmR8a__sMyvbsOLN7GXH9h7B15a2ikAckePhnXT-9jxU3rLGJmWKi"
+    },
+    "bottom_hero": {
+      "img_src": "/img/whyRide/bottom_cta.jpeg"
+    }
+  }
+}

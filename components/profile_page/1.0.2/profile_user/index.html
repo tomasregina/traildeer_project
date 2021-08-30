@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+</head>
+<body>
+    <section class="w-full h-screen">
+        <main class="max-w-6xl mx-auto bg-gray-100">
+            <!-- TOP -->
+            <div>
+                <!-- MEDIA CONTAINER -->
+                <div class="relative border-b-2 border-yellow-300">
+                    <!-- COVER IMG CONTAINER  -->
+                    <div class="md:h-96 overflow-hidden">
+                        <img src="./public/img/cover_pic2.jpg" alt="">
+                    </div>
+                    <!-- AVATAR CONTAINER -->
+                    <div x-data="{ menuOpen: false }" class="absolute w-28 right-10 bottom-14 md:left-8 md:bottom-8  lg:-bottom-28 md:w-44 lg:left-4 lg:right-auto lg:w-max">
+                        <img class="rounded-full border-yellow-300 border-2 lg:border-none" src="./public/img/profile_pic.png" alt="">
+                        <!-- MOBILE MENU ICON  -->
+                        <div @click="menuOpen = !menuOpen" class="block lg:hidden bottom-0 right-0 md:right-auto md:bottom-0 md:left-3 absolute bg-yellow-300  rounded-full p-1">
+                            <a href="#">
+                                <svg class="svg-icon w-6 md:w-8" viewBox="0 0 20 20">
+                                    <path class="fill-current text-white w-10 svg-icon" d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
+                                        c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
+                                        s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
+                                        c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <!-- MOBILE FLOATING MENU -->
+                        <div @click.away="menuOpen = false" x-show="menuOpen === true" class="absolute right-8 sm:right-auto flex items-center w-36 flex-col pt-2 bg-gray-200 rounded-md lg:hidden">
+                            <a class="border border-gray-400 rounded-md shadow-md text-base  px-4 mb-2" href="">LINK1</a>
+                            <a class="border border-gray-400 rounded-md shadow-md text-base  px-4 mb-2" href="">LINK2</a>
+                            <a class="border border-gray-400 rounded-md shadow-md text-base  px-4 mb-2" href="">LINK3</a>
+                            <a class="border border-gray-400 rounded-md shadow-md text-base  px-4 mb-2" href="">LINK4</a>
+                            <a class="border border-gray-400 rounded-md shadow-md text-base  px-4 mb-2" href="">LINK5</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROFILE INFO CONTAINER -->
+                <div class="flex flex-col md:grid md:grid-cols-2">
+                    <div class="flex flex-col  pt-4 lg:pt-2 pl-10 lg:pl-64">
+                        <h1 class="text-2xl font-bold pl-2">Rastislav B.</h1>
+                        <!-- REVIEWS -->
+                        <div class="flex flex-row w-24 pt-4 lg:pt-auto pl-2 items-center">
+                            <img class="" src="./public/img/reviews_stars.png" alt="">
+                            <span class="text-sm">4.8(200)</span>
+                        </div>
+                        <!-- TAGS -->
+                        <div class="flex flex-row text-xs flex-wrap pl-2 pt-4">
+                            <a class="pr-2 " href="">PRO GUIDE</a>
+                            <a class="pr-2 " href="">PRO TRAINER</a>
+                            <a class="pr-2 " href="">PRO RACER</a>
+                            <a class="pr-2 " href="">PRO GUIDE</a>
+                            <a class="pr-2 " href="">PRO GUIDE</a>
+                            <a class="pr-2 " href="">PRO TRAINER</a>
+                    
+                        </div>
+                    </div>
+                    <div class="p-2 px-10">
+                        <h1 class="text-lg font-semibold">O mne</h1>
+                        <span class="italic ">Ahoj, volám sa Rasťo Baránek, narodil som sa a žijem v Považskej Bystrici. Mám 25 rokov, posledných 15 rokov je bicykel skoro celý môj život. Jazdím súťažne zjazd na horských bicykloch za Kellys Factory team, som členom Slovenskej reprezentácie a keď nesúťažím, snažím sa pomôcť ostatným zlepšiť svoje jazdenie, techniku a tak podobne</span>
+                    </div>
+                </div>
+            </div>
+            <!-- BOTTOM -->
+            <div x-data="{ tab: 'tab1' }" class="flex flex-row pl-6">
+                <div class="hidden lg:flex flex-col items-center  lg:w-72"> 
+                    <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK1</a>
+                    <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK2</a>
+                    <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK3</a>
+                    <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK4</a>
+                    <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK5</a>
+                    <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK6</a>
+                    <a class="border rounded-md shadow-md text-base  px-10 mb-2" href="">LINK7</a>
+                </div>
+                <div class="w-full pt-10 lg:pt-0">
+                    <nav class="flex flex-row border-gray-300 text-sm sm:text-base border-t border-b ">
+                        <button @click="tab='tab1'" :class="{'border-b-4': tab === 'tab1', 'border': tab !== 'tab1'}" class="shadow-sm px-4 flex items-center mr-2 border-gray-300   focus:outline-none">
+                            Bio
+                        </button>
+                        <button @click="tab='tab2'" :class="{'border-b-4': tab === 'tab2', 'border': tab !== 'tab2'}" class="shadow-sm pr-4 h-10  pl-2 rounded-sm  mr-2 border-gray-300 flex items-center text-gray-600 focus:outline-none ">
+                            Stats
+                        </button>
+                        <button @click="tab='tab3'" :class="{'border-b-4': tab === 'tab3', 'border': tab !== 'tab3'}" class="shadow-sm pr-4 h-10  pl-2 rounded-sm  mr-2 border-gray-300 flex items-center text-gray-600 focus:outline-none ">
+                            Reviews
+                        </button>
+                        <button @click="tab='tab4'" :class="{'border-b-4': tab === 'tab4', 'border': tab !== 'tab4'}" class="shadow-sm pr-4 h-10  pl-2 rounded-sm  mr-2 border-gray-300 flex items-center text-gray-600 focus:outline-none ">
+                            Offer
+                        </button>
+                        <button  @click="tab='tab5'" :class="{'border-b-4': tab === 'tab5', 'border': tab !== 'tab5'}" class="shadow-sm pr-4 h-10  pl-2 rounded-sm  mr-2 border-gray-300 flex items-center text-gray-600 focus:outline-none ">
+                            Locations
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </main>
+    </section>    
+</body>
+</html>
+<script>
+    function scrollBar() {
+        return {
+            scroll(side, el) {
+                const elWidth = el.getBoundingClientRect().width;
+                const scrollBar = document.getElementById('scrollBar');
+                scrollBar.style.scrollBehavior = 'smooth';
+                if (side === 'r') {
+                    scrollBar.scrollLeft += elWidth/2;
+                }
+                else {
+                    scrollBar.scrollLeft -= elWidth/2;
+                }
+                
+            },
+            getCount(el) {
+                const scrollBar = document.getElementById('scrollBar');
+                const childCount = scrollBar.childNodes[1].childElementCount;
+                return `(${childCount})`;
+            }
+        }
+    }
+</script>
+<style>
+.test {
+    grid-template-columns: auto 1fr;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+</style>

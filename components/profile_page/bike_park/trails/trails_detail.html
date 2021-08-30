@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- based upon tw 2.1.1 -->
+    <!-- <link href="../tailwind.min.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Super Flow</title>
+
+    <style>
+        html {
+            --scrollbarBG: #eee;
+            --thumbBG: #222;
+        }
+
+        div::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        div {
+            scrollbar-width: thin;
+            scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+        }
+
+        div::-webkit-scrollbar-track {
+            background: var(--scrollbarBG);
+            border-radius: 6px;
+        }
+
+        div::-webkit-scrollbar-thumb {
+            background-color: var(--thumbBG);
+            border-radius: 6px;
+            border: 3px solid var(--scrollbarBG);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="max-w-screen-xl mx-auto">
+        <div class="my-3 px-2">
+            <h2 class="text-3xl font-bold mx-auto">Trails</h2>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 w-full px-2">
+            <div class="w-full">
+                <div class="max-w-lg h-full mx-auto">
+                    <div class="w-full h-full">
+                        <div class="trail-header p-3">
+                            <div class="trail-title flex flex-row justify-between ">
+                                <h3 class="text-xs hover:underline font-semibold ">Bike Park Kalnica</h3>
+                                <button
+                                    class="text-sm flex my-auto p-1 pr-2 text-gray-800 focus:outline-none hover:bg-yellow-300 transition-colors delay-50 rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 my-auto" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 19l-7-7 7-7" />
+                                    </svg>
+                                    <p>Back</p>
+                                </button>
+                            </div>
+                            <h3 class="text-2xl hover:underline font-bold mb-1">Super Flow</h3>
+
+                        </div>
+                        <div
+                            class="trail-details h-64 sm:h-72 lg:h-96 overflow-y-scroll lg:overflow-y-scroll overflow-x-hidden">
+                            <div
+                                class="trails-row clickable bg-white hover:bg-yellow-300 transition-colors delay-100 rounded-md ">
+                                <div class="h-px bg-gray-300 w-11/12 mx-auto"></div>
+                                <div class="flex flex-row flex-wrap py-1">
+
+                                    <div class="flex flex-col w-10/12 pl-4 pb-4">
+                                        <h5 class="text-sm font-bold">Features</h5>
+                                        <div class="px-2 flex flex-row flex-wrap space-x-2">
+                                            <!-- trail diff -->
+                                            <div class="px-2 flex flex-row align-middle items-center space-x-1">
+                                                <button class="my-auto m-1 w-2 h-2  bg-green-600 rounded-full"></button>
+                                                <p class="text-xs">Easy</p>
+                                            </div>
+                                            <!-- trail length -->
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                                                </svg>
+                                                <p class="text-xs">2.2 km</p>
+                                            </div>
+                                            <!-- trail up -->
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                                </svg>
+                                                <p class="text-xs">200 m</p>
+                                            </div>
+                                            <!-- trail down -->
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6" />
+                                                </svg>
+                                                <p class="text-xs">900 m</p>
+                                            </div>
+                                            <!-- trail unavoidable feature -->
+                                            <div class="flex flex-row align-middle items-center space-x-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-700"
+                                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2"
+                                                        d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                </svg>
+                                                <p class="text-xs">Huge drops</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button
+                                        class="btn-full-screen flex my-auto w-6 h-6 m-auto text-gray-800 focus:outline-none bg-gray-200 bg-opacity-70 hover:bg-yellow-300 transition-colors delay-50 rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                                        </svg>
+                                    </button>
+                                    <!-- <div class="flex flex-col w-8/12 px-4"> -->
+                                    <div class="flex flex-col w-full px-4">
+                                        <h5 class="text-sm font-bold">Info</h5>
+                                        <div class="flex flex-col flex-wrap space-y-2 items-start">
+                                            <div class="flex flex-col space-x-1">
+                                                <h6 class="p-1 text-xs">Landscape</h6>
+                                                <p class="px-2 text-sm">Loamy and rocky descents​,​ traversing down the
+                                                    steep fir​,​ beech and oak woods. Uphills and on double and
+                                                    singletracks on wide open ridges​,​ overlooking Brezno and it's
+                                                    surroundings.</p>
+                                            </div>
+                                            <div class="flex flex-col space-x-1">
+                                                <h6 class="p-1 text-xs">Trail</h6>
+                                                <p class="px-2 text-sm">Mostly manmade technical singletrails with
+                                                    minimal alteration to natural surfaces​,​ no big berms or jumps.</p>
+                                            </div>
+                                            <div class="flex flex-col space-x-1">
+                                                <h6 class="p-1 text-xs">Other</h6>
+                                                <p class="px-2 text-sm">There are 2 mountain huts on the top of 2
+                                                    mountains that we will pass. We can grab a coffee or beer on a first
+                                                    one. Second one is quite new and has very good slovak cuisine​,​
+                                                    where we will go for a lunch​,​ just before the final descent.</p>
+                                            </div>
+                                            <div class="flex flex-col space-x-1">
+                                                <h6 class="p-1 text-xs">Services</h6>
+                                                <p class="px-2 text-sm">Shuttle is there every half an hour, but you
+                                                    have to be there 5 min before to buy ticket at station.</p>
+                                            </div>
+                                            <div class="flex flex-col space-x-1">
+                                                <h6 class="p-1 text-xs">Warning</h6>
+                                                <p class="px-2 text-sm">This trail is meant for no noobs, they might die
+                                                    in th process of elimination on trail hunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="h-px bg-gray-300 w-11/12 mx-auto"></div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="pt-3 pb-2 lg:pt-6 lg:pb-6 w-full flex flex-row justify-start">
+                <div class=" w-full h-full p-2 lg:p-6">
+                    <div class="relative w-full h-64 sm:h-72 lg:h-96 overflow-hidden rounded-lg">
+                        <img class="w-full h-full object-cover mx-auto"
+                            src="https://sharetribe.imgix.net/5f364382-3573-4dc9-b162-e1be7626f7fa%2F60781542-4fda-4dd2-84ed-9e9aa8fadb0e?auto=format&fit=clip&h=2400&ixlib=java-1.1.1&w=2400&s=44cf715b56dda7de4169ca0c15fb7a76"
+                            alt="super flow" />
+                        <button
+                            class="absolute bottom-2 right-2 md:bottom-4 md:right-4 btn-full-screen flex my-auto w-6 h-6 md:w-8 md:h-8 bg-gray-100 bg-opacity-50 m-auto text-gray-800 focus:outline-none hover:bg-yellow-300 transition-colors delay-50 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 m-auto" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="mt-6 flex justify-center space-x-3 align-middle">
+                        <button class="p-1 hover:bg-yellow-300 focus:outline-none rounded-full transition-colors delay-75">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                            </svg>
+                        </button>
+                        
+                        <div class="h-1 flex flex-row justify-center space-x-3 my-auto">
+                            <button class="p-1 bg-gray-500 rounded-sm focus:outline-none"></button>
+                            <button class="p-1 bg-yellow-300 rounded-full focus:outline-none"></button>
+                            <button class="p-1 bg-gray-500 rounded-full focus:outline-none"></button>
+                            <button class="p-1 bg-gray-500 rounded-full focus:outline-none"></button>
+                            <button class="p-1 bg-gray-500 rounded-full focus:outline-none"></button>
+                            <button class="p-1 bg-gray-500 rounded-full focus:outline-none"></button>
+                            <button class="p-1 bg-gray-500 rounded-full focus:outline-none"></button>
+                            <button class="p-1 bg-gray-500 rounded-full focus:outline-none"></button>
+                            <button class="p-1 bg-gray-500 rounded-full focus:outline-none"></button>
+                            <button class="p-1 bg-gray-500 rounded-full focus:outline-none"></button>
+                            <button class="p-1 bg-gray-500 rounded-full focus:outline-none"></button>
+                        </div>
+                        <button class="p-1 hover:bg-yellow-300 focus:outline-none rounded-full transition-colors delay-75">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-wrap flex-row w-full">
+            <div class="md:hidden text-center w-full p-3">
+                <button
+                    class="mb-2 w-full py-4 bg-yellow-300 hover:bg-black focus:outline-none text-sm font-bold text-gray-800 transition-color duration-100">
+                    Get Tickets
+                </button>
+            </div>
+            <div class="hidden md:block bg-black bg-opacity-80 w-full">
+                <div class="py-10 px-3 text-center" style="z-index: 10;">
+                    <h2 class="mb-2 text-2xl text-white font-bold">So many great trails</h2>
+                    <p class="mb-6 text-gray-50 leading-loose">Try it yourself!</p>
+                    <!-- <a class="mb-2 w-full py-4 bg-yellow-400 hover:bg-black bg-opacity-90 focus:outline-none text-sm font-bold text-gray-800 transition-color duration-100 rounded-md"
+                        href="#">Get Tickets</a> -->
+                    <a class="py-2 px-6 rounded-sm bg-yellow-300 hover:bg-gray-500 text-gray-900 hover:text-white transition duration-200 font-bold"
+                        href="#">Get Tickets</a>
+                </div>
+                <!-- <div class="text-center w-full">
+                    <button
+                        class="w-full py-4 bg-yellow-400 hover:bg-black bg-opacity-90 focus:outline-none text-sm font-bold text-gray-800 transition-color duration-100">
+                        Get Tickets
+                    </button>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
